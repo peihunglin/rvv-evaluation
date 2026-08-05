@@ -27,7 +27,7 @@ void set_all_reg()
 %(init_reg)s
     : /* no input */
     : "r"(mem)
-    : "memory"
+    : %(init_clobber)s
     );
 
 %(check_reg)s
@@ -209,7 +209,9 @@ def generate(unroll, blocks, output):
     init_reg = "\n".join(lines_reg)
     body = "\n".join(lines)
     descr = describe(unroll, blocks)
-    clobber = ", ".join(sorted(['"%s"' % x for x in clobber]))
+    clobber_regs = sorted(clobber) 
+    clobber = ", ".join((['"%s"' % x for x in clobber_regs]))
+    init_clobber= ", ".join(['"%s"' % x for x in clobber_regs] + ['"memory"'])
     code = KERNEL_FILE_TEMPLATE % {
             "headers": headers,
             "lanes" : lanes,
@@ -222,6 +224,7 @@ def generate(unroll, blocks, output):
             "clobber": clobber,
             "init_mem": init_mem,
             "init_reg": init_reg,
+            "init_clobber": init_clobber,
             "check_reg": check_reg}
 
     out = Path(output)

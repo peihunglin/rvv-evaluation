@@ -72,6 +72,8 @@ free(mem);
 
 void kernel(unsigned long iters)
 {
+    int avl = 1;
+    
     for (unsigned long i=0; i<iters; ++i) {
         asm volatile (
         "fdiv.d f0, f8, f16 \n\t"

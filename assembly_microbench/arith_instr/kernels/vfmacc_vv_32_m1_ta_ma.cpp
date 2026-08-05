@@ -1,6 +1,6 @@
 
-#include <stdio.h>
 #include <riscv_vector.h>
+#include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>

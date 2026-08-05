@@ -1,8 +1,9 @@
-CONFIGS := config_clang.mk config_gcc.mk
+CONFIGS := config_clang-x100.mk config_gcc-x100.mk config_clang-a100.mk config_gcc-a100.mk 
 
 .PHONY: all clang gcc build-one clean clean-one veryclean veryclean-one
 
-all: clang gcc
+all: 
+	for config in $(CONFIGS); do $(MAKE) CONFIG=$$config build-one; done
 
 clang:
 	$(MAKE) CONFIG=config_clang.mk build-one

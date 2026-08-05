@@ -37,7 +37,7 @@ void set_all_reg()
         "lh a7, (%0)\n\t"
     : /* no input */
     : "r"(mem)
-    : "memory"
+    : "a0", "a1", "a2", "a3", "a4", "a5", "a6", "a7", "memory"
     );
 
 
@@ -48,6 +48,8 @@ free(mem);
 
 void kernel(unsigned long iters)
 {
+    int avl = 1;
+    
     for (unsigned long i=0; i<iters; ++i) {
         asm volatile (
         "add a0, a2, a4 \n\t"
