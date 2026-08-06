@@ -1,0 +1,576 @@
+./build/gcc/float/gemm_nonvec 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 7943.102326  Avg time (s): 2.014326
+
+ Performance counter stats for './build/gcc/float/gemm_nonvec 8 10 2000 16':
+
+   955,775,541,048      instructions:u                                                        
+   293,846,850,444      L1-dcache-loads:u                                                     
+     2,546,294,849      L1-dcache-load-misses:u          #    0.87% of all L1-dcache accesses 
+
+      22.156550229 seconds time elapsed
+
+     171.107132000 seconds user
+       1.087621000 seconds sys
+
+
+./build/gcc/float/gemm_autovec 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 8824.871246  Avg time (s): 1.813058
+
+ Performance counter stats for './build/gcc/float/gemm_autovec 8 10 2000 16':
+
+   315,816,169,510      instructions:u                                                        
+   222,571,584,203      L1-dcache-loads:u                                                     
+     2,218,105,618      L1-dcache-load-misses:u          #    1.00% of all L1-dcache accesses 
+
+      20.026629512 seconds time elapsed
+
+     154.512450000 seconds user
+       1.711176000 seconds sys
+
+
+./build/clang/float/gemm_nonvec 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 11541.358430  Avg time (s): 1.386319
+
+ Performance counter stats for './build/clang/float/gemm_nonvec 8 10 2000 16':
+
+   634,843,727,087      instructions:u                                                        
+   294,905,287,782      L1-dcache-loads:u                                                     
+     2,083,284,090      L1-dcache-load-misses:u          #    0.71% of all L1-dcache accesses 
+
+      15.269292786 seconds time elapsed
+
+     118.101827000 seconds user
+       1.260731000 seconds sys
+
+
+./build/clang/float/gemm_autovec 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 27690.658216  Avg time (s): 0.577812
+
+ Performance counter stats for './build/clang/float/gemm_autovec 8 10 2000 16':
+
+   198,670,555,468      instructions:u                                                        
+    66,196,780,485      L1-dcache-loads:u                                                     
+     1,619,647,939      L1-dcache-load-misses:u          #    2.45% of all L1-dcache accesses 
+
+       6.431310365 seconds time elapsed
+
+      49.201407000 seconds user
+       0.884860000 seconds sys
+
+
+./build/gcc/float/gemm_autovec_1 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 15747.681038  Avg time (s): 1.016023
+
+ Performance counter stats for './build/gcc/float/gemm_autovec_1 8 10 2000 16':
+
+   368,128,551,741      instructions:u                                                        
+    79,625,681,399      L1-dcache-loads:u                                                     
+     2,776,087,544      L1-dcache-load-misses:u          #    3.49% of all L1-dcache accesses 
+
+      11.189926740 seconds time elapsed
+
+      86.120678000 seconds user
+       1.124561000 seconds sys
+
+
+./build/gcc/float/gemm_autovec_2 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 22481.151826  Avg time (s): 0.711707
+
+ Performance counter stats for './build/gcc/float/gemm_autovec_2 8 10 2000 16':
+
+   299,014,011,575      instructions:u                                                        
+    78,761,434,984      L1-dcache-loads:u                                                     
+     2,777,621,374      L1-dcache-load-misses:u          #    3.53% of all L1-dcache accesses 
+
+       7.818933730 seconds time elapsed
+
+      60.146448000 seconds user
+       0.889197000 seconds sys
+
+
+./build/gcc/float/gemm_autovec_4 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 12049.740649  Avg time (s): 1.327829
+
+ Performance counter stats for './build/gcc/float/gemm_autovec_4 8 10 2000 16':
+
+   310,269,414,630      instructions:u                                                        
+   130,053,262,849      L1-dcache-loads:u                                                     
+     2,464,513,668      L1-dcache-load-misses:u          #    1.90% of all L1-dcache accesses 
+
+      14.693024934 seconds time elapsed
+
+     113.198527000 seconds user
+       1.540496000 seconds sys
+
+
+./build/gcc/float/gemm_autovec_8 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 8727.001520  Avg time (s): 1.833390
+
+ Performance counter stats for './build/gcc/float/gemm_autovec_8 8 10 2000 16':
+
+   313,560,520,743      instructions:u                                                        
+   222,009,113,122      L1-dcache-loads:u                                                     
+     2,217,356,927      L1-dcache-load-misses:u          #    1.00% of all L1-dcache accesses 
+
+      20.210959872 seconds time elapsed
+
+     155.913854000 seconds user
+       1.631415000 seconds sys
+
+
+./build/clang/float/gemm_autovec_1 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 16565.659278  Avg time (s): 0.965854
+
+ Performance counter stats for './build/clang/float/gemm_autovec_1 8 10 2000 16':
+
+   270,730,564,148      instructions:u                                                        
+    69,043,806,180      L1-dcache-loads:u                                                     
+     1,584,341,986      L1-dcache-load-misses:u          #    2.29% of all L1-dcache accesses 
+
+      10.683262008 seconds time elapsed
+
+      82.307465000 seconds user
+       1.104664000 seconds sys
+
+
+./build/clang/float/gemm_autovec_2 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 27435.476990  Avg time (s): 0.583187
+
+ Performance counter stats for './build/clang/float/gemm_autovec_2 8 10 2000 16':
+
+   197,396,024,263      instructions:u                                                        
+    65,659,454,916      L1-dcache-loads:u                                                     
+     1,612,140,615      L1-dcache-load-misses:u          #    2.46% of all L1-dcache accesses 
+
+       6.431272174 seconds time elapsed
+
+      49.440088000 seconds user
+       0.764845000 seconds sys
+
+
+./build/clang/float/gemm_autovec_4 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 16006.203958  Avg time (s): 0.999612
+
+ Performance counter stats for './build/clang/float/gemm_autovec_4 8 10 2000 16':
+
+   197,728,796,658      instructions:u                                                        
+   113,906,366,951      L1-dcache-loads:u                                                     
+     1,106,488,136      L1-dcache-load-misses:u          #    0.97% of all L1-dcache accesses 
+
+      11.042445334 seconds time elapsed
+
+      85.363477000 seconds user
+       0.853475000 seconds sys
+
+
+./build/clang/float/gemm_autovec_8 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 9217.773834  Avg time (s): 1.735777
+
+ Performance counter stats for './build/clang/float/gemm_autovec_8 8 10 2000 16':
+
+   213,729,146,764      instructions:u                                                        
+   216,909,068,939      L1-dcache-loads:u                                                     
+       740,194,935      L1-dcache-load-misses:u          #    0.34% of all L1-dcache accesses 
+
+      19.120166872 seconds time elapsed
+
+     147.680581000 seconds user
+       1.539294000 seconds sys
+
+
+./build/gcc/double/gemm_nonvec 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 8209.791757  Avg time (s): 1.948892
+
+ Performance counter stats for './build/gcc/double/gemm_nonvec 8 10 2000 16':
+
+   970,438,274,610      instructions:u                                                        
+   299,490,814,711      L1-dcache-loads:u                                                     
+     4,104,295,987      L1-dcache-load-misses:u          #    1.37% of all L1-dcache accesses 
+
+      21.552139787 seconds time elapsed
+
+     166.300758000 seconds user
+       1.547354000 seconds sys
+
+
+./build/gcc/double/gemm_autovec 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 7282.875267  Avg time (s): 2.196935
+
+ Performance counter stats for './build/gcc/double/gemm_autovec 8 10 2000 16':
+
+   315,979,961,115      instructions:u                                                        
+   300,254,545,279      L1-dcache-loads:u                                                     
+     3,505,204,857      L1-dcache-load-misses:u          #    1.17% of all L1-dcache accesses 
+
+      24.225999230 seconds time elapsed
+
+     187.539203000 seconds user
+       1.499260000 seconds sys
+
+
+./build/clang/double/gemm_nonvec 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 11011.349791  Avg time (s): 1.453046
+
+ Performance counter stats for './build/clang/double/gemm_nonvec 8 10 2000 16':
+
+   639,016,079,803      instructions:u                                                        
+   295,304,874,738      L1-dcache-loads:u                                                     
+     2,794,002,358      L1-dcache-load-misses:u          #    0.95% of all L1-dcache accesses 
+
+      16.039934090 seconds time elapsed
+
+     123.973145000 seconds user
+       1.363525000 seconds sys
+
+
+./build/clang/double/gemm_autovec 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 15635.661076  Avg time (s): 1.023302
+
+ Performance counter stats for './build/clang/double/gemm_autovec 8 10 2000 16':
+
+   272,611,085,462      instructions:u                                                        
+   115,788,358,459      L1-dcache-loads:u                                                     
+     1,065,504,370      L1-dcache-load-misses:u          #    0.92% of all L1-dcache accesses 
+
+      11.302512880 seconds time elapsed
+
+      87.082960000 seconds user
+       1.047800000 seconds sys
+
+
+./build/gcc/double/gemm_autovec_1 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 8711.043802  Avg time (s): 1.836749
+
+ Performance counter stats for './build/gcc/double/gemm_autovec_1 8 10 2000 16':
+
+   505,829,246,979      instructions:u                                                        
+   125,578,200,119      L1-dcache-loads:u                                                     
+     3,718,646,503      L1-dcache-load-misses:u          #    2.96% of all L1-dcache accesses 
+
+      20.330155026 seconds time elapsed
+
+     157.232066000 seconds user
+       1.168226000 seconds sys
+
+
+./build/gcc/double/gemm_autovec_2 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 14795.743410  Avg time (s): 1.081392
+
+ Performance counter stats for './build/gcc/double/gemm_autovec_2 8 10 2000 16':
+
+   370,658,316,901      instructions:u                                                        
+   124,512,543,262      L1-dcache-loads:u                                                     
+     3,830,682,280      L1-dcache-load-misses:u          #    3.08% of all L1-dcache accesses 
+
+      11.952454557 seconds time elapsed
+
+      92.169667000 seconds user
+       1.104951000 seconds sys
+
+
+./build/gcc/double/gemm_autovec_4 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 18053.946892  Avg time (s): 0.886233
+
+ Performance counter stats for './build/gcc/double/gemm_autovec_4 8 10 2000 16':
+
+   302,663,322,049      instructions:u                                                        
+   124,025,938,085      L1-dcache-loads:u                                                     
+     3,779,953,555      L1-dcache-load-misses:u          #    3.05% of all L1-dcache accesses 
+
+       9.800222070 seconds time elapsed
+
+      75.576247000 seconds user
+       0.872677000 seconds sys
+
+
+./build/gcc/double/gemm_autovec_8 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 7301.368595  Avg time (s): 2.191370
+
+ Performance counter stats for './build/gcc/double/gemm_autovec_8 8 10 2000 16':
+
+   314,614,900,736      instructions:u                                                        
+   299,213,889,814      L1-dcache-loads:u                                                     
+     3,496,487,403      L1-dcache-load-misses:u          #    1.17% of all L1-dcache accesses 
+
+      24.150762411 seconds time elapsed
+
+     186.963270000 seconds user
+       1.530068000 seconds sys
+
+
+./build/clang/double/gemm_autovec_1 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 9100.442323  Avg time (s): 1.758156
+
+ Performance counter stats for './build/clang/double/gemm_autovec_1 8 10 2000 16':
+
+   419,282,652,560      instructions:u                                                        
+   125,230,136,939      L1-dcache-loads:u                                                     
+     2,598,339,280      L1-dcache-load-misses:u          #    2.07% of all L1-dcache accesses 
+
+      19.382191974 seconds time elapsed
+
+     149.996322000 seconds user
+       1.367662000 seconds sys
+
+
+./build/clang/double/gemm_autovec_2 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 15662.372624  Avg time (s): 1.021557
+
+ Performance counter stats for './build/clang/double/gemm_autovec_2 8 10 2000 16':
+
+   270,434,429,013      instructions:u                                                        
+   114,787,901,331      L1-dcache-loads:u                                                     
+     1,052,259,022      L1-dcache-load-misses:u          #    0.92% of all L1-dcache accesses 
+
+      11.313392791 seconds time elapsed
+
+      87.383159000 seconds user
+       0.864312000 seconds sys
+
+
+./build/clang/double/gemm_autovec_4 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 20501.927828  Avg time (s): 0.780414
+
+ Performance counter stats for './build/clang/double/gemm_autovec_4 8 10 2000 16':
+
+   200,782,579,521      instructions:u                                                        
+   113,917,728,487      L1-dcache-loads:u                                                     
+       843,353,699      L1-dcache-load-misses:u          #    0.74% of all L1-dcache accesses 
+
+       8.653755144 seconds time elapsed
+
+      66.632483000 seconds user
+       0.808753000 seconds sys
+
+
+./build/clang/double/gemm_autovec_8 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 9649.301550  Avg time (s): 1.658151
+
+ Performance counter stats for './build/clang/double/gemm_autovec_8 8 10 2000 16':
+
+   215,778,980,848      instructions:u                                                        
+   216,370,067,290      L1-dcache-loads:u                                                     
+       733,867,647      L1-dcache-load-misses:u          #    0.34% of all L1-dcache accesses 
+
+      18.251431393 seconds time elapsed
+
+     140.866402000 seconds user
+       1.479362000 seconds sys
+
+

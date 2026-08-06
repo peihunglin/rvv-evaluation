@@ -1,0 +1,24 @@
+./build/opt/x100/clang/double/gemm_rvv_x100_opt 8 10 2000 128
+Parallel Research Kernels version 2.17
+OpenMP optimized RVV GEMM - SpaceMiT X100
+Matrix order          = 2000
+Number of threads     = 8
+Precision             = double
+RVV register tile     = VL x 8, e64,m1
+K blocking (KC)       = 128
+Number of iterations  = 10
+Solution validates
+Rate (MFlops/s): 13610.421131  Avg time (s): 1.175570
+
+ Performance counter stats for './build/opt/x100/clang/double/gemm_rvv_x100_opt 8 10 2000 128':
+
+    86,060,652,171      instructions:u                                                        
+    39,997,161,456      L1-dcache-loads:u                                                     
+     1,897,679,182      L1-dcache-load-misses:u          #    4.74% of all L1-dcache accesses 
+
+      12.953834389 seconds time elapsed
+
+      94.457928000 seconds user
+       1.542073000 seconds sys
+
+

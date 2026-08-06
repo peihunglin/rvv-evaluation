@@ -55,8 +55,40 @@ endif
 
 nonvec=0
 clang=0
+ime=0
+rvv=0
+hetero=0
 RVV_LMUL ?=
+RVV_INTRINSIC_LMUL ?= 1
+RVV_MCPU ?=
+HETERO_MODE ?= rvv_rvv
+HETERO_RVV_LMUL ?= 1
+HETERO_X100_MCPU ?= spacemit-x100
+HETERO_A100_MCPU ?= spacemit-a100
+IME_MARCH ?= rv64gcv_zfh_zvfh_zvl1024b_xsmtvdotii
 USERFLAGS += -static
+ifeq (${ime},1)
+	USERFLAGS += -DUSE_IME_ASM
+	ifeq (${clang},1)
+		USERFLAGS += -march=$(IME_MARCH) -mcpu=spacemit-a100 -fno-vectorize -fno-slp-vectorize
+	else
+		USERFLAGS += -march=$(IME_MARCH) -mcpu=spacemit-a100 -fno-tree-vectorize
+	endif
+else
+ifeq (${hetero},1)
+	USERFLAGS += -DUSE_HETERO -DRVV_LMUL_VALUE=$(HETERO_RVV_LMUL) -march=rv64gcv_zfh_zvfh
+	ifeq ($(HETERO_MODE),rvv_ime)
+		USERFLAGS += -DHETERO_RVV_IME=1 -DHETERO_MODE_NAME=\"rvv_ime\"
+	else
+		USERFLAGS += -DHETERO_MODE_NAME=\"rvv_rvv\"
+	endif
+else
+ifeq (${rvv},1)
+	USERFLAGS += -DUSE_RVV_INTRINSICS -DRVV_LMUL_VALUE=$(RVV_INTRINSIC_LMUL) -march=rv64gcv_zfh_zvfh
+	ifneq ($(RVV_MCPU),)
+		USERFLAGS += -mcpu=$(RVV_MCPU)
+	endif
+else
 ifeq (${nonvec},1)
 	ifeq (${clang},1)
 		USERFLAGS += -march=rv64gc -mllvm -scalable-vectorization=off
@@ -78,10 +110,15 @@ ifeq (${nonvec},0)
 		endif
 	endif
 endif
+endif
+endif
+endif
 
 float=0
 ifeq ($(float),1)
-        USERFLAGS += -DMTYPE=float
+        USERFLAGS += -DMTYPE=float -DMTYPE_IS_FLOAT=1
+else
+        USERFLAGS += -DMTYPE_IS_DOUBLE=1
 endif
 
 
@@ -105,5 +142,50 @@ VERBOSE=0/1            omit/include verbose run information                    [
 TUNEFLAGS   = $(BLOCKFLAG)   $(MKLFLAG)     $(OFFSETFLAG) $(RESTRICTFLAG) \
               $(VERBOSEFLAG) $(NTHREADFLAG) $(USERFLAGS)
 OBJS        = $(PROGRAM).o $(COMOBJS) 
+IME_OBJS    = gemm_ime.o $(COMOBJS)
+RVV_OBJS    = gemm_rvv.o $(COMOBJS)
+HETERO_RVV_RVV_OBJS = gemm_hetero.o gemm_hetero_rvv_x100.o gemm_hetero_rvv_a100.o $(COMOBJS)
+HETERO_RVV_IME_OBJS = gemm_hetero.o gemm_hetero_fp16_x100.o gemm_hetero_ime_a100.o $(COMOBJS)
+OPT_OBJS = gemm_opt.o $(COMOBJS)
+RVV_X100_OPT_OBJS = gemm_rvv_x100_opt.o $(COMOBJS)
+RVV_A100_OPT_OBJS = gemm_rvv_a100_opt.o $(COMOBJS)
+IME_OPT_OBJS = gemm_ime_opt.o $(COMOBJS)
+EXTRA_CLEAN = gemm_ime gemm_ime.o gemm_rvv gemm_rvv.o gemm_hetero gemm_hetero.o gemm_hetero_rvv_x100.o gemm_hetero_rvv_a100.o gemm_hetero_fp16_x100.o gemm_hetero_ime_a100.o gemm_opt gemm_opt.o gemm_rvv_x100_opt gemm_rvv_x100_opt.o gemm_rvv_a100_opt gemm_rvv_a100_opt.o gemm_ime_opt gemm_ime_opt.o
 
 include ./common/make.common
+
+gemm_ime: $(IME_OBJS)
+	$(CLINKER) -o $@ $(LIBPATHS) $(CFLAGS) $(IME_OBJS) $(EXTOBJS) $(LIBS)
+
+gemm_rvv: $(RVV_OBJS)
+	$(CLINKER) -o $@ $(LIBPATHS) $(CFLAGS) $(RVV_OBJS) $(EXTOBJS) $(LIBS)
+
+gemm_hetero: $(if $(filter rvv_ime,$(HETERO_MODE)),$(HETERO_RVV_IME_OBJS),$(HETERO_RVV_RVV_OBJS))
+	$(CLINKER) -o $@ $(LIBPATHS) $(CFLAGS) $^ $(EXTOBJS) $(LIBS)
+
+gemm_hetero_rvv_x100.o: gemm_hetero_rvv_kernel.c
+	$(CCOMPILER) $(CFLAGS) $(TUNEFLAGS) $(INCLUDEPATHSPLUS) -mcpu=$(HETERO_X100_MCPU) -DKERNEL_NAME=gemm_hetero_rvv_x100 -c $< -o $@
+
+gemm_hetero_rvv_a100.o: gemm_hetero_rvv_kernel.c
+	$(CCOMPILER) $(CFLAGS) $(TUNEFLAGS) $(INCLUDEPATHSPLUS) -mcpu=$(HETERO_A100_MCPU) -DKERNEL_NAME=gemm_hetero_rvv_a100 -c $< -o $@
+
+gemm_hetero_fp16_x100.o: gemm_hetero_fp16_x100_kernel.c
+	$(CCOMPILER) $(CFLAGS) $(TUNEFLAGS) $(INCLUDEPATHSPLUS) -mcpu=$(HETERO_X100_MCPU) -c $< -o $@
+
+gemm_hetero_ime_a100.o: gemm_hetero_ime_kernel.c
+	$(CCOMPILER) $(CFLAGS) $(TUNEFLAGS) $(INCLUDEPATHSPLUS) -march=$(IME_MARCH) -mcpu=$(HETERO_A100_MCPU) -DUSE_IME_ASM -c $< -o $@
+
+gemm_opt: $(OPT_OBJS)
+	$(CLINKER) -o $@ $(LIBPATHS) $(CFLAGS) $(OPT_OBJS) $(EXTOBJS) $(LIBS)
+
+gemm_rvv_x100_opt: $(RVV_X100_OPT_OBJS)
+	$(CLINKER) -o $@ $(LIBPATHS) $(CFLAGS) $(RVV_X100_OPT_OBJS) $(EXTOBJS) $(LIBS)
+
+gemm_rvv_a100_opt: $(RVV_A100_OPT_OBJS)
+	$(CLINKER) -o $@ $(LIBPATHS) $(CFLAGS) $(RVV_A100_OPT_OBJS) $(EXTOBJS) $(LIBS)
+
+gemm_ime_opt: $(IME_OPT_OBJS)
+	$(CLINKER) -o $@ $(LIBPATHS) $(CFLAGS) $(IME_OPT_OBJS) $(EXTOBJS) $(LIBS)
+
+gemm_ime_opt.o: gemm_ime_opt.c
+	$(CCOMPILER) $(CFLAGS) $(TUNEFLAGS) $(INCLUDEPATHSPLUS) -march=$(IME_MARCH) -mcpu=spacemit-a100 -DUSE_IME_ASM -c $< -o $@

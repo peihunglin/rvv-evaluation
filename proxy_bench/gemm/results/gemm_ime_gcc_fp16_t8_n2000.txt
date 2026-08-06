@@ -1,0 +1,22 @@
+/home/lin32/bin/ai ./build/gcc/fp16/gemm_ime 8 10 2000 8
+Parallel Research Kernels version 2.17
+OpenMP FP16 IME dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+IME tile size         = 8
+Number of iterations  = 10
+Solution validates
+Rate (MFlops/s): 12448.702769  Avg time (s): 1.285274
+
+ Performance counter stats for '/home/lin32/bin/ai ./build/gcc/fp16/gemm_ime 8 10 2000 8':
+
+    60,206,391,797      instructions:u                                                        
+    17,006,851,527      L1-dcache-loads:u                                                     
+     3,134,449,679      L1-dcache-load-misses:u          #   18.43% of all L1-dcache accesses 
+
+      14.360933254 seconds time elapsed
+
+     114.392855000 seconds user
+       0.233776000 seconds sys
+
+

@@ -1,0 +1,24 @@
+./build/gcc/float/gemm_autovec_8 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 8678.016038  Avg time (s): 1.843739
+
+ Performance counter stats for './build/gcc/float/gemm_autovec_8 8 10 2000 16':
+
+   317,724,352,987      instructions:u                                                        
+   223,102,373,337      L1-dcache-loads:u                                                     
+     2,324,439,795      L1-dcache-load-misses:u          #    1.04% of all L1-dcache accesses 
+
+      20.229386452 seconds time elapsed
+
+     156.090824000 seconds user
+       1.599234000 seconds sys
+
+

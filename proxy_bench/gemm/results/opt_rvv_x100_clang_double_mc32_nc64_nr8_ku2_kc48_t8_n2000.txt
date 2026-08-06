@@ -1,0 +1,26 @@
+./build/opt/x100/clang/double/gemm_rvv_x100_opt_mc32_nc64_nr8_ku2 8 10 2000 48
+Parallel Research Kernels version 2.17
+OpenMP packed RVV GEMM - SpaceMiT X100 (cache-tuning baseline)
+Matrix order          = 2000
+Number of threads     = 8
+Precision             = double
+RVV register tile     = VL x 8, e64,m1
+MC / NC / KC          = 32 / 64 / 48
+K unroll              = 2
+A/B packing           = private per-thread
+Number of iterations  = 10
+Solution validates
+Rate (MFlops/s): 47333.036254  Avg time (s): 0.338030
+
+ Performance counter stats for './build/opt/x100/clang/double/gemm_rvv_x100_opt_mc32_nc64_nr8_ku2 8 10 2000 48':
+
+    68,829,910,633      instructions:u                                                        
+    34,114,935,739      L1-dcache-loads:u                                                     
+       894,901,092      L1-dcache-load-misses:u          #    2.62% of all L1-dcache accesses 
+
+       3.803360660 seconds time elapsed
+
+      29.040200000 seconds user
+       0.486462000 seconds sys
+
+

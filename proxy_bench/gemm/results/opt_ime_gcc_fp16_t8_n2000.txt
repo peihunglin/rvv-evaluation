@@ -1,0 +1,23 @@
+/home/lin32/bin/ai ./build/opt/gcc/fp16/gemm_ime_opt 8 10 2000 8
+Parallel Research Kernels version 2.17
+OpenMP optimized FP16 IME GEMM - SpaceMiT A100
+Matrix order          = 2000
+Number of threads     = 8
+IME microtile         = 8x8x8
+C residency           = full packed-K loop
+Number of iterations  = 10
+Solution validates
+Rate (MFlops/s): 5857.675131  Avg time (s): 2.731459
+
+ Performance counter stats for '/home/lin32/bin/ai ./build/opt/gcc/fp16/gemm_ime_opt 8 10 2000 8':
+
+    47,255,803,523      instructions:u                                                        
+    14,762,878,786      L1-dcache-loads:u                                                     
+     2,085,291,859      L1-dcache-load-misses:u          #   14.13% of all L1-dcache accesses 
+
+      30.125401597 seconds time elapsed
+
+     240.363715000 seconds user
+       0.410384000 seconds sys
+
+

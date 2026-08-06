@@ -1,0 +1,24 @@
+./build/x100/clang/float/gemm_rvv_8 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP RVV intrinsic dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Number of iterations  = 10
+Precision             = float
+RVV LMUL              = m8
+Solution validates
+Rate (MFlops/s): 14493.743396  Avg time (s): 1.103925
+
+ Performance counter stats for './build/x100/clang/float/gemm_rvv_8 8 10 2000 16':
+
+    26,117,407,678      instructions:u                                                        
+    49,452,517,162      L1-dcache-loads:u                                                     
+        13,318,463      L1-dcache-load-misses:u          #    0.03% of all L1-dcache accesses 
+
+      12.150151768 seconds time elapsed
+
+      94.249089000 seconds user
+       0.462239000 seconds sys
+
+

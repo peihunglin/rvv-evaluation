@@ -1,0 +1,26 @@
+/home/lin32/bin/ai ./build/opt/a100/clang/float/gemm_rvv_a100_opt_mc64_nc64_nr8_ku2 4 10 2000 64
+Parallel Research Kernels version 2.17
+OpenMP packed RVV GEMM - SpaceMiT A100
+Matrix order          = 2000
+Number of threads     = 4
+Precision             = float
+RVV register tile     = VL x 8, e32,m1
+MC / NC / KC          = 64 / 64 / 64
+K unroll              = 2
+A/B packing           = enabled
+Number of iterations  = 10
+Solution validates
+Rate (MFlops/s): 47075.925262  Avg time (s): 0.339876
+
+ Performance counter stats for '/home/lin32/bin/ai ./build/opt/a100/clang/float/gemm_rvv_a100_opt_mc64_nc64_nr8_ku2 4 10 2000 64':
+
+     8,580,352,294      instructions:u                                                        
+     3,979,348,264      L1-dcache-loads:u                                                     
+       868,203,050      L1-dcache-load-misses:u          #   21.82% of all L1-dcache accesses 
+
+       3.791619023 seconds time elapsed
+
+      14.990682000 seconds user
+       0.099202000 seconds sys
+
+

@@ -1,0 +1,27 @@
+./build/opt/clang/float/gemm_opt_nr2 8 10 2000 128
+Parallel Research Kernels version 2.17
+OpenMP packed C GEMM - compiler-vectorized
+Matrix order          = 2000
+Number of threads     = 8
+Precision             = float
+MC / NC / KC          = 32 / 64 / 128
+C microkernel         = VB x NR = 16 x 2
+K unroll              = 2
+A/B packing           = enabled
+RVV intrinsics        = none
+Number of iterations  = 10
+Solution validates
+Rate (MFlops/s): 45574.192252  Avg time (s): 0.351076
+
+ Performance counter stats for './build/opt/clang/float/gemm_opt_nr2 8 10 2000 128':
+
+    67,777,150,127      instructions:u                                                        
+    35,098,553,962      L1-dcache-loads:u                                                     
+       535,403,527      L1-dcache-load-misses:u          #    1.53% of all L1-dcache accesses 
+
+       3.876131898 seconds time elapsed
+
+      30.033148000 seconds user
+       0.355067000 seconds sys
+
+

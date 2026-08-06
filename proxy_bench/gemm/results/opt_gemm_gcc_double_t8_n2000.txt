@@ -1,0 +1,24 @@
+./build/opt/gcc/double/gemm_opt 8 10 2000 256
+Parallel Research Kernels version 2.17
+OpenMP optimized C dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Precision             = double
+Register tile         = 4x4
+K blocking (KC)       = 256
+Number of iterations  = 10
+Solution validates
+Rate (MFlops/s): 3690.251204  Avg time (s): 4.335748
+
+ Performance counter stats for './build/opt/gcc/double/gemm_opt 8 10 2000 256':
+
+   174,230,501,769      instructions:u                                                        
+   239,687,926,535      L1-dcache-loads:u                                                     
+     4,622,417,344      L1-dcache-load-misses:u          #    1.93% of all L1-dcache accesses 
+
+      47.690890461 seconds time elapsed
+
+     340.216675000 seconds user
+       3.150921000 seconds sys
+
+

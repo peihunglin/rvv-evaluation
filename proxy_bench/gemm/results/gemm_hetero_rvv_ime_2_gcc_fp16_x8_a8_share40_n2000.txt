@@ -1,0 +1,19 @@
+env OMP_DYNAMIC=false X100_THREADS=8 A100_THREADS=8 A100_SHARE=40 A100_BIND=thread X100_CPUS=0-7 ./build/hetero/gcc/fp16/gemm_hetero_rvv_ime_2 10 2000 8
+*** stack smashing detected ***: terminated
+*** stack smashing detected ***: terminated
+*** stack smashing detected ***: terminated
+*** stack smashing detected ***: terminated
+env: Aborted
+
+ Performance counter stats for 'env OMP_DYNAMIC=false X100_THREADS=8 A100_THREADS=8 A100_SHARE=40 A100_BIND=thread X100_CPUS=0-7 ./build/hetero/gcc/fp16/gemm_hetero_rvv_ime_2 10 2000 8':
+
+        18,628,715      instructions:u                                                        
+         7,651,686      L1-dcache-loads:u                                                     
+           129,447      L1-dcache-load-misses:u          #    1.69% of all L1-dcache accesses 
+
+       0.018498261 seconds time elapsed
+
+       0.028802000 seconds user
+       0.034563000 seconds sys
+
+

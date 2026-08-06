@@ -1,0 +1,24 @@
+./build/clang/double/gemm_nonvec 8 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP Dense matrix-matrix multiplication
+Matrix order          = 2000
+Number of threads     = 8
+Blocking factor       = 16
+Block offset          = 12
+Number of iterations  = 10
+Using MKL library     = off
+Solution validates
+Rate (MFlops/s): 8055.658569  Avg time (s): 1.986181
+
+ Performance counter stats for './build/clang/double/gemm_nonvec 8 10 2000 16':
+
+   965,573,317,940      instructions:u                                                        
+   292,497,743,456      L1-dcache-loads:u                                                     
+     3,671,949,923      L1-dcache-load-misses:u          #    1.26% of all L1-dcache accesses 
+
+      21.904804783 seconds time elapsed
+
+     170.034972000 seconds user
+       1.136117000 seconds sys
+
+

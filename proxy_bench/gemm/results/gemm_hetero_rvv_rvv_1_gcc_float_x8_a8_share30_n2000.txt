@@ -1,0 +1,28 @@
+env OMP_DYNAMIC=false X100_THREADS=8 A100_THREADS=8 A100_SHARE=30 A100_BIND=thread X100_CPUS=0-7 ./build/hetero/gcc/float/gemm_hetero_rvv_rvv_1 10 2000 16
+Parallel Research Kernels version 2.17
+OpenMP heterogeneous GEMM (rvv_rvv)
+Matrix order          = 2000
+Blocking factor       = 16
+Number of iterations  = 10
+X100 threads          = 8
+A100 threads          = 8
+A100 column share     = 30
+Column split          = 1400 / 2000
+RVV LMUL              = m1
+X100 bind method      = sched_setaffinity
+A100 bind method      = /proc/set_ai_thread (thread)
+Solution validates
+Rate (MFlops/s): 14403.481860  Avg time (s): 1.110843
+
+ Performance counter stats for 'env OMP_DYNAMIC=false X100_THREADS=8 A100_THREADS=8 A100_SHARE=30 A100_BIND=thread X100_CPUS=0-7 ./build/hetero/gcc/float/gemm_hetero_rvv_rvv_1 10 2000 16':
+
+   120,988,972,799      instructions:u                                                        
+    34,671,153,043      L1-dcache-loads:u                                                     
+     3,330,716,408      L1-dcache-load-misses:u          #    9.61% of all L1-dcache accesses 
+
+      12.262052419 seconds time elapsed
+
+     141.148567000 seconds user
+      19.240095000 seconds sys
+
+
