@@ -1,0 +1,94 @@
+# K3 heterogeneous STREAM -- separately compiled X100 and A100 workers
+
+CC ?= /home/lin32/opt/llvm-main/bin/clang
+TARGET ?= stream_hetero
+
+STREAM_ARRAY_SIZE ?= 50000000
+NTIMES ?= 10
+STREAM_TYPE ?= double
+
+COMMON_CFLAGS ?= -O3 -fopenmp -fno-lto
+COMMON_CPPFLAGS := -DSTREAM_ARRAY_SIZE=$(STREAM_ARRAY_SIZE) -DNTIMES=$(NTIMES)
+
+ifeq ($(STREAM_TYPE),float)
+COMMON_CPPFLAGS += -DSTREAM_TYPE=float
+endif
+
+# Driver/control code runs in the ordinary Linux/X100 environment.
+DRIVER_MARCH ?= rv64gcv_zfh_zvfh
+DRIVER_MCPU ?= spacemit-x100
+
+# Architecture-specific worker tuning.
+X100_MARCH ?= rv64gcv_zfh_zvfh
+X100_MCPU ?= spacemit-x100
+
+# Override A100_MARCH if your LLVM tree uses a more specific extension string.
+A100_MARCH ?= rv64gcv_zfh_zvfh_zvl1024b_xsmtvdotii
+A100_MCPU ?= spacemit-a100
+
+DRIVER_FLAGS := -march=$(DRIVER_MARCH) -mcpu=$(DRIVER_MCPU)
+X100_FLAGS   := -march=$(X100_MARCH)   -mcpu=$(X100_MCPU)
+A100_FLAGS   := -march=$(A100_MARCH)   -mcpu=$(A100_MCPU)
+
+OBJS := stream_hetero.o stream_x100.o stream_a100.o
+
+.PHONY: all clean run-x100 run-a100 run-mixed sweep disasm
+
+all: $(TARGET)
+
+$(TARGET): $(OBJS)
+	$(CC) $(COMMON_CFLAGS) $(DRIVER_FLAGS) \
+	      $(OBJS) -o $@ -lm
+
+stream_hetero.o: stream_hetero.c stream_kernels.h
+	$(CC) $(COMMON_CFLAGS) $(COMMON_CPPFLAGS) $(DRIVER_FLAGS) \
+	      -c $< -o $@
+
+stream_x100.o: stream_x100.c stream_kernels.h
+	$(CC) $(COMMON_CFLAGS) $(COMMON_CPPFLAGS) $(X100_FLAGS) \
+	      -Rpass=loop-vectorize \
+	      -c $< -o $@
+
+stream_a100.o: stream_a100.c stream_kernels.h
+	$(CC) $(COMMON_CFLAGS) $(COMMON_CPPFLAGS) $(A100_FLAGS) \
+	      -Rpass=loop-vectorize \
+	      -c $< -o $@
+
+clean:
+	rm -f $(TARGET) $(OBJS) \
+	      stream_x100.s stream_a100.s
+
+run-x100: $(TARGET)
+	X100_THREADS=8 \
+	A100_THREADS=0 \
+	X100_CPUS=0-7 \
+	./$(TARGET)
+
+run-a100: $(TARGET)
+	X100_THREADS=0 \
+	A100_THREADS=8 \
+	A100_BIND=process \
+	/home/lin32/bin/ai ./$(TARGET)
+
+run-mixed: $(TARGET)
+	X100_THREADS=8 \
+	A100_THREADS=8 \
+	X100_CPUS=0-7 \
+	A100_BIND=thread \
+	STREAM_A100_SHARE=50 \
+	./$(TARGET)
+
+sweep: $(TARGET)
+	@for s in 25 35 40 45 50 55 60 65 75; do \
+	  echo "===== STREAM_A100_SHARE=$$s ====="; \
+	  X100_THREADS=8 A100_THREADS=8 \
+	  X100_CPUS=0-7 A100_BIND=thread \
+	  STREAM_A100_SHARE=$$s ./$(TARGET); \
+	done
+
+# Generate assembly so the vectorization of each worker can be inspected.
+disasm:
+	$(CC) $(COMMON_CFLAGS) $(COMMON_CPPFLAGS) $(X100_FLAGS) \
+	      -S stream_x100.c -o stream_x100.s
+	$(CC) $(COMMON_CFLAGS) $(COMMON_CPPFLAGS) $(A100_FLAGS) \
+	      -S stream_a100.c -o stream_a100.s

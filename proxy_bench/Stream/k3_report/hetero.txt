@@ -1,0 +1,189 @@
+===== X100=4 A100=2 =====
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+K3 heterogeneous variant (persistent team, separate X100/A100 objects)
+-------------------------------------------------------------
+Array size            = 50000000 elements
+Element size          = 8 bytes
+Memory per array      = 381.5 MiB
+Total array memory    = 1144.4 MiB
+NTIMES                = 10
+X100 threads          = 4
+A100 threads          = 2
+A100 array share      = 50%
+Array split           = 25000000 / 50000000 elements
+A100 bind             = thread
+X100 CPU list         = 0-7
+Persistent OMP team   = yes
+Calibration           = 41236 us (~41236 timer ticks)
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           20027.1     0.043127     0.039946     0.057288
+Scale:          19619.4     0.042910     0.040776     0.054419
+Add:            20395.7     0.065199     0.058836     0.090010
+Triad:          18032.9     0.074771     0.066545     0.093715
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+===== X100=4 A100=4 =====
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+K3 heterogeneous variant (persistent team, separate X100/A100 objects)
+-------------------------------------------------------------
+Array size            = 50000000 elements
+Element size          = 8 bytes
+Memory per array      = 381.5 MiB
+Total array memory    = 1144.4 MiB
+NTIMES                = 10
+X100 threads          = 4
+A100 threads          = 4
+A100 array share      = 50%
+Array split           = 25000000 / 50000000 elements
+A100 bind             = thread
+X100 CPU list         = 0-7
+Persistent OMP team   = yes
+Calibration           = 44013 us (~44013 timer ticks)
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           19385.5     0.042960     0.041268     0.044912
+Scale:          19234.0     0.043198     0.041593     0.045271
+Add:            20336.5     0.061720     0.059007     0.065813
+Triad:          17615.7     0.070295     0.068121     0.076660
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+===== X100=6 A100=2 =====
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+K3 heterogeneous variant (persistent team, separate X100/A100 objects)
+-------------------------------------------------------------
+Array size            = 50000000 elements
+Element size          = 8 bytes
+Memory per array      = 381.5 MiB
+Total array memory    = 1144.4 MiB
+NTIMES                = 10
+X100 threads          = 6
+A100 threads          = 2
+A100 array share      = 50%
+Array split           = 25000000 / 50000000 elements
+A100 bind             = thread
+X100 CPU list         = 0-7
+Persistent OMP team   = yes
+Calibration           = 40080 us (~40080 timer ticks)
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           22667.5     0.036143     0.035293     0.037266
+Scale:          22609.7     0.036769     0.035383     0.038155
+Add:            23189.8     0.053698     0.051747     0.058956
+Triad:          19856.7     0.061196     0.060433     0.062023
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+===== X100=6 A100=4 =====
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+K3 heterogeneous variant (persistent team, separate X100/A100 objects)
+-------------------------------------------------------------
+Array size            = 50000000 elements
+Element size          = 8 bytes
+Memory per array      = 381.5 MiB
+Total array memory    = 1144.4 MiB
+NTIMES                = 10
+X100 threads          = 6
+A100 threads          = 4
+A100 array share      = 50%
+Array split           = 25000000 / 50000000 elements
+A100 bind             = thread
+X100 CPU list         = 0-7
+Persistent OMP team   = yes
+Calibration           = 41707 us (~41707 timer ticks)
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           20466.6     0.040132     0.039088     0.041211
+Scale:          20153.2     0.040287     0.039696     0.040794
+Add:            21501.9     0.057583     0.055809     0.061189
+Triad:          18709.7     0.065229     0.064138     0.066094
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+===== X100=7 A100=2 =====
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+K3 heterogeneous variant (persistent team, separate X100/A100 objects)
+-------------------------------------------------------------
+Array size            = 50000000 elements
+Element size          = 8 bytes
+Memory per array      = 381.5 MiB
+Total array memory    = 1144.4 MiB
+NTIMES                = 10
+X100 threads          = 7
+A100 threads          = 2
+A100 array share      = 50%
+Array split           = 25000000 / 50000000 elements
+A100 bind             = thread
+X100 CPU list         = 0-7
+Persistent OMP team   = yes
+Calibration           = 38019 us (~38019 timer ticks)
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           22773.9     0.037267     0.035128     0.042288
+Scale:          22296.6     0.038042     0.035880     0.041828
+Add:            23470.5     0.054134     0.051128     0.061882
+Triad:          20349.3     0.061738     0.058970     0.069486
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+===== X100=7 A100=3 =====
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+K3 heterogeneous variant (persistent team, separate X100/A100 objects)
+-------------------------------------------------------------
+Array size            = 50000000 elements
+Element size          = 8 bytes
+Memory per array      = 381.5 MiB
+Total array memory    = 1144.4 MiB
+NTIMES                = 10
+X100 threads          = 7
+A100 threads          = 3
+A100 array share      = 50%
+Array split           = 25000000 / 50000000 elements
+A100 bind             = thread
+X100 CPU list         = 0-7
+Persistent OMP team   = yes
+Calibration           = 39156 us (~39156 timer ticks)
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           21306.7     0.040841     0.037547     0.048909
+Scale:          21212.8     0.039852     0.037713     0.042862
+Add:            23095.5     0.055849     0.051958     0.060978
+Triad:          19677.9     0.064270     0.060982     0.069766
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
+===== X100=7 A100=4 =====
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+K3 heterogeneous variant (persistent team, separate X100/A100 objects)
+-------------------------------------------------------------
+Array size            = 50000000 elements
+Element size          = 8 bytes
+Memory per array      = 381.5 MiB
+Total array memory    = 1144.4 MiB
+NTIMES                = 10
+X100 threads          = 7
+A100 threads          = 4
+A100 array share      = 50%
+Array split           = 25000000 / 50000000 elements
+A100 bind             = thread
+X100 CPU list         = 0-7
+Persistent OMP team   = yes
+Calibration           = 41753 us (~41753 timer ticks)
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:           20759.8     0.041959     0.038536     0.049157
+Scale:          20463.5     0.042946     0.039094     0.050572
+Add:            22216.5     0.059703     0.054014     0.069396
+Triad:          19099.7     0.067736     0.062828     0.076812
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
