@@ -1,0 +1,487 @@
+Script started on 2026-08-14 09:19:57-07:00 [COMMAND="/home/lin32/Development/rvv-evaluation/assembly_microbench/arith_instr/run/run_scalar_int.sh" TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="154" LINES="46"]
+== build/x100-clang24 ==
+add_8_m1_ta_ma
+init value0=17.000000	
+16( 8(rv64gc_ADD_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.05252
+GOps/sec;6.23624
+add_16_m1_ta_ma
+init value0=-6027.000000	
+16( 8(rv64gc_ADD_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.07283
+GOps/sec;6.17514
+add_32_m1_ta_ma
+init value0=2041099875.000000	
+16( 8(rv64gc_ADD_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.03451
+GOps/sec;6.29143
+add_64_m1_ta_ma
+init value0=358263684.000000	
+16( 8(rv64gc_ADD_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.0339
+GOps/sec;6.29334
+mul_8_m1_ta_ma
+init value0=30.000000	
+16( 8(rv64gc_MUL_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;5.82841
+GOps/sec;2.19614
+mul_16_m1_ta_ma
+init value0=12139.000000	
+16( 8(rv64gc_MUL_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;5.8283
+GOps/sec;2.19618
+mul_32_m1_ta_ma
+init value0=392726669.000000	
+16( 8(rv64gc_MUL_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;5.82866
+GOps/sec;2.19605
+mul_64_m1_ta_ma
+init value0=1796490600.000000	
+16( 8(rv64gc_MUL_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;5.82861
+GOps/sec;2.19606
+div_8_m1_ta_ma
+init value0=-78.000000	
+16( 8(rv64gc_DIV_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;25.2577
+GOps/sec;0.506776
+div_16_m1_ta_ma
+init value0=10115.000000	
+16( 8(rv64gc_DIV_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;25.2555
+GOps/sec;0.50682
+div_32_m1_ta_ma
+init value0=1943002085.000000	
+16( 8(rv64gc_DIV_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;25.2618
+GOps/sec;0.506694
+div_64_m1_ta_ma
+init value0=1546319335.000000	
+16( 8(rv64gc_DIV_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;25.2563
+GOps/sec;0.506803
+== build/x100-gcc15 ==
+add_8_m1_ta_ma
+init value0=83.000000	
+16( 8(rv64gc_ADD_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.03061
+GOps/sec;6.30353
+add_16_m1_ta_ma
+init value0=2688.000000	
+16( 8(rv64gc_ADD_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.04038
+GOps/sec;6.27333
+add_32_m1_ta_ma
+init value0=1323790005.000000	
+16( 8(rv64gc_ADD_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.03768
+GOps/sec;6.28166
+add_64_m1_ta_ma
+init value0=1789096502.000000	
+16( 8(rv64gc_ADD_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.05771
+GOps/sec;6.22049
+mul_8_m1_ta_ma
+init value0=15.000000	
+16( 8(rv64gc_MUL_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;5.82854
+GOps/sec;2.19609
+mul_16_m1_ta_ma
+init value0=-5297.000000	
+16( 8(rv64gc_MUL_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;5.82866
+GOps/sec;2.19604
+mul_32_m1_ta_ma
+init value0=1824281302.000000	
+16( 8(rv64gc_MUL_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;5.82852
+GOps/sec;2.1961
+mul_64_m1_ta_ma
+init value0=1074759849.000000	
+16( 8(rv64gc_MUL_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;5.82838
+GOps/sec;2.19615
+div_8_m1_ta_ma
+init value0=30.000000	
+16( 8(rv64gc_DIV_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;25.1399
+GOps/sec;0.50915
+div_16_m1_ta_ma
+init value0=-23385.000000	
+16( 8(rv64gc_DIV_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;25.139
+GOps/sec;0.509168
+div_32_m1_ta_ma
+init value0=1224208901.000000	
+16( 8(rv64gc_DIV_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;25.1349
+GOps/sec;0.509252
+div_64_m1_ta_ma
+init value0=1134769693.000000	
+16( 8(rv64gc_DIV_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;25.1382
+GOps/sec;0.509185
+== build/a100-clang24 ==
+add_8_m1_ta_ma
+init value0=-87.000000	
+16( 8(rv64gc_ADD_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.28827
+GOps/sec;2.98489
+add_16_m1_ta_ma
+init value0=27372.000000	
+16( 8(rv64gc_ADD_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.28916
+GOps/sec;2.98427
+add_32_m1_ta_ma
+init value0=459399024.000000	
+16( 8(rv64gc_ADD_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.34528
+GOps/sec;2.94572
+add_64_m1_ta_ma
+init value0=1380143658.000000	
+16( 8(rv64gc_ADD_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.34498
+GOps/sec;2.94593
+mul_8_m1_ta_ma
+init value0=-16.000000	
+16( 8(rv64gc_MUL_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;21.9478
+GOps/sec;0.583201
+mul_16_m1_ta_ma
+init value0=-25319.000000	
+16( 8(rv64gc_MUL_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;21.9482
+GOps/sec;0.58319
+mul_32_m1_ta_ma
+init value0=747153737.000000	
+16( 8(rv64gc_MUL_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;21.9476
+GOps/sec;0.583207
+mul_64_m1_ta_ma
+init value0=500896124.000000	
+16( 8(rv64gc_MUL_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;21.9481
+GOps/sec;0.583195
+div_8_m1_ta_ma
+init value0=53.000000	
+16( 8(rv64gc_DIV_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;31.3608
+GOps/sec;0.408153
+div_16_m1_ta_ma
+init value0=9052.000000	
+16( 8(rv64gc_DIV_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;31.3623
+GOps/sec;0.408133
+div_32_m1_ta_ma
+init value0=409604862.000000	
+16( 8(rv64gc_DIV_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;31.3435
+GOps/sec;0.408378
+div_64_m1_ta_ma
+init value0=662512399.000000	
+16( 8(rv64gc_DIV_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;31.3412
+GOps/sec;0.408408
+== build/a100-gcc15 ==
+add_8_m1_ta_ma
+init value0=66.000000	
+16( 8(rv64gc_ADD_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.2337
+GOps/sec;3.02336
+add_16_m1_ta_ma
+init value0=-26345.000000	
+16( 8(rv64gc_ADD_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.23559
+GOps/sec;3.02201
+add_32_m1_ta_ma
+init value0=295994860.000000	
+16( 8(rv64gc_ADD_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.23374
+GOps/sec;3.02334
+add_64_m1_ta_ma
+init value0=1239921614.000000	
+16( 8(rv64gc_ADD_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.23418
+GOps/sec;3.02302
+mul_8_m1_ta_ma
+init value0=-83.000000	
+16( 8(rv64gc_MUL_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;21.8919
+GOps/sec;0.584692
+mul_16_m1_ta_ma
+init value0=11278.000000	
+16( 8(rv64gc_MUL_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;21.8907
+GOps/sec;0.584723
+mul_32_m1_ta_ma
+init value0=1663215425.000000	
+16( 8(rv64gc_MUL_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;21.8905
+GOps/sec;0.584729
+mul_64_m1_ta_ma
+init value0=1420306477.000000	
+16( 8(rv64gc_MUL_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;21.892
+GOps/sec;0.584688
+div_8_m1_ta_ma
+init value0=-123.000000	
+16( 8(rv64gc_DIV_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;31.1967
+GOps/sec;0.4103
+div_16_m1_ta_ma
+init value0=3398.000000	
+16( 8(rv64gc_DIV_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;31.1937
+GOps/sec;0.410339
+div_32_m1_ta_ma
+init value0=260173522.000000	
+16( 8(rv64gc_DIV_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;31.1957
+GOps/sec;0.410312
+div_64_m1_ta_ma
+init value0=1576586190.000000	
+16( 8(rv64gc_DIV_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;40.4548
+GOps/sec;0.316403
+
+Script done on 2026-08-14 09:32:11-07:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,339 @@
+Script started on 2026-08-14 13:09:26-07:00 [COMMAND="/home/lin32/Development/rvv-evaluation/assembly_microbench/ldst_instr/run/run_vector_contiguous.sh" TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="154" LINES="46"]
+== build/x100-clang24 ==
+vle_vv_8_m1_ta_ma
+init value0=1.000000	init value1=99.000000	init value2=71.000000	init value3=93.000000	init value4=-76.000000	init value5=125.000000	init value6=-54.000000	init value7=-94.000000	init value8=20.000000	init value9=-93.000000	init value10=-20.000000	init value11=-77.000000	init value12=61.000000	init value13=-75.000000	init value14=-22.000000	init value15=126.000000	init value16=-45.000000	init value17=105.000000	init value18=-64.000000	init value19=24.000000	init value20=-90.000000	init value21=-5.000000	init value22=-14.000000	init value23=-88.000000	init value24=-34.000000	init value25=-57.000000	init value26=126.000000	init value27=-112.000000	init value28=11.000000	init value29=-71.000000	init value30=-102.000000	init value31=12.000000	
+Check if the v0 register has been written to
+element0=1.000000  	element1=99.000000 	element2=71.000000 	element3=93.000000 	element4=-76.000000	element5=125.000000	element6=-54.000000	element7=-94.000000	element8=20.000000 	element9=-93.000000	element10=-20.000000	element11=-77.000000	element12=61.000000 	element13=-75.000000	element14=-22.000000	element15=126.000000	element16=-45.000000	element17=105.000000	element18=-64.000000	element19=24.000000 	element20=-90.000000	element21=-5.000000 	element22=-14.000000	element23=-88.000000	element24=-34.000000	element25=-57.000000	element26=126.000000	element27=-112.000000	element28=11.000000 	element29=-71.000000	element30=-102.000000	element31=12.000000 	
+4( 32(rv64gcv_VLE8.V_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;409600000000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;6.33498
+GOps/sec;64.6568
+vle_vv_16_m1_ta_ma
+init value0=3630.000000	init value1=-20993.000000	init value2=3515.000000	init value3=18338.000000	init value4=-25649.000000	init value5=16951.000000	init value6=12342.000000	init value7=19813.000000	init value8=-15595.000000	init value9=-4765.000000	init value10=-25525.000000	init value11=24715.000000	init value12=-30595.000000	init value13=-25021.000000	init value14=-7848.000000	init value15=-14517.000000	
+Check if the v0 register has been written to
+element0=3630.000000	element1=-20993.000000	element2=3515.000000	element3=18338.000000	element4=-25649.000000	element5=16951.000000	element6=12342.000000	element7=19813.000000	element8=-15595.000000	element9=-4765.000000	element10=-25525.000000	element11=24715.000000	element12=-30595.000000	element13=-25021.000000	element14=-7848.000000	element15=-14517.000000	
+4( 32(rv64gcv_VLE16.V_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;204800000000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;6.32953
+GOps/sec;32.3563
+vle_vv_32_m1_ta_ma
+init value0=440395158.000000	init value1=500173335.000000	init value2=349066370.000000	init value3=554399290.000000	init value4=953356301.000000	init value5=751571464.000000	init value6=1443617659.000000	init value7=1478621812.000000	
+Check if the v0 register has been written to
+element0=440395158.000000	element1=500173335.000000	element2=349066370.000000	element3=554399290.000000	element4=953356301.000000	element5=751571464.000000	element6=1443617659.000000	element7=1478621812.000000	
+4( 32(rv64gcv_VLE32.V_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;102400000000
+Inst/Iter;128
+Ops/Iter;1024
+Seconds;6.34284
+GOps/sec;16.1442
+vle_vv_64_m1_ta_ma
+init value0=765641526.000000	init value1=1529951724.000000	init value2=1024494274.000000	init value3=386512555.000000	
+Check if the v0 register has been written to
+element0=765641526.000000	element1=1529951724.000000	element2=1024494274.000000	element3=386512555.000000	
+4( 32(rv64gcv_VLE64.V_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;51200000000
+Inst/Iter;128
+Ops/Iter;512
+Seconds;6.34154
+GOps/sec;8.07375
+vse_vv_8_m1_ta_ma
+init value0=-62.000000	init value1=-89.000000	init value2=-36.000000	init value3=39.000000	init value4=-108.000000	init value5=-6.000000	init value6=-47.000000	init value7=-101.000000	init value8=65.000000	init value9=13.000000	init value10=58.000000	init value11=84.000000	init value12=117.000000	init value13=-14.000000	init value14=69.000000	init value15=-9.000000	init value16=-50.000000	init value17=12.000000	init value18=-100.000000	init value19=-111.000000	init value20=48.000000	init value21=45.000000	init value22=16.000000	init value23=-99.000000	init value24=-127.000000	init value25=-89.000000	init value26=-123.000000	init value27=19.000000	init value28=98.000000	init value29=-124.000000	init value30=102.000000	init value31=36.000000	
+Check if the v0 register has been written to
+element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	element8=-1.000000 	element9=-1.000000 	element10=-1.000000 	element11=-1.000000 	element12=-1.000000 	element13=-1.000000 	element14=-1.000000 	element15=-1.000000 	element16=-1.000000 	element17=-1.000000 	element18=-1.000000 	element19=-1.000000 	element20=-1.000000 	element21=-1.000000 	element22=-1.000000 	element23=-1.000000 	element24=-1.000000 	element25=-1.000000 	element26=-1.000000 	element27=-1.000000 	element28=-1.000000 	element29=-1.000000 	element30=-1.000000 	element31=-1.000000 	
+4( 32(rv64gcv_VSE8.V_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;409600000000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;11.7582
+GOps/sec;34.8352
+vse_vv_16_m1_ta_ma
+init value0=11530.000000	init value1=-32142.000000	init value2=-14716.000000	init value3=-18166.000000	init value4=26554.000000	init value5=-23726.000000	init value6=-31061.000000	init value7=9198.000000	init value8=-23313.000000	init value9=16520.000000	init value10=22654.000000	init value11=30286.000000	init value12=-22695.000000	init value13=-20522.000000	init value14=18533.000000	init value15=29275.000000	
+Check if the v0 register has been written to
+element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	element8=-1.000000 	element9=-1.000000 	element10=-1.000000 	element11=-1.000000 	element12=-1.000000 	element13=-1.000000 	element14=-1.000000 	element15=-1.000000 	
+4( 32(rv64gcv_VSE16.V_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;204800000000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;11.7393
+GOps/sec;17.4456
+vse_vv_32_m1_ta_ma
+init value0=1304428236.000000	init value1=1298699122.000000	init value2=121160769.000000	init value3=606935231.000000	init value4=1225069721.000000	init value5=1713789312.000000	init value6=1437498232.000000	init value7=1742341197.000000	
+Check if the v0 register has been written to
+element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	
+4( 32(rv64gcv_VSE32.V_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;102400000000
+Inst/Iter;128
+Ops/Iter;1024
+Seconds;11.7575
+GOps/sec;8.70935
+vse_vv_64_m1_ta_ma
+init value0=1950523989.000000	init value1=1204775973.000000	init value2=403897196.000000	init value3=1340741752.000000	
+Check if the v0 register has been written to
+element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	
+4( 32(rv64gcv_VSE64.V_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;51200000000
+Inst/Iter;128
+Ops/Iter;512
+Seconds;11.739
+GOps/sec;4.36154
+== build/x100-gcc15 ==
+vle_vv_8_m1_ta_ma
+init value0=5.000000	init value1=112.000000	init value2=111.000000	init value3=101.000000	init value4=-58.000000	init value5=-90.000000	init value6=9.000000	init value7=7.000000	init value8=-67.000000	init value9=-121.000000	init value10=34.000000	init value11=39.000000	init value12=10.000000	init value13=-37.000000	init value14=-29.000000	init value15=42.000000	init value16=83.000000	init value17=-96.000000	init value18=-78.000000	init value19=-41.000000	init value20=-30.000000	init value21=81.000000	init value22=26.000000	init value23=-84.000000	init value24=-98.000000	init value25=119.000000	init value26=-2.000000	init value27=76.000000	init value28=12.000000	init value29=-50.000000	init value30=-122.000000	init value31=17.000000	
+Check if the v0 register has been written to
+element0=5.000000  	element1=112.000000	element2=111.000000	element3=101.000000	element4=-58.000000	element5=-90.000000	element6=9.000000  	element7=7.000000  	element8=-67.000000	element9=-121.000000	element10=34.000000 	element11=39.000000 	element12=10.000000 	element13=-37.000000	element14=-29.000000	element15=42.000000 	element16=83.000000 	element17=-96.000000	element18=-78.000000	element19=-41.000000	element20=-30.000000	element21=81.000000 	element22=26.000000 	element23=-84.000000	element24=-98.000000	element25=119.000000	element26=-2.000000 	element27=76.000000 	element28=12.000000 	element29=-50.000000	element30=-122.000000	element31=17.000000 	
+4( 32(rv64gcv_VLE8.V_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;409600000000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;6.23895
+GOps/sec;65.6521
+vle_vv_16_m1_ta_ma
+init value0=-4408.000000	init value1=-30533.000000	init value2=4421.000000	init value3=1206.000000	init value4=-27170.000000	init value5=6916.000000	init value6=-11987.000000	init value7=-26706.000000	init value8=30571.000000	init value9=-190.000000	init value10=21710.000000	init value11=-13956.000000	init value12=12381.000000	init value13=-6312.000000	init value14=29809.000000	init value15=-30534.000000	
+Check if the v0 register has been written to
+element0=-4408.000000	element1=-30533.000000	element2=4421.000000	element3=1206.000000	element4=-27170.000000	element5=6916.000000	element6=-11987.000000	element7=-26706.000000	element8=30571.000000	element9=-190.000000	element10=21710.000000	element11=-13956.000000	element12=12381.000000	element13=-6312.000000	element14=29809.000000	element15=-30534.000000	
+4( 32(rv64gcv_VLE16.V_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;204800000000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;6.23888
+GOps/sec;32.8264
+vle_vv_32_m1_ta_ma
+init value0=1094414111.000000	init value1=1019444606.000000	init value2=970819046.000000	init value3=659807320.000000	init value4=1491728183.000000	init value5=532534928.000000	init value6=1432573548.000000	init value7=926128702.000000	
+Check if the v0 register has been written to
+element0=1094414111.000000	element1=1019444606.000000	element2=970819046.000000	element3=659807320.000000	element4=1491728183.000000	element5=532534928.000000	element6=1432573548.000000	element7=926128702.000000	
+4( 32(rv64gcv_VLE32.V_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;102400000000
+Inst/Iter;128
+Ops/Iter;1024
+Seconds;6.25565
+GOps/sec;16.3692
+vle_vv_64_m1_ta_ma
+init value0=30245522.000000	init value1=777876784.000000	init value2=144749449.000000	init value3=92533352.000000	
+Check if the v0 register has been written to
+element0=30245522.000000	element1=777876784.000000	element2=144749449.000000	element3=92533352.000000	
+4( 32(rv64gcv_VLE64.V_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;51200000000
+Inst/Iter;128
+Ops/Iter;512
+Seconds;6.33081
+GOps/sec;8.08743
+vse_vv_8_m1_ta_ma
+init value0=26.000000	init value1=-116.000000	init value2=-115.000000	init value3=77.000000	init value4=112.000000	init value5=-40.000000	init value6=4.000000	init value7=126.000000	init value8=-46.000000	init value9=103.000000	init value10=-3.000000	init value11=102.000000	init value12=-26.000000	init value13=-117.000000	init value14=69.000000	init value15=-122.000000	init value16=-4.000000	init value17=16.000000	init value18=103.000000	init value19=52.000000	init value20=-19.000000	init value21=-20.000000	init value22=14.000000	init value23=102.000000	init value24=53.000000	init value25=-126.000000	init value26=117.000000	init value27=-20.000000	init value28=-75.000000	init value29=-9.000000	init value30=116.000000	init value31=-48.000000	
+Check if the v0 register has been written to
+element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	element8=-1.000000 	element9=-1.000000 	element10=-1.000000 	element11=-1.000000 	element12=-1.000000 	element13=-1.000000 	element14=-1.000000 	element15=-1.000000 	element16=-1.000000 	element17=-1.000000 	element18=-1.000000 	element19=-1.000000 	element20=-1.000000 	element21=-1.000000 	element22=-1.000000 	element23=-1.000000 	element24=-1.000000 	element25=-1.000000 	element26=-1.000000 	element27=-1.000000 	element28=-1.000000 	element29=-1.000000 	element30=-1.000000 	element31=-1.000000 	
+4( 32(rv64gcv_VSE8.V_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;409600000000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;11.7395
+GOps/sec;34.8908
+vse_vv_16_m1_ta_ma
+init value0=-1811.000000	init value1=6001.000000	init value2=10146.000000	init value3=5746.000000	init value4=-8127.000000	init value5=-11054.000000	init value6=7421.000000	init value7=8937.000000	init value8=-14002.000000	init value9=-9077.000000	init value10=-24279.000000	init value11=-21242.000000	init value12=27023.000000	init value13=21536.000000	init value14=30254.000000	init value15=-19396.000000	
+Check if the v0 register has been written to
+element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	element8=-1.000000 	element9=-1.000000 	element10=-1.000000 	element11=-1.000000 	element12=-1.000000 	element13=-1.000000 	element14=-1.000000 	element15=-1.000000 	
+4( 32(rv64gcv_VSE16.V_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;204800000000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;11.7587
+GOps/sec;17.4168
+vse_vv_32_m1_ta_ma
+init value0=1961895741.000000	init value1=745956702.000000	init value2=751818882.000000	init value3=717082836.000000	init value4=1765177582.000000	init value5=1504992438.000000	init value6=1432842886.000000	init value7=117889045.000000	
+Check if the v0 register has been written to
+element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	
+4( 32(rv64gcv_VSE32.V_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;102400000000
+Inst/Iter;128
+Ops/Iter;1024
+Seconds;11.7421
+GOps/sec;8.72075
+vse_vv_64_m1_ta_ma
+init value0=1526509393.000000	init value1=1718134581.000000	init value2=1025531042.000000	init value3=1441556803.000000	
+Check if the v0 register has been written to
+element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	
+4( 32(rv64gcv_VSE64.V_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;51200000000
+Inst/Iter;128
+Ops/Iter;512
+Seconds;11.7393
+GOps/sec;4.36142
+== build/a100-clang24 ==
+vle_vv_8_m1_ta_ma
+init value0=40.000000	init value1=35.000000	init value2=-75.000000	init value3=-108.000000	init value4=-91.000000	init value5=53.000000	init value6=-35.000000	init value7=-108.000000	init value8=-6.000000	init value9=46.000000	init value10=124.000000	init value11=88.000000	init value12=87.000000	init value13=-59.000000	init value14=-93.000000	init value15=-45.000000	init value16=-108.000000	init value17=-42.000000	init value18=-47.000000	init value19=121.000000	init value20=14.000000	init value21=-91.000000	init value22=63.000000	init value23=104.000000	init value24=88.000000	init value25=-91.000000	init value26=66.000000	init value27=55.000000	init value28=-41.000000	init value29=9.000000	init value30=22.000000	init value31=-1.000000	init value32=44.000000	init value33=-53.000000	init value34=-109.000000	init value35=-47.000000	init value36=1.000000	init value37=112.000000	init value38=101.000000	init value39=-5.000000	init value40=-98.000000	init value41=-31.000000	init value42=84.000000	init value43=-11.000000	init value44=-89.000000	init value45=-9.000000	init value46=-55.000000	init value47=59.000000	init value48=-51.000000	init value49=-102.000000	init value50=-76.000000	init value51=-37.000000	init value52=63.000000	init value53=-12.000000	init value54=67.000000	init value55=-104.000000	init value56=-103.000000	init value57=-122.000000	init value58=-49.000000	init value59=112.000000	init value60=-113.000000	init value61=-27.000000	init value62=111.000000	init value63=-69.000000	init value64=-80.000000	init value65=2.000000	init value66=-116.000000	init value67=-79.000000	init value68=114.000000	init value69=-14.000000	init value70=-83.000000	init value71=16.000000	init value72=-45.000000	init value73=1.000000	init value74=6.000000	init value75=122.000000	init value76=-8.000000	init value77=-49.000000	init value78=-75.000000	init value79=-59.000000	init value80=105.000000	init value81=106.000000	init value82=-95.000000	init value83=-88.000000	init value84=94.000000	init value85=-28.000000	init value86=64.000000	init value87=-9.000000	init value88=106.000000	init value89=15.000000	init value90=103.000000	init value91=-7.000000	init value92=-12.000000	init value93=-42.000000	init value94=-76.000000	init value95=-91.000000	init value96=-40.000000	init value97=65.000000	init value98=86.000000	init value99=74.000000	init value100=51.000000	init value101=3.000000	init value102=90.000000	init value103=6.000000	init value104=4.000000	init value105=96.000000	init value106=-127.000000	init value107=-4.000000	init value108=47.000000	init value109=54.000000	init value110=-62.000000	init value111=-104.000000	init value112=-96.000000	init value113=99.000000	init value114=65.000000	init value115=-2.000000	init value116=71.000000	init value117=-127.000000	init value118=-11.000000	init value119=-78.000000	init value120=-111.000000	init value121=92.000000	init value122=-85.000000	init value123=-123.000000	init value124=50.000000	init value125=96.000000	init value126=42.000000	init value127=10.000000	
+Check if the v0 register has been written to
+element0=40.000000 	element1=35.000000 	element2=-75.000000	element3=-108.000000	element4=-91.000000	element5=53.000000 	element6=-35.000000	element7=-108.000000	element8=-6.000000 	element9=46.000000 	element10=124.000000	element11=88.000000 	element12=87.000000 	element13=-59.000000	element14=-93.000000	element15=-45.000000	element16=-108.000000	element17=-42.000000	element18=-47.000000	element19=121.000000	element20=14.000000 	element21=-91.000000	element22=63.000000 	element23=104.000000	element24=88.000000 	element25=-91.000000	element26=66.000000 	element27=55.000000 	element28=-41.000000	element29=9.000000  	element30=22.000000 	element31=-1.000000 	element32=44.000000 	element33=-53.000000	element34=-109.000000	element35=-47.000000	element36=1.000000  	element37=112.000000	element38=101.000000	element39=-5.000000 	element40=-98.000000	element41=-31.000000	element42=84.000000 	element43=-11.000000	element44=-89.000000	element45=-9.000000 	element46=-55.000000	element47=59.000000 	element48=-51.000000	element49=-102.000000	element50=-76.000000	element51=-37.000000	element52=63.000000 	element53=-12.000000	element54=67.000000 	element55=-104.000000	element56=-103.000000	element57=-122.000000	element58=-49.000000	element59=112.000000	element60=-113.000000	element61=-27.000000	element62=111.000000	element63=-69.000000	element64=-80.000000	element65=2.000000  	element66=-116.000000	element67=-79.000000	element68=114.000000	element69=-14.000000	element70=-83.000000	element71=16.000000 	element72=-45.000000	element73=1.000000  	element74=6.000000  	element75=122.000000	element76=-8.000000 	element77=-49.000000	element78=-75.000000	element79=-59.000000	element80=105.000000	element81=106.000000	element82=-95.000000	element83=-88.000000	element84=94.000000 	element85=-28.000000	element86=64.000000 	element87=-9.000000 	element88=106.000000	element89=15.000000 	element90=103.000000	element91=-7.000000 	element92=-12.000000	element93=-42.000000	element94=-76.000000	element95=-91.000000	element96=-40.000000	element97=65.000000 	element98=86.000000 	element99=74.000000 	element100=51.000000 	element101=3.000000  	element102=90.000000 	element103=6.000000  	element104=4.000000  	element105=96.000000 	element106=-127.000000	element107=-4.000000 	element108=47.000000 	element109=54.000000 	element110=-62.000000	element111=-104.000000	element112=-96.000000	element113=99.000000 	element114=65.000000 	element115=-2.000000 	element116=71.000000 	element117=-127.000000	element118=-11.000000	element119=-78.000000	element120=-111.000000	element121=92.000000 	element122=-85.000000	element123=-123.000000	element124=50.000000 	element125=96.000000 	element126=42.000000 	element127=10.000000 	
+/home/lin32/Development/rvv-evaluation/assembly_microbench/ldst_instr/run/run_vector_contiguous.sh: line 11: 877081 Segmentation fault         "$HOME/bin/ai" "${BUILD_DIR}/${exe}.x"
+vle_vv_16_m1_ta_ma
+init value0=-21421.000000	init value1=12982.000000	init value2=32451.000000	init value3=13032.000000	init value4=2971.000000	init value5=-1285.000000	init value6=15760.000000	init value7=-14124.000000	init value8=-18663.000000	init value9=-24150.000000	init value10=-21078.000000	init value11=5632.000000	init value12=-28001.000000	init value13=28808.000000	init value14=-12676.000000	init value15=14590.000000	init value16=-12538.000000	init value17=-8942.000000	init value18=-31731.000000	init value19=29371.000000	init value20=3997.000000	init value21=-9800.000000	init value22=-2285.000000	init value23=-7122.000000	init value24=-1879.000000	init value25=30240.000000	init value26=-25079.000000	init value27=-6400.000000	init value28=-5825.000000	init value29=14153.000000	init value30=17715.000000	init value31=-27246.000000	init value32=27136.000000	init value33=-15369.000000	init value34=-14214.000000	init value35=30107.000000	init value36=-16654.000000	init value37=1546.000000	init value38=15983.000000	init value39=30220.000000	init value40=-22603.000000	init value41=-5095.000000	init value42=-29684.000000	init value43=14932.000000	init value44=23713.000000	init value45=23176.000000	init value46=29523.000000	init value47=11176.000000	init value48=14235.000000	init value49=-2208.000000	init value50=-24989.000000	init value51=18232.000000	init value52=-12007.000000	init value53=-27274.000000	init value54=11110.000000	init value55=-13886.000000	init value56=2966.000000	init value57=-13969.000000	init value58=-20286.000000	init value59=-2859.000000	init value60=184.000000	init value61=-2570.000000	init value62=-30105.000000	init value63=27320.000000	
+Check if the v0 register has been written to
+element0=-21421.000000	element1=12982.000000	element2=32451.000000	element3=13032.000000	element4=2971.000000	element5=-1285.000000	element6=15760.000000	element7=-14124.000000	element8=-18663.000000	element9=-24150.000000	element10=-21078.000000	element11=5632.000000	element12=-28001.000000	element13=28808.000000	element14=-12676.000000	element15=14590.000000	element16=-12538.000000	element17=-8942.000000	element18=-31731.000000	element19=29371.000000	element20=3997.000000	element21=-9800.000000	element22=-2285.000000	element23=-7122.000000	element24=-1879.000000	element25=30240.000000	element26=-25079.000000	element27=-6400.000000	element28=-5825.000000	element29=14153.000000	element30=17715.000000	element31=-27246.000000	element32=27136.000000	element33=-15369.000000	element34=-14214.000000	element35=30107.000000	element36=-16654.000000	element37=1546.000000	element38=15983.000000	element39=30220.000000	element40=-22603.000000	element41=-5095.000000	element42=-29684.000000	element43=14932.000000	element44=23713.000000	element45=23176.000000	element46=29523.000000	element47=11176.000000	element48=14235.000000	element49=-2208.000000	element50=-24989.000000	element51=18232.000000	element52=-12007.000000	element53=-27274.000000	element54=11110.000000	element55=-13886.000000	element56=2966.000000	element57=-13969.000000	element58=-20286.000000	element59=-2859.000000	element60=184.000000	element61=-2570.000000	element62=-30105.000000	element63=27320.000000	
+/home/lin32/Development/rvv-evaluation/assembly_microbench/ldst_instr/run/run_vector_contiguous.sh: line 11: 878230 Segmentation fault         "$HOME/bin/ai" "${BUILD_DIR}/${exe}.x"
+vle_vv_32_m1_ta_ma
+init value0=208649600.000000	init value1=293716387.000000	init value2=330922867.000000	init value3=640350959.000000	init value4=441028084.000000	init value5=338552277.000000	init value6=116517695.000000	init value7=1768393612.000000	init value8=1647446480.000000	init value9=76847464.000000	init value10=574194961.000000	init value11=1805135103.000000	init value12=1035944865.000000	init value13=491806430.000000	init value14=1801387552.000000	init value15=774972333.000000	init value16=2025708099.000000	init value17=1013242788.000000	init value18=463384820.000000	init value19=1197160561.000000	init value20=1224042118.000000	init value21=2061530650.000000	init value22=277857999.000000	init value23=615619585.000000	init value24=614309839.000000	init value25=1446616159.000000	init value26=2131567353.000000	init value27=684000914.000000	init value28=1421446031.000000	init value29=395452007.000000	init value30=391104027.000000	init value31=1630095632.000000	
+Check if the v0 register has been written to
+element0=208649600.000000	element1=293716387.000000	element2=330922867.000000	element3=640350959.000000	element4=441028084.000000	element5=338552277.000000	element6=116517695.000000	element7=1768393612.000000	element8=1647446480.000000	element9=76847464.000000	element10=574194961.000000	element11=1805135103.000000	element12=1035944865.000000	element13=491806430.000000	element14=1801387552.000000	element15=774972333.000000	element16=2025708099.000000	element17=1013242788.000000	element18=463384820.000000	element19=1197160561.000000	element20=1224042118.000000	element21=2061530650.000000	element22=277857999.000000	element23=615619585.000000	element24=614309839.000000	element25=1446616159.000000	element26=2131567353.000000	element27=684000914.000000	element28=1421446031.000000	element29=395452007.000000	element30=391104027.000000	element31=1630095632.000000	
+4( 32(rv64gcv_VLE32.V_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;409600000000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;121.803
+GOps/sec;3.36281
+vle_vv_64_m1_ta_ma
+init value0=688539953.000000	init value1=1144341880.000000	init value2=1241360618.000000	init value3=1831247493.000000	init value4=1412935760.000000	init value5=213277977.000000	init value6=1289400107.000000	init value7=1756116336.000000	init value8=1157362079.000000	init value9=790213885.000000	init value10=1984855054.000000	init value11=1277445979.000000	init value12=956333221.000000	init value13=1177513979.000000	init value14=684129739.000000	init value15=946885106.000000	
+Check if the v0 register has been written to
+element0=688539953.000000	element1=1144341880.000000	element2=1241360618.000000	element3=1831247493.000000	element4=1412935760.000000	element5=213277977.000000	element6=1289400107.000000	element7=1756116336.000000	element8=1157362079.000000	element9=790213885.000000	element10=1984855054.000000	element11=1277445979.000000	element12=956333221.000000	element13=1177513979.000000	element14=684129739.000000	element15=946885106.000000	
+4( 32(rv64gcv_VLE64.V_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;204800000000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;122.106
+GOps/sec;1.67723
+vse_vv_8_m1_ta_ma
+init value0=120.000000	init value1=-50.000000	init value2=-46.000000	init value3=37.000000	init value4=37.000000	init value5=35.000000	init value6=48.000000	init value7=-44.000000	init value8=34.000000	init value9=-32.000000	init value10=-21.000000	init value11=26.000000	init value12=-97.000000	init value13=-61.000000	init value14=100.000000	init value15=-39.000000	init value16=-124.000000	init value17=0.000000	init value18=86.000000	init value19=91.000000	init value20=-35.000000	init value21=56.000000	init value22=103.000000	init value23=19.000000	init value24=-127.000000	init value25=119.000000	init value26=85.000000	init value27=-66.000000	init value28=25.000000	init value29=3.000000	init value30=62.000000	init value31=-111.000000	init value32=-47.000000	init value33=16.000000	init value34=-74.000000	init value35=-10.000000	init value36=51.000000	init value37=-26.000000	init value38=-53.000000	init value39=85.000000	init value40=-58.000000	init value41=-74.000000	init value42=111.000000	init value43=101.000000	init value44=121.000000	init value45=-45.000000	init value46=63.000000	init value47=-2.000000	init value48=-45.000000	init value49=-107.000000	init value50=89.000000	init value51=-79.000000	init value52=-51.000000	init value53=-64.000000	init value54=-60.000000	init value55=79.000000	init value56=56.000000	init value57=25.000000	init value58=13.000000	init value59=81.000000	init value60=28.000000	init value61=75.000000	init value62=-30.000000	init value63=-19.000000	init value64=91.000000	init value65=-104.000000	init value66=-28.000000	init value67=-114.000000	init value68=126.000000	init value69=-81.000000	init value70=-29.000000	init value71=68.000000	init value72=101.000000	init value73=82.000000	init value74=-87.000000	init value75=-33.000000	init value76=38.000000	init value77=-24.000000	init value78=-35.000000	init value79=-7.000000	init value80=126.000000	init value81=54.000000	init value82=-86.000000	init value83=75.000000	init value84=-9.000000	init value85=111.000000	init value86=-102.000000	init value87=47.000000	init value88=-120.000000	init value89=-88.000000	init value90=-128.000000	init value91=-91.000000	init value92=-13.000000	init value93=98.000000	init value94=-110.000000	init value95=79.000000	init value96=-6.000000	init value97=118.000000	init value98=-35.000000	init value99=120.000000	init value100=37.000000	init value101=-63.000000	init value102=-68.000000	init value103=-117.000000	init value104=19.000000	init value105=101.000000	init value106=106.000000	init value107=57.000000	init value108=78.000000	init value109=71.000000	init value110=51.000000	init value111=-52.000000	init value112=125.000000	init value113=-35.000000	init value114=23.000000	init value115=116.000000	init value116=76.000000	init value117=-78.000000	init value118=-93.000000	init value119=-43.000000	init value120=90.000000	init value121=35.000000	init value122=122.000000	init value123=77.000000	init value124=-123.000000	init value125=12.000000	init value126=-100.000000	init value127=127.000000	
+Check if the v0 register has been written to
+element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	element8=-1.000000 	element9=-1.000000 	element10=-1.000000 	element11=-1.000000 	element12=-1.000000 	element13=-1.000000 	element14=-1.000000 	element15=-1.000000 	element16=-1.000000 	element17=-1.000000 	element18=-1.000000 	element19=-1.000000 	element20=-1.000000 	element21=-1.000000 	element22=-1.000000 	element23=-1.000000 	element24=-1.000000 	element25=-1.000000 	element26=-1.000000 	element27=-1.000000 	element28=-1.000000 	element29=-1.000000 	element30=-1.000000 	element31=-1.000000 	element32=-1.000000 	element33=-1.000000 	element34=-1.000000 	element35=-1.000000 	element36=-1.000000 	element37=-1.000000 	element38=-1.000000 	element39=-1.000000 	element40=-1.000000 	element41=-1.000000 	element42=-1.000000 	element43=-1.000000 	element44=-1.000000 	element45=-1.000000 	element46=-1.000000 	element47=-1.000000 	element48=-1.000000 	element49=-1.000000 	element50=-1.000000 	element51=-1.000000 	element52=-1.000000 	element53=-1.000000 	element54=-1.000000 	element55=-1.000000 	element56=-1.000000 	element57=-1.000000 	element58=-1.000000 	element59=-1.000000 	element60=-1.000000 	element61=-1.000000 	element62=-1.000000 	element63=-1.000000 	element64=-1.000000 	element65=-1.000000 	element66=-1.000000 	element67=-1.000000 	element68=-1.000000 	element69=-1.000000 	element70=-1.000000 	element71=-1.000000 	element72=-1.000000 	element73=-1.000000 	element74=-1.000000 	element75=-1.000000 	element76=-1.000000 	element77=-1.000000 	element78=-1.000000 	element79=-1.000000 	element80=-1.000000 	element81=-1.000000 	element82=-1.000000 	element83=-1.000000 	element84=-1.000000 	element85=-1.000000 	element86=-1.000000 	element87=-1.000000 	element88=-1.000000 	element89=-1.000000 	element90=-1.000000 	element91=-1.000000 	element92=-1.000000 	element93=-1.000000 	element94=-1.000000 	element95=-1.000000 	element96=-1.000000 	element97=-1.000000 	element98=-1.000000 	element99=-1.000000 	element100=-1.000000 	element101=-1.000000 	element102=-1.000000 	element103=-1.000000 	element104=-1.000000 	element105=-1.000000 	element106=-1.000000 	element107=-1.000000 	element108=-1.000000 	element109=-1.000000 	element110=-1.000000 	element111=-1.000000 	element112=-1.000000 	element113=-1.000000 	element114=-1.000000 	element115=-1.000000 	element116=-1.000000 	element117=-1.000000 	element118=-1.000000 	element119=-1.000000 	element120=-1.000000 	element121=-1.000000 	element122=-1.000000 	element123=-1.000000 	element124=-1.000000 	element125=-1.000000 	element126=-1.000000 	element127=-1.000000 	
+/home/lin32/Development/rvv-evaluation/assembly_microbench/ldst_instr/run/run_vector_contiguous.sh: line 11: 881711 Segmentation fault         "$HOME/bin/ai" "${BUILD_DIR}/${exe}.x"
+vse_vv_16_m1_ta_ma
+init value0=11392.000000	init value1=-16815.000000	init value2=-29963.000000	init value3=4558.000000	init value4=-17237.000000	init value5=-15384.000000	init value6=1075.000000	init value7=-5893.000000	init value8=29626.000000	init value9=20564.000000	init value10=20470.000000	init value11=27615.000000	init value12=7118.000000	init value13=9891.000000	init value14=24091.000000	init value15=21421.000000	init value16=28235.000000	init value17=24923.000000	init value18=-5350.000000	init value19=-31157.000000	init value20=6050.000000	init value21=22060.000000	init value22=13631.000000	init value23=7372.000000	init value24=14375.000000	init value25=-24096.000000	init value26=-12451.000000	init value27=22147.000000	init value28=-13605.000000	init value29=-3059.000000	init value30=-2237.000000	init value31=-2213.000000	init value32=-19874.000000	init value33=-32200.000000	init value34=2345.000000	init value35=28425.000000	init value36=17952.000000	init value37=3420.000000	init value38=22532.000000	init value39=-17957.000000	init value40=23984.000000	init value41=-22534.000000	init value42=9658.000000	init value43=31103.000000	init value44=-12643.000000	init value45=-31787.000000	init value46=-13012.000000	init value47=15592.000000	init value48=-6864.000000	init value49=-18361.000000	init value50=-15565.000000	init value51=-814.000000	init value52=3699.000000	init value53=-1933.000000	init value54=6558.000000	init value55=18074.000000	init value56=-26029.000000	init value57=-5893.000000	init value58=-25315.000000	init value59=25902.000000	init value60=-8952.000000	init value61=-27552.000000	init value62=23689.000000	init value63=-28826.000000	
+Check if the v0 register has been written to
+element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	element8=-1.000000 	element9=-1.000000 	element10=-1.000000 	element11=-1.000000 	element12=-1.000000 	element13=-1.000000 	element14=-1.000000 	element15=-1.000000 	element16=-1.000000 	element17=-1.000000 	element18=-1.000000 	element19=-1.000000 	element20=-1.000000 	element21=-1.000000 	element22=-1.000000 	element23=-1.000000 	element24=-1.000000 	element25=-1.000000 	element26=-1.000000 	element27=-1.000000 	element28=-1.000000 	element29=-1.000000 	element30=-1.000000 	element31=-1.000000 	element32=-1.000000 	element33=-1.000000 	element34=-1.000000 	element35=-1.000000 	element36=-1.000000 	element37=-1.000000 	element38=-1.000000 	element39=-1.000000 	element40=-1.000000 	element41=-1.000000 	element42=-1.000000 	element43=-1.000000 	element44=-1.000000 	element45=-1.000000 	element46=-1.000000 	element47=-1.000000 	element48=-1.000000 	element49=-1.000000 	element50=-1.000000 	element51=-1.000000 	element52=-1.000000 	element53=-1.000000 	element54=-1.000000 	element55=-1.000000 	element56=-1.000000 	element57=-1.000000 	element58=-1.000000 	element59=-1.000000 	element60=-1.000000 	element61=-1.000000 	element62=-1.000000 	element63=-1.000000 	
+/home/lin32/Development/rvv-evaluation/assembly_microbench/ldst_instr/run/run_vector_contiguous.sh: line 11: 888304 Segmentation fault         "$HOME/bin/ai" "${BUILD_DIR}/${exe}.x"
+vse_vv_32_m1_ta_ma
+init value0=1139992254.000000	init value1=965962069.000000	init value2=195431947.000000	init value3=1053667694.000000	init value4=486575205.000000	init value5=792330663.000000	init value6=241330172.000000	init value7=771484448.000000	init value8=1399166459.000000	init value9=1541923568.000000	init value10=113057846.000000	init value11=1256074165.000000	init value12=955565318.000000	init value13=137300014.000000	init value14=1650691462.000000	init value15=824757952.000000	init value16=1008025154.000000	init value17=1161158515.000000	init value18=947386790.000000	init value19=1636086393.000000	init value20=1259836298.000000	init value21=1178028129.000000	init value22=720461950.000000	init value23=1458008129.000000	init value24=945478430.000000	init value25=1133360676.000000	init value26=46476111.000000	init value27=1739400684.000000	init value28=637836765.000000	init value29=386736634.000000	init value30=338881455.000000	init value31=1777829020.000000	
+Check if the v0 register has been written to
+element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	element8=-1.000000 	element9=-1.000000 	element10=-1.000000 	element11=-1.000000 	element12=-1.000000 	element13=-1.000000 	element14=-1.000000 	element15=-1.000000 	element16=-1.000000 	element17=-1.000000 	element18=-1.000000 	element19=-1.000000 	element20=-1.000000 	element21=-1.000000 	element22=-1.000000 	element23=-1.000000 	element24=-1.000000 	element25=-1.000000 	element26=-1.000000 	element27=-1.000000 	element28=-1.000000 	element29=-1.000000 	element30=-1.000000 	element31=-1.000000 	
+4( 32(rv64gcv_VSE32.V_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;409600000000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;617.418
+GOps/sec;0.663408
+vse_vv_64_m1_ta_ma
+init value0=1391083302.000000	init value1=1749295183.000000	init value2=1758234904.000000	init value3=1058951391.000000	init value4=1114545253.000000	init value5=1311490337.000000	init value6=766405694.000000	init value7=827722454.000000	init value8=1362695206.000000	init value9=2051570915.000000	init value10=1913128659.000000	init value11=1015489266.000000	init value12=1179159620.000000	init value13=1090540043.000000	init value14=1265243269.000000	init value15=2100462519.000000	
+Check if the v0 register has been written to
+element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	element8=-1.000000 	element9=-1.000000 	element10=-1.000000 	element11=-1.000000 	element12=-1.000000 	element13=-1.000000 	element14=-1.000000 	element15=-1.000000 	
+4( 32(rv64gcv_VSE64.V_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;204800000000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;544.449
+GOps/sec;0.37616
+== build/a100-gcc15 ==
+vle_vv_8_m1_ta_ma
+init value0=-56.000000	init value1=-46.000000	init value2=27.000000	init value3=-53.000000	init value4=-94.000000	init value5=64.000000	init value6=56.000000	init value7=28.000000	init value8=120.000000	init value9=109.000000	init value10=-73.000000	init value11=58.000000	init value12=-120.000000	init value13=72.000000	init value14=39.000000	init value15=70.000000	init value16=-116.000000	init value17=99.000000	init value18=-122.000000	init value19=-127.000000	init value20=101.000000	init value21=-108.000000	init value22=-19.000000	init value23=-101.000000	init value24=57.000000	init value25=41.000000	init value26=110.000000	init value27=-92.000000	init value28=-35.000000	init value29=105.000000	init value30=-113.000000	init value31=-90.000000	init value32=60.000000	init value33=-86.000000	init value34=113.000000	init value35=-34.000000	init value36=-22.000000	init value37=-86.000000	init value38=-6.000000	init value39=99.000000	init value40=23.000000	init value41=-78.000000	init value42=-99.000000	init value43=-97.000000	init value44=-6.000000	init value45=-59.000000	init value46=-27.000000	init value47=-122.000000	init value48=40.000000	init value49=107.000000	init value50=7.000000	init value51=-115.000000	init value52=0.000000	init value53=-12.000000	init value54=41.000000	init value55=57.000000	init value56=30.000000	init value57=-105.000000	init value58=-35.000000	init value59=-5.000000	init value60=0.000000	init value61=108.000000	init value62=-95.000000	init value63=60.000000	init value64=22.000000	init value65=19.000000	init value66=27.000000	init value67=1.000000	init value68=-67.000000	init value69=21.000000	init value70=100.000000	init value71=-44.000000	init value72=-57.000000	init value73=1.000000	init value74=115.000000	init value75=-63.000000	init value76=-58.000000	init value77=89.000000	init value78=71.000000	init value79=-18.000000	init value80=-60.000000	init value81=78.000000	init value82=124.000000	init value83=-60.000000	init value84=67.000000	init value85=-91.000000	init value86=-3.000000	init value87=97.000000	init value88=60.000000	init value89=-38.000000	init value90=92.000000	init value91=60.000000	init value92=70.000000	init value93=-2.000000	init value94=121.000000	init value95=93.000000	init value96=17.000000	init value97=-108.000000	init value98=94.000000	init value99=-50.000000	init value100=-87.000000	init value101=-62.000000	init value102=-94.000000	init value103=113.000000	init value104=-61.000000	init value105=21.000000	init value106=50.000000	init value107=-118.000000	init value108=110.000000	init value109=122.000000	init value110=120.000000	init value111=51.000000	init value112=-56.000000	init value113=-12.000000	init value114=-9.000000	init value115=11.000000	init value116=-103.000000	init value117=-11.000000	init value118=108.000000	init value119=-43.000000	init value120=-49.000000	init value121=-55.000000	init value122=18.000000	init value123=22.000000	init value124=-57.000000	init value125=-117.000000	init value126=115.000000	init value127=-40.000000	
+Check if the v0 register has been written to
+element0=-56.000000	element1=-46.000000	element2=27.000000 	element3=-53.000000	element4=-94.000000	element5=64.000000 	element6=56.000000 	element7=28.000000 	element8=120.000000	element9=109.000000	element10=-73.000000	element11=58.000000 	element12=-120.000000	element13=72.000000 	element14=39.000000 	element15=70.000000 	element16=-116.000000	element17=99.000000 	element18=-122.000000	element19=-127.000000	element20=101.000000	element21=-108.000000	element22=-19.000000	element23=-101.000000	element24=57.000000 	element25=41.000000 	element26=110.000000	element27=-92.000000	element28=-35.000000	element29=105.000000	element30=-113.000000	element31=-90.000000	element32=60.000000 	element33=-86.000000	element34=113.000000	element35=-34.000000	element36=-22.000000	element37=-86.000000	element38=-6.000000 	element39=99.000000 	element40=23.000000 	element41=-78.000000	element42=-99.000000	element43=-97.000000	element44=-6.000000 	element45=-59.000000	element46=-27.000000	element47=-122.000000	element48=40.000000 	element49=107.000000	element50=7.000000  	element51=-115.000000	element52=0.000000  	element53=-12.000000	element54=41.000000 	element55=57.000000 	element56=30.000000 	element57=-105.000000	element58=-35.000000	element59=-5.000000 	element60=0.000000  	element61=108.000000	element62=-95.000000	element63=60.000000 	element64=22.000000 	element65=19.000000 	element66=27.000000 	element67=1.000000  	element68=-67.000000	element69=21.000000 	element70=100.000000	element71=-44.000000	element72=-57.000000	element73=1.000000  	element74=115.000000	element75=-63.000000	element76=-58.000000	element77=89.000000 	element78=71.000000 	element79=-18.000000	element80=-60.000000	element81=78.000000 	element82=124.000000	element83=-60.000000	element84=67.000000 	element85=-91.000000	element86=-3.000000 	element87=97.000000 	element88=60.000000 	element89=-38.000000	element90=92.000000 	element91=60.000000 	element92=70.000000 	element93=-2.000000 	element94=121.000000	element95=93.000000 	element96=17.000000 	element97=-108.000000	element98=94.000000 	element99=-50.000000	element100=-87.000000	element101=-62.000000	element102=-94.000000	element103=113.000000	element104=-61.000000	element105=21.000000 	element106=50.000000 	element107=-118.000000	element108=110.000000	element109=122.000000	element110=120.000000	element111=51.000000 	element112=-56.000000	element113=-12.000000	element114=-9.000000 	element115=11.000000 	element116=-103.000000	element117=-11.000000	element118=108.000000	element119=-43.000000	element120=-49.000000	element121=-55.000000	element122=18.000000 	element123=22.000000 	element124=-57.000000	element125=-117.000000	element126=115.000000	element127=-40.000000	
+*** stack smashing detected ***: terminated
+/home/lin32/Development/rvv-evaluation/assembly_microbench/ldst_instr/run/run_vector_contiguous.sh: line 11: 905107 Aborted                    "$HOME/bin/ai" "${BUILD_DIR}/${exe}.x"
+vle_vv_16_m1_ta_ma
+init value0=12405.000000	init value1=17323.000000	init value2=8586.000000	init value3=-1033.000000	init value4=-18186.000000	init value5=1921.000000	init value6=-14020.000000	init value7=28957.000000	init value8=28011.000000	init value9=-15337.000000	init value10=9959.000000	init value11=28187.000000	init value12=18020.000000	init value13=25071.000000	init value14=-3217.000000	init value15=32090.000000	init value16=-26249.000000	init value17=-2340.000000	init value18=-5587.000000	init value19=-15709.000000	init value20=-18507.000000	init value21=4041.000000	init value22=11108.000000	init value23=-31276.000000	init value24=-12150.000000	init value25=14705.000000	init value26=-25226.000000	init value27=-21965.000000	init value28=-23331.000000	init value29=8363.000000	init value30=-26764.000000	init value31=-10925.000000	init value32=25687.000000	init value33=-18178.000000	init value34=-11958.000000	init value35=7501.000000	init value36=-16257.000000	init value37=-25978.000000	init value38=-29078.000000	init value39=11754.000000	init value40=24221.000000	init value41=-19119.000000	init value42=-25594.000000	init value43=-23294.000000	init value44=5952.000000	init value45=-28811.000000	init value46=8796.000000	init value47=-20297.000000	init value48=-31150.000000	init value49=3209.000000	init value50=29530.000000	init value51=15879.000000	init value52=7250.000000	init value53=-24898.000000	init value54=-15397.000000	init value55=-4900.000000	init value56=-10193.000000	init value57=24913.000000	init value58=-26864.000000	init value59=32013.000000	init value60=-32259.000000	init value61=11908.000000	init value62=21088.000000	init value63=-6572.000000	
+Check if the v0 register has been written to
+element0=12405.000000	element1=17323.000000	element2=8586.000000	element3=-1033.000000	element4=-18186.000000	element5=1921.000000	element6=-14020.000000	element7=28957.000000	element8=28011.000000	element9=-15337.000000	element10=9959.000000	element11=28187.000000	element12=18020.000000	element13=25071.000000	element14=-3217.000000	element15=32090.000000	element16=-26249.000000	element17=-2340.000000	element18=-5587.000000	element19=-15709.000000	element20=-18507.000000	element21=4041.000000	element22=11108.000000	element23=-31276.000000	element24=-12150.000000	element25=14705.000000	element26=-25226.000000	element27=-21965.000000	element28=-23331.000000	element29=8363.000000	element30=-26764.000000	element31=-10925.000000	element32=25687.000000	element33=-18178.000000	element34=-11958.000000	element35=7501.000000	element36=-16257.000000	element37=-25978.000000	element38=-29078.000000	element39=11754.000000	element40=24221.000000	element41=-19119.000000	element42=-25594.000000	element43=-23294.000000	element44=5952.000000	element45=-28811.000000	element46=8796.000000	element47=-20297.000000	element48=-31150.000000	element49=3209.000000	element50=29530.000000	element51=15879.000000	element52=7250.000000	element53=-24898.000000	element54=-15397.000000	element55=-4900.000000	element56=-10193.000000	element57=24913.000000	element58=-26864.000000	element59=32013.000000	element60=-32259.000000	element61=11908.000000	element62=21088.000000	element63=-6572.000000	
+*** stack smashing detected ***: terminated
+/home/lin32/Development/rvv-evaluation/assembly_microbench/ldst_instr/run/run_vector_contiguous.sh: line 11: 906265 Aborted                    "$HOME/bin/ai" "${BUILD_DIR}/${exe}.x"
+vle_vv_32_m1_ta_ma
+init value0=1502455039.000000	init value1=1955546991.000000	init value2=23929168.000000	init value3=916597955.000000	init value4=228046575.000000	init value5=879586518.000000	init value6=2127801897.000000	init value7=1240064895.000000	init value8=153851116.000000	init value9=229482495.000000	init value10=1831434730.000000	init value11=1950165355.000000	init value12=861309616.000000	init value13=582496247.000000	init value14=1099639395.000000	init value15=519889464.000000	init value16=1036199488.000000	init value17=244565075.000000	init value18=1762458998.000000	init value19=1189495901.000000	init value20=506117304.000000	init value21=761852828.000000	init value22=414362055.000000	init value23=638562249.000000	init value24=1121629737.000000	init value25=1332391002.000000	init value26=1307338590.000000	init value27=1236303544.000000	init value28=1914679890.000000	init value29=846857040.000000	init value30=1890325940.000000	init value31=1269651281.000000	
+Check if the v0 register has been written to
+element0=1502455039.000000	element1=1955546991.000000	element2=23929168.000000	element3=916597955.000000	element4=228046575.000000	element5=879586518.000000	element6=2127801897.000000	element7=1240064895.000000	element8=153851116.000000	element9=229482495.000000	element10=1831434730.000000	element11=1950165355.000000	element12=861309616.000000	element13=582496247.000000	element14=1099639395.000000	element15=519889464.000000	element16=1036199488.000000	element17=244565075.000000	element18=1762458998.000000	element19=1189495901.000000	element20=506117304.000000	element21=761852828.000000	element22=414362055.000000	element23=638562249.000000	element24=1121629737.000000	element25=1332391002.000000	element26=1307338590.000000	element27=1236303544.000000	element28=1914679890.000000	element29=846857040.000000	element30=1890325940.000000	element31=1269651281.000000	
+4( 32(rv64gcv_VLE32.V_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;409600000000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;121.263
+GOps/sec;3.37779
+vle_vv_64_m1_ta_ma
+init value0=121947745.000000	init value1=831500304.000000	init value2=1342899523.000000	init value3=1399727113.000000	init value4=1324724856.000000	init value5=262241817.000000	init value6=353707117.000000	init value7=1647344335.000000	init value8=60547975.000000	init value9=1806026032.000000	init value10=1049105264.000000	init value11=2123959780.000000	init value12=2033357363.000000	init value13=52556616.000000	init value14=1045175109.000000	init value15=738304209.000000	
+Check if the v0 register has been written to
+element0=121947745.000000	element1=831500304.000000	element2=1342899523.000000	element3=1399727113.000000	element4=1324724856.000000	element5=262241817.000000	element6=353707117.000000	element7=1647344335.000000	element8=60547975.000000	element9=1806026032.000000	element10=1049105264.000000	element11=2123959780.000000	element12=2033357363.000000	element13=52556616.000000	element14=1045175109.000000	element15=738304209.000000	
+4( 32(rv64gcv_VLE64.V_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;204800000000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;121.229
+GOps/sec;1.68936
+vse_vv_8_m1_ta_ma
+init value0=55.000000	init value1=59.000000	init value2=-125.000000	init value3=6.000000	init value4=-44.000000	init value5=64.000000	init value6=-8.000000	init value7=-47.000000	init value8=121.000000	init value9=-78.000000	init value10=-45.000000	init value11=-30.000000	init value12=61.000000	init value13=58.000000	init value14=32.000000	init value15=6.000000	init value16=87.000000	init value17=-108.000000	init value18=73.000000	init value19=78.000000	init value20=-56.000000	init value21=120.000000	init value22=78.000000	init value23=-11.000000	init value24=-18.000000	init value25=-57.000000	init value26=-45.000000	init value27=127.000000	init value28=-68.000000	init value29=-82.000000	init value30=110.000000	init value31=-13.000000	init value32=-23.000000	init value33=-14.000000	init value34=-6.000000	init value35=-66.000000	init value36=50.000000	init value37=-14.000000	init value38=-113.000000	init value39=-84.000000	init value40=-91.000000	init value41=98.000000	init value42=-114.000000	init value43=-30.000000	init value44=-100.000000	init value45=-81.000000	init value46=-24.000000	init value47=-12.000000	init value48=67.000000	init value49=49.000000	init value50=66.000000	init value51=12.000000	init value52=-87.000000	init value53=-112.000000	init value54=1.000000	init value55=-105.000000	init value56=87.000000	init value57=-44.000000	init value58=22.000000	init value59=20.000000	init value60=-125.000000	init value61=-123.000000	init value62=7.000000	init value63=108.000000	init value64=119.000000	init value65=1.000000	init value66=42.000000	init value67=-87.000000	init value68=-12.000000	init value69=-71.000000	init value70=85.000000	init value71=-103.000000	init value72=28.000000	init value73=-28.000000	init value74=123.000000	init value75=-72.000000	init value76=-109.000000	init value77=99.000000	init value78=-84.000000	init value79=-42.000000	init value80=-108.000000	init value81=-18.000000	init value82=-30.000000	init value83=61.000000	init value84=127.000000	init value85=-29.000000	init value86=-44.000000	init value87=-42.000000	init value88=-72.000000	init value89=-21.000000	init value90=-22.000000	init value91=59.000000	init value92=112.000000	init value93=-14.000000	init value94=-89.000000	init value95=-25.000000	init value96=-13.000000	init value97=-46.000000	init value98=-112.000000	init value99=-25.000000	init value100=-117.000000	init value101=-26.000000	init value102=-128.000000	init value103=-89.000000	init value104=-54.000000	init value105=-5.000000	init value106=96.000000	init value107=93.000000	init value108=94.000000	init value109=12.000000	init value110=51.000000	init value111=-14.000000	init value112=-5.000000	init value113=22.000000	init value114=47.000000	init value115=122.000000	init value116=-7.000000	init value117=4.000000	init value118=80.000000	init value119=-79.000000	init value120=-17.000000	init value121=59.000000	init value122=-20.000000	init value123=95.000000	init value124=45.000000	init value125=-108.000000	init value126=70.000000	init value127=32.000000	
+Check if the v0 register has been written to
+element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	element8=-1.000000 	element9=-1.000000 	element10=-1.000000 	element11=-1.000000 	element12=-1.000000 	element13=-1.000000 	element14=-1.000000 	element15=-1.000000 	element16=-1.000000 	element17=-1.000000 	element18=-1.000000 	element19=-1.000000 	element20=-1.000000 	element21=-1.000000 	element22=-1.000000 	element23=-1.000000 	element24=-1.000000 	element25=-1.000000 	element26=-1.000000 	element27=-1.000000 	element28=-1.000000 	element29=-1.000000 	element30=-1.000000 	element31=-1.000000 	element32=-1.000000 	element33=-1.000000 	element34=-1.000000 	element35=-1.000000 	element36=-1.000000 	element37=-1.000000 	element38=-1.000000 	element39=-1.000000 	element40=-1.000000 	element41=-1.000000 	element42=-1.000000 	element43=-1.000000 	element44=-1.000000 	element45=-1.000000 	element46=-1.000000 	element47=-1.000000 	element48=-1.000000 	element49=-1.000000 	element50=-1.000000 	element51=-1.000000 	element52=-1.000000 	element53=-1.000000 	element54=-1.000000 	element55=-1.000000 	element56=-1.000000 	element57=-1.000000 	element58=-1.000000 	element59=-1.000000 	element60=-1.000000 	element61=-1.000000 	element62=-1.000000 	element63=-1.000000 	element64=-1.000000 	element65=-1.000000 	element66=-1.000000 	element67=-1.000000 	element68=-1.000000 	element69=-1.000000 	element70=-1.000000 	element71=-1.000000 	element72=-1.000000 	element73=-1.000000 	element74=-1.000000 	element75=-1.000000 	element76=-1.000000 	element77=-1.000000 	element78=-1.000000 	element79=-1.000000 	element80=-1.000000 	element81=-1.000000 	element82=-1.000000 	element83=-1.000000 	element84=-1.000000 	element85=-1.000000 	element86=-1.000000 	element87=-1.000000 	element88=-1.000000 	element89=-1.000000 	element90=-1.000000 	element91=-1.000000 	element92=-1.000000 	element93=-1.000000 	element94=-1.000000 	element95=-1.000000 	element96=-1.000000 	element97=-1.000000 	element98=-1.000000 	element99=-1.000000 	element100=-1.000000 	element101=-1.000000 	element102=-1.000000 	element103=-1.000000 	element104=-1.000000 	element105=-1.000000 	element106=-1.000000 	element107=-1.000000 	element108=-1.000000 	element109=-1.000000 	element110=-1.000000 	element111=-1.000000 	element112=-1.000000 	element113=-1.000000 	element114=-1.000000 	element115=-1.000000 	element116=-1.000000 	element117=-1.000000 	element118=-1.000000 	element119=-1.000000 	element120=-1.000000 	element121=-1.000000 	element122=-1.000000 	element123=-1.000000 	element124=-1.000000 	element125=-1.000000 	element126=-1.000000 	element127=-1.000000 	
+*** stack smashing detected ***: terminated
+/home/lin32/Development/rvv-evaluation/assembly_microbench/ldst_instr/run/run_vector_contiguous.sh: line 11: 909725 Aborted                    "$HOME/bin/ai" "${BUILD_DIR}/${exe}.x"
+vse_vv_16_m1_ta_ma
+init value0=-29656.000000	init value1=29226.000000	init value2=-20014.000000	init value3=-18009.000000	init value4=3354.000000	init value5=14686.000000	init value6=6065.000000	init value7=-7440.000000	init value8=14167.000000	init value9=22851.000000	init value10=-32502.000000	init value11=-9010.000000	init value12=-23529.000000	init value13=7181.000000	init value14=-32345.000000	init value15=993.000000	init value16=-29929.000000	init value17=14901.000000	init value18=13859.000000	init value19=-27110.000000	init value20=-15487.000000	init value21=-27637.000000	init value22=-14490.000000	init value23=31622.000000	init value24=-16472.000000	init value25=10309.000000	init value26=15463.000000	init value27=16218.000000	init value28=6400.000000	init value29=28190.000000	init value30=8883.000000	init value31=-23255.000000	init value32=-8120.000000	init value33=-11131.000000	init value34=24272.000000	init value35=-4765.000000	init value36=3556.000000	init value37=30337.000000	init value38=-12205.000000	init value39=17723.000000	init value40=-12348.000000	init value41=20829.000000	init value42=8713.000000	init value43=29659.000000	init value44=28010.000000	init value45=-23632.000000	init value46=30652.000000	init value47=-1919.000000	init value48=-8730.000000	init value49=-21025.000000	init value50=-29029.000000	init value51=-24217.000000	init value52=16875.000000	init value53=22017.000000	init value54=7405.000000	init value55=403.000000	init value56=32327.000000	init value57=22869.000000	init value58=16621.000000	init value59=-26809.000000	init value60=-14477.000000	init value61=25504.000000	init value62=15472.000000	init value63=-22597.000000	
+Check if the v0 register has been written to
+element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	element8=-1.000000 	element9=-1.000000 	element10=-1.000000 	element11=-1.000000 	element12=-1.000000 	element13=-1.000000 	element14=-1.000000 	element15=-1.000000 	element16=-1.000000 	element17=-1.000000 	element18=-1.000000 	element19=-1.000000 	element20=-1.000000 	element21=-1.000000 	element22=-1.000000 	element23=-1.000000 	element24=-1.000000 	element25=-1.000000 	element26=-1.000000 	element27=-1.000000 	element28=-1.000000 	element29=-1.000000 	element30=-1.000000 	element31=-1.000000 	element32=-1.000000 	element33=-1.000000 	element34=-1.000000 	element35=-1.000000 	element36=-1.000000 	element37=-1.000000 	element38=-1.000000 	element39=-1.000000 	element40=-1.000000 	element41=-1.000000 	element42=-1.000000 	element43=-1.000000 	element44=-1.000000 	element45=-1.000000 	element46=-1.000000 	element47=-1.000000 	element48=-1.000000 	element49=-1.000000 	element50=-1.000000 	element51=-1.000000 	element52=-1.000000 	element53=-1.000000 	element54=-1.000000 	element55=-1.000000 	element56=-1.000000 	element57=-1.000000 	element58=-1.000000 	element59=-1.000000 	element60=-1.000000 	element61=-1.000000 	element62=-1.000000 	element63=-1.000000 	
+*** stack smashing detected ***: terminated
+/home/lin32/Development/rvv-evaluation/assembly_microbench/ldst_instr/run/run_vector_contiguous.sh: line 11: 929187 Aborted                    "$HOME/bin/ai" "${BUILD_DIR}/${exe}.x"
+vse_vv_32_m1_ta_ma
+init value0=781242087.000000	init value1=1919597480.000000	init value2=616545718.000000	init value3=505739392.000000	init value4=71135481.000000	init value5=386661173.000000	init value6=1728869273.000000	init value7=1535765585.000000	init value8=884913567.000000	init value9=1457090770.000000	init value10=1332474327.000000	init value11=1582489659.000000	init value12=1069240383.000000	init value13=1538812207.000000	init value14=86423951.000000	init value15=1515168223.000000	init value16=1733345871.000000	init value17=1418255158.000000	init value18=146935301.000000	init value19=1626197208.000000	init value20=266126902.000000	init value21=185029340.000000	init value22=605069868.000000	init value23=729002204.000000	init value24=330510721.000000	init value25=442141169.000000	init value26=1670791813.000000	init value27=2010582022.000000	init value28=250943322.000000	init value29=534560888.000000	init value30=1523016936.000000	init value31=1032185409.000000	
+Check if the v0 register has been written to
+element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	element8=-1.000000 	element9=-1.000000 	element10=-1.000000 	element11=-1.000000 	element12=-1.000000 	element13=-1.000000 	element14=-1.000000 	element15=-1.000000 	element16=-1.000000 	element17=-1.000000 	element18=-1.000000 	element19=-1.000000 	element20=-1.000000 	element21=-1.000000 	element22=-1.000000 	element23=-1.000000 	element24=-1.000000 	element25=-1.000000 	element26=-1.000000 	element27=-1.000000 	element28=-1.000000 	element29=-1.000000 	element30=-1.000000 	element31=-1.000000 	
+4( 32(rv64gcv_VSE32.V_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;409600000000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;2098.05
+GOps/sec;0.195229
+vse_vv_64_m1_ta_ma
+init value0=1613890012.000000	init value1=1146080963.000000	init value2=535409205.000000	init value3=1784131655.000000	init value4=1361462555.000000	init value5=2100980611.000000	init value6=1582455516.000000	init value7=1474137281.000000	init value8=1832009309.000000	init value9=1797863039.000000	init value10=2147036655.000000	init value11=2002236615.000000	init value12=2093763471.000000	init value13=1865616299.000000	init value14=1029792807.000000	init value15=1223363101.000000	
+Check if the v0 register has been written to
+element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	element8=-1.000000 	element9=-1.000000 	element10=-1.000000 	element11=-1.000000 	element12=-1.000000 	element13=-1.000000 	element14=-1.000000 	element15=-1.000000 	
+4( 32(rv64gcv_VSE64.V_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;204800000000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;2086.97
+GOps/sec;0.0981327
+
+Script done on 2026-08-14 16:28:36-07:00 [COMMAND_EXIT_CODE="0"]

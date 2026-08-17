@@ -1,0 +1,4 @@
+Script started on 2026-08-14 16:28:36-07:00 [COMMAND="/home/lin32/Development/rvv-evaluation/assembly_microbench/ldst_instr/run/run_vector_mask.sh" TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="154" LINES="46"]
+bash: line 1: /home/lin32/Development/rvv-evaluation/assembly_microbench/ldst_instr/run/run_vector_mask.sh: Permission denied
+
+Script done on 2026-08-14 16:28:36-07:00 [COMMAND_EXIT_CODE="126"]

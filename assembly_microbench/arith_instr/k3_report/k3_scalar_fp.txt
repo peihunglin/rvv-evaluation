@@ -1,0 +1,487 @@
+Script started on 2026-08-14 09:32:11-07:00 [COMMAND="/home/lin32/Development/rvv-evaluation/assembly_microbench/arith_instr/run/run_scalar_fp.sh" TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="154" LINES="46"]
+== build/x100-clang24 ==
+fadd_16_m1_ta_ma
+init value0=0.675293	
+4( 32(rv64gc_FADD.H_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.91422
+GOps/sec;4.39226
+fadd_32_m1_ta_ma
+init value0=6.404382	
+4( 32(rv64gc_FADD.S_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.91395
+GOps/sec;4.39267
+fadd_64_m1_ta_ma
+init value0=2.157357	
+4( 32(rv64gc_FADD.D_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.9141
+GOps/sec;4.39243
+fmul_16_m1_ta_ma
+init value0=2.960938	
+4( 32(rv64gc_FMUL.H_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.91422
+GOps/sec;4.39226
+fmul_32_m1_ta_ma
+init value0=8.688919	
+4( 32(rv64gc_FMUL.S_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.91448
+GOps/sec;4.39187
+fmul_64_m1_ta_ma
+init value0=9.410704	
+4( 32(rv64gc_FMUL.D_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.92023
+GOps/sec;4.38321
+fmadd_16_m1_ta_ma
+init value0=5.117188	
+4( 32(rv64gc_FMADD.H_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.91405
+GOps/sec;4.3925
+fmadd_32_m1_ta_ma
+init value0=0.955873	
+4( 32(rv64gc_FMADD.S_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.9143
+GOps/sec;4.39213
+fmadd_64_m1_ta_ma
+init value0=1.714554	
+4( 32(rv64gc_FMADD.D_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.91463
+GOps/sec;4.39163
+fdiv_16_m1_ta_ma
+init value0=7.460938	
+4( 32(rv64gc_FDIV.H_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;29.1413
+GOps/sec;0.43924
+fdiv_32_m1_ta_ma
+init value0=1.361135	
+4( 32(rv64gc_FDIV.S_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;29.1691
+GOps/sec;0.438821
+fdiv_64_m1_ta_ma
+init value0=5.323962	
+4( 32(rv64gc_FDIV.D_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;29.1508
+GOps/sec;0.439096
+== build/x100-gcc15 ==
+fadd_16_m1_ta_ma
+init value0=4.199219	
+4( 32(rv64gc_FADD.H_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.91383
+GOps/sec;4.39284
+fadd_32_m1_ta_ma
+init value0=0.003529	
+4( 32(rv64gc_FADD.S_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.91432
+GOps/sec;4.3921
+fadd_64_m1_ta_ma
+init value0=5.712911	
+4( 32(rv64gc_FADD.D_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.91422
+GOps/sec;4.39225
+fmul_16_m1_ta_ma
+init value0=6.445312	
+4( 32(rv64gc_FMUL.H_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.91417
+GOps/sec;4.39233
+fmul_32_m1_ta_ma
+init value0=2.219799	
+4( 32(rv64gc_FMUL.S_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.91426
+GOps/sec;4.3922
+fmul_64_m1_ta_ma
+init value0=8.012659	
+4( 32(rv64gc_FMUL.D_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.91426
+GOps/sec;4.3922
+fmadd_16_m1_ta_ma
+init value0=5.164062	
+4( 32(rv64gc_FMADD.H_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.91419
+GOps/sec;4.39231
+fmadd_32_m1_ta_ma
+init value0=0.956416	
+4( 32(rv64gc_FMADD.S_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.91417
+GOps/sec;4.39233
+fmadd_64_m1_ta_ma
+init value0=1.626634	
+4( 32(rv64gc_FMADD.D_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;2.91433
+GOps/sec;4.39208
+fdiv_16_m1_ta_ma
+init value0=2.423828	
+4( 32(rv64gc_FDIV.H_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;29.1415
+GOps/sec;0.439237
+fdiv_32_m1_ta_ma
+init value0=1.310749	
+4( 32(rv64gc_FDIV.S_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;29.1412
+GOps/sec;0.43924
+fdiv_64_m1_ta_ma
+init value0=3.840317	
+4( 32(rv64gc_FDIV.D_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;29.1409
+GOps/sec;0.439245
+== build/a100-clang24 ==
+fadd_16_m1_ta_ma
+init value0=2.785156	
+4( 32(rv64gc_FADD.H_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.17679
+GOps/sec;3.06456
+fadd_32_m1_ta_ma
+init value0=2.087910	
+4( 32(rv64gc_FADD.S_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.12236
+GOps/sec;3.10502
+fadd_64_m1_ta_ma
+init value0=6.459352	
+4( 32(rv64gc_FADD.D_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.17805
+GOps/sec;3.06363
+fmul_16_m1_ta_ma
+init value0=5.812500	
+4( 32(rv64gc_FMUL.H_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.17788
+GOps/sec;3.06375
+fmul_32_m1_ta_ma
+init value0=5.115631	
+4( 32(rv64gc_FMUL.S_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.12249
+GOps/sec;3.10492
+fmul_64_m1_ta_ma
+init value0=3.046525	
+4( 32(rv64gc_FMUL.D_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.1223
+GOps/sec;3.10506
+fmadd_16_m1_ta_ma
+init value0=2.390625	
+4( 32(rv64gc_FMADD.H_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.17821
+GOps/sec;3.06352
+fmadd_32_m1_ta_ma
+init value0=6.704686	
+4( 32(rv64gc_FMADD.S_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.17809
+GOps/sec;3.0636
+fmadd_64_m1_ta_ma
+init value0=1.051221	
+4( 32(rv64gc_FMADD.D_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.17835
+GOps/sec;3.06341
+fdiv_16_m1_ta_ma
+init value0=5.386719	
+4( 32(rv64gc_FDIV.H_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;42.7804
+GOps/sec;0.299203
+fdiv_32_m1_ta_ma
+init value0=4.483420	
+4( 32(rv64gc_FDIV.S_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;42.78
+GOps/sec;0.299205
+fdiv_64_m1_ta_ma
+init value0=3.612133	
+4( 32(rv64gc_FDIV.D_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;42.7792
+GOps/sec;0.299211
+== build/a100-gcc15 ==
+fadd_16_m1_ta_ma
+init value0=7.671875	
+4( 32(rv64gc_FADD.H_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.12259
+GOps/sec;3.10484
+fadd_32_m1_ta_ma
+init value0=2.077164	
+4( 32(rv64gc_FADD.S_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.12257
+GOps/sec;3.10486
+fadd_64_m1_ta_ma
+init value0=1.341356	
+4( 32(rv64gc_FADD.D_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.17791
+GOps/sec;3.06374
+fmul_16_m1_ta_ma
+init value0=0.725586	
+4( 32(rv64gc_FMUL.H_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.17813
+GOps/sec;3.06357
+fmul_32_m1_ta_ma
+init value0=5.060787	
+4( 32(rv64gc_FMUL.S_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.17797
+GOps/sec;3.06369
+fmul_64_m1_ta_ma
+init value0=9.370758	
+4( 32(rv64gc_FMUL.D_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.17826
+GOps/sec;3.06348
+fmadd_16_m1_ta_ma
+init value0=7.292969	
+4( 32(rv64gc_FMADD.H_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.12263
+GOps/sec;3.10482
+fmadd_32_m1_ta_ma
+init value0=6.659713	
+4( 32(rv64gc_FMADD.S_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.12266
+GOps/sec;3.10479
+fmadd_64_m1_ta_ma
+init value0=0.944310	
+4( 32(rv64gc_FMADD.D_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;4.17855
+GOps/sec;3.06326
+fdiv_16_m1_ta_ma
+init value0=0.280273	
+4( 32(rv64gc_FDIV.H_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;42.7818
+GOps/sec;0.299193
+fdiv_32_m1_ta_ma
+init value0=9.389343	
+4( 32(rv64gc_FDIV.S_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;42.7841
+GOps/sec;0.299177
+fdiv_64_m1_ta_ma
+init value0=8.502509	
+4( 32(rv64gc_FDIV.D_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;12800000000
+Inst/Iter;128
+Ops/Iter;128
+Seconds;42.7806
+GOps/sec;0.299201
+
+Script done on 2026-08-14 09:41:31-07:00 [COMMAND_EXIT_CODE="0"]

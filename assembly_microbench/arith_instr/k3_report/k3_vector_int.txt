@@ -1,0 +1,903 @@
+Script started on 2026-08-14 09:41:31-07:00 [COMMAND="/home/lin32/Development/rvv-evaluation/assembly_microbench/arith_instr/run/run_vector_int.sh" TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="154" LINES="46"]
+== build/x100-clang24 ==
+vadd_vv_8_m1_ta_ma
+The active vector length of RVV is 32
+init value0=-60.000000	init value1=-121.000000	init value2=25.000000	init value3=45.000000	init value4=86.000000	init value5=-23.000000	init value6=-90.000000	init value7=117.000000	init value8=11.000000	init value9=-105.000000	init value10=-14.000000	init value11=-4.000000	init value12=107.000000	init value13=-107.000000	init value14=-54.000000	init value15=96.000000	init value16=109.000000	init value17=-77.000000	init value18=26.000000	init value19=37.000000	init value20=-80.000000	init value21=-67.000000	init value22=-105.000000	init value23=-101.000000	init value24=94.000000	init value25=32.000000	init value26=93.000000	init value27=-90.000000	init value28=107.000000	init value29=83.000000	init value30=-110.000000	init value31=47.000000	
+Check if the v0 register has been written to
+element0=-60.000000	element1=-121.000000	element2=25.000000 	element3=45.000000 	element4=0.000000  	element5=0.000000  	element6=0.000000  	element7=0.000000  	element8=2.000000  	element9=41.000000 	element10=1.000000  	element11=0.000000  	element12=0.000000  	element13=0.000000  	element14=0.000000  	element15=0.000000  	element16=0.000000  	element17=-70.000000	element18=-6.000000 	element19=24.000000 	element20=18.000000 	element21=51.000000 	element22=100.000000	element23=121.000000	element24=-14.000000	element25=-87.000000	element26=12.000000 	element27=0.000000  	element28=0.000000  	element29=0.000000  	element30=0.000000  	element31=0.000000  	
+The active vector length of RVV is 32
+4( 32(rv64gcv_VADD.VV_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;409600000000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;5.82845
+GOps/sec;70.276
+vadd_vv_16_m1_ta_ma
+The active vector length of RVV is 16
+init value0=-8458.000000	init value1=25222.000000	init value2=-16298.000000	init value3=-8135.000000	init value4=-3132.000000	init value5=-32343.000000	init value6=7686.000000	init value7=16170.000000	init value8=10771.000000	init value9=13162.000000	init value10=31096.000000	init value11=15545.000000	init value12=25307.000000	init value13=-9192.000000	init value14=23118.000000	init value15=-10990.000000	
+Check if the v0 register has been written to
+element0=-8458.000000	element1=25222.000000	element2=-16298.000000	element3=-8135.000000	element4=-5344.000000	element5=-6401.000000	element6=63.000000 	element7=0.000000  	element8=-30984.000000	element9=23.000000 	element10=0.000000  	element11=0.000000  	element12=-5248.000000	element13=-6401.000000	element14=63.000000 	element15=0.000000  	
+The active vector length of RVV is 16
+4( 32(rv64gcv_VADD.VV_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;204800000000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;5.83024
+GOps/sec;35.1272
+vadd_vv_32_m1_ta_ma
+The active vector length of RVV is 8
+init value0=1498137021.000000	init value1=1680238070.000000	init value2=1115330301.000000	init value3=1641402634.000000	init value4=130350537.000000	init value5=1320019614.000000	init value6=448819945.000000	init value7=348925902.000000	
+Check if the v0 register has been written to
+element0=1498137021.000000	element1=1680238070.000000	element2=1115330301.000000	element3=1641402634.000000	element4=-1.000000 	element5=-1.000000 	element6=1532336.000000	element7=0.000000  	
+The active vector length of RVV is 8
+4( 32(rv64gcv_VADD.VV_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;102400000000
+Inst/Iter;128
+Ops/Iter;1024
+Seconds;5.82764
+GOps/sec;17.5714
+vadd_vv_64_m1_ta_ma
+The active vector length of RVV is 4
+init value0=1834283511.000000	init value1=572958391.000000	init value2=730822370.000000	init value3=1486749390.000000	
+Check if the v0 register has been written to
+element0=1834283511.000000	element1=572958391.000000	element2=730822370.000000	element3=1486749390.000000	
+The active vector length of RVV is 4
+4( 32(rv64gcv_VADD.VV_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;51200000000
+Inst/Iter;128
+Ops/Iter;512
+Seconds;5.82805
+GOps/sec;8.7851
+vmul_vv_8_m1_ta_ma
+The active vector length of RVV is 32
+init value0=-65.000000	init value1=-96.000000	init value2=3.000000	init value3=-53.000000	init value4=115.000000	init value5=-102.000000	init value6=-9.000000	init value7=38.000000	init value8=-21.000000	init value9=-128.000000	init value10=-21.000000	init value11=125.000000	init value12=-3.000000	init value13=117.000000	init value14=39.000000	init value15=-78.000000	init value16=52.000000	init value17=83.000000	init value18=43.000000	init value19=-49.000000	init value20=-89.000000	init value21=-36.000000	init value22=-90.000000	init value23=-69.000000	init value24=16.000000	init value25=104.000000	init value26=101.000000	init value27=110.000000	init value28=-115.000000	init value29=-11.000000	init value30=-31.000000	init value31=76.000000	
+Check if the v0 register has been written to
+element0=-65.000000	element1=-96.000000	element2=3.000000  	element3=-53.000000	element4=0.000000  	element5=0.000000  	element6=0.000000  	element7=0.000000  	element8=2.000000  	element9=41.000000 	element10=1.000000  	element11=0.000000  	element12=0.000000  	element13=0.000000  	element14=0.000000  	element15=0.000000  	element16=0.000000  	element17=31.000000 	element18=42.000000 	element19=76.000000 	element20=-6.000000 	element21=123.000000	element22=37.000000 	element23=-104.000000	element24=-14.000000	element25=-87.000000	element26=12.000000 	element27=0.000000  	element28=0.000000  	element29=0.000000  	element30=0.000000  	element31=0.000000  	
+The active vector length of RVV is 32
+4( 32(rv64gcv_VMUL.VV_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;409600000000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;23.3432
+GOps/sec;17.5469
+vmul_vv_16_m1_ta_ma
+The active vector length of RVV is 16
+init value0=-6903.000000	init value1=2138.000000	init value2=-20049.000000	init value3=-27294.000000	init value4=-5342.000000	init value5=-15819.000000	init value6=25329.000000	init value7=-9964.000000	init value8=-700.000000	init value9=-25054.000000	init value10=-23407.000000	init value11=32006.000000	init value12=-377.000000	init value13=-32092.000000	init value14=-18365.000000	init value15=-31046.000000	
+Check if the v0 register has been written to
+element0=-6903.000000	element1=2138.000000	element2=-20049.000000	element3=-27294.000000	element4=27888.000000	element5=-9386.000000	element6=63.000000 	element7=0.000000  	element8=-30984.000000	element9=23.000000 	element10=0.000000  	element11=0.000000  	element12=27984.000000	element13=-9386.000000	element14=63.000000 	element15=0.000000  	
+The active vector length of RVV is 16
+4( 32(rv64gcv_VMUL.VV_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;204800000000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;23.334
+GOps/sec;8.77691
+vmul_vv_32_m1_ta_ma
+The active vector length of RVV is 8
+init value0=1815256174.000000	init value1=338209637.000000	init value2=812270006.000000	init value3=1405548477.000000	init value4=371029615.000000	init value5=1388430812.000000	init value6=1103007435.000000	init value7=1233115296.000000	
+Check if the v0 register has been written to
+element0=1815256174.000000	element1=338209637.000000	element2=812270006.000000	element3=1405548477.000000	element4=-1.000000 	element5=-1.000000 	element6=1532336.000000	element7=0.000000  	
+The active vector length of RVV is 8
+4( 32(rv64gcv_VMUL.VV_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;102400000000
+Inst/Iter;128
+Ops/Iter;1024
+Seconds;23.3239
+GOps/sec;4.39034
+vmul_vv_64_m1_ta_ma
+The active vector length of RVV is 4
+init value0=1262070928.000000	init value1=1414978216.000000	init value2=727973486.000000	init value3=35514224.000000	
+Check if the v0 register has been written to
+element0=1262070928.000000	element1=1414978216.000000	element2=727973486.000000	element3=35514224.000000	
+The active vector length of RVV is 4
+4( 32(rv64gcv_VMUL.VV_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;51200000000
+Inst/Iter;128
+Ops/Iter;512
+Seconds;23.3174
+GOps/sec;2.19579
+vdiv_vv_8_m1_ta_ma
+The active vector length of RVV is 32
+init value0=118.000000	init value1=25.000000	init value2=-93.000000	init value3=-34.000000	init value4=21.000000	init value5=-86.000000	init value6=124.000000	init value7=0.000000	init value8=-39.000000	init value9=-68.000000	init value10=6.000000	init value11=73.000000	init value12=-38.000000	init value13=10.000000	init value14=-14.000000	init value15=-5.000000	init value16=101.000000	init value17=19.000000	init value18=113.000000	init value19=-50.000000	init value20=-95.000000	init value21=-60.000000	init value22=35.000000	init value23=-59.000000	init value24=-61.000000	init value25=28.000000	init value26=-23.000000	init value27=-106.000000	init value28=117.000000	init value29=104.000000	init value30=-58.000000	init value31=-21.000000	
+Check if the v0 register has been written to
+element0=118.000000	element1=25.000000 	element2=-93.000000	element3=-34.000000	element4=0.000000  	element5=0.000000  	element6=0.000000  	element7=0.000000  	element8=2.000000  	element9=41.000000 	element10=1.000000  	element11=0.000000  	element12=0.000000  	element13=0.000000  	element14=0.000000  	element15=0.000000  	element16=0.000000  	element17=113.000000	element18=125.000000	element19=55.000000 	element20=-17.000000	element21=-86.000000	element22=85.000000 	element23=12.000000 	element24=-14.000000	element25=-87.000000	element26=12.000000 	element27=0.000000  	element28=0.000000  	element29=0.000000  	element30=0.000000  	element31=0.000000  	
+The active vector length of RVV is 32
+4( 32(rv64gcv_VDIV.VV_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;409600000000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;116.576
+GOps/sec;3.51358
+vdiv_vv_16_m1_ta_ma
+The active vector length of RVV is 16
+init value0=-1315.000000	init value1=23859.000000	init value2=32327.000000	init value3=31708.000000	init value4=31806.000000	init value5=-4777.000000	init value6=-5904.000000	init value7=8288.000000	init value8=-17594.000000	init value9=-12625.000000	init value10=-21291.000000	init value11=23331.000000	init value12=40.000000	init value13=-28467.000000	init value14=1636.000000	init value15=-27543.000000	
+Check if the v0 register has been written to
+element0=-1315.000000	element1=23859.000000	element2=32327.000000	element3=31708.000000	element4=24416.000000	element5=-3327.000000	element6=63.000000 	element7=0.000000  	element8=-30984.000000	element9=23.000000 	element10=0.000000  	element11=0.000000  	element12=24512.000000	element13=-3327.000000	element14=63.000000 	element15=0.000000  	
+The active vector length of RVV is 16
+4( 32(rv64gcv_VDIV.VV_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;204800000000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;116.596
+GOps/sec;1.7565
+vdiv_vv_32_m1_ta_ma
+The active vector length of RVV is 8
+init value0=718631087.000000	init value1=876536880.000000	init value2=1762853401.000000	init value3=2075493188.000000	init value4=1652846054.000000	init value5=561135900.000000	init value6=517040353.000000	init value7=835806828.000000	
+Check if the v0 register has been written to
+element0=718631087.000000	element1=876536880.000000	element2=1762853401.000000	element3=2075493188.000000	element4=-1.000000 	element5=-1.000000 	element6=1532336.000000	element7=0.000000  	
+The active vector length of RVV is 8
+4( 32(rv64gcv_VDIV.VV_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;102400000000
+Inst/Iter;128
+Ops/Iter;1024
+Seconds;116.573
+GOps/sec;0.878423
+vdiv_vv_64_m1_ta_ma
+The active vector length of RVV is 4
+init value0=1640001526.000000	init value1=1580130701.000000	init value2=1560428574.000000	init value3=896182691.000000	
+Check if the v0 register has been written to
+element0=1640001526.000000	element1=1580130701.000000	element2=1560428574.000000	element3=896182691.000000	
+The active vector length of RVV is 4
+4( 32(rv64gcv_VDIV.VV_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;51200000000
+Inst/Iter;128
+Ops/Iter;512
+Seconds;116.693
+GOps/sec;0.438759
+vmacc_vv_8_m1_ta_ma
+The active vector length of RVV is 32
+init value0=3.000000	init value1=-47.000000	init value2=27.000000	init value3=38.000000	init value4=45.000000	init value5=-104.000000	init value6=-118.000000	init value7=-56.000000	init value8=16.000000	init value9=109.000000	init value10=-38.000000	init value11=126.000000	init value12=-12.000000	init value13=-32.000000	init value14=1.000000	init value15=-122.000000	init value16=80.000000	init value17=-123.000000	init value18=-38.000000	init value19=48.000000	init value20=117.000000	init value21=11.000000	init value22=39.000000	init value23=25.000000	init value24=-103.000000	init value25=-40.000000	init value26=117.000000	init value27=-6.000000	init value28=103.000000	init value29=-16.000000	init value30=-36.000000	init value31=107.000000	
+Check if the v0 register has been written to
+element0=3.000000  	element1=-47.000000	element2=27.000000 	element3=38.000000 	element4=0.000000  	element5=0.000000  	element6=0.000000  	element7=0.000000  	element8=2.000000  	element9=41.000000 	element10=1.000000  	element11=0.000000  	element12=0.000000  	element13=0.000000  	element14=0.000000  	element15=0.000000  	element16=0.000000  	element17=52.000000 	element18=82.000000 	element19=55.000000 	element20=70.000000 	element21=-28.000000	element22=-107.000000	element23=-113.000000	element24=-14.000000	element25=-87.000000	element26=12.000000 	element27=0.000000  	element28=0.000000  	element29=0.000000  	element30=0.000000  	element31=0.000000  	
+The active vector length of RVV is 32
+4( 32(rv64gcv_VMACC.VV_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;409600000000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;23.3123
+GOps/sec;17.5701
+vmacc_vv_16_m1_ta_ma
+The active vector length of RVV is 16
+init value0=28608.000000	init value1=28006.000000	init value2=582.000000	init value3=-32012.000000	init value4=22075.000000	init value5=-11940.000000	init value6=2371.000000	init value7=-13753.000000	init value8=-6926.000000	init value9=-11585.000000	init value10=30748.000000	init value11=24078.000000	init value12=-19250.000000	init value13=2294.000000	init value14=32207.000000	init value15=-21421.000000	
+Check if the v0 register has been written to
+element0=28608.000000	element1=28006.000000	element2=582.000000	element3=-32012.000000	element4=-22928.000000	element5=-8651.000000	element6=63.000000 	element7=0.000000  	element8=-30984.000000	element9=23.000000 	element10=0.000000  	element11=0.000000  	element12=-22832.000000	element13=-8651.000000	element14=63.000000 	element15=0.000000  	
+The active vector length of RVV is 16
+4( 32(rv64gcv_VMACC.VV_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;204800000000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;23.3129
+GOps/sec;8.78484
+vmacc_vv_32_m1_ta_ma
+The active vector length of RVV is 8
+init value0=396661522.000000	init value1=155178310.000000	init value2=136907886.000000	init value3=217052117.000000	init value4=1721024820.000000	init value5=1275343733.000000	init value6=712006446.000000	init value7=1075195276.000000	
+Check if the v0 register has been written to
+element0=396661522.000000	element1=155178310.000000	element2=136907886.000000	element3=217052117.000000	element4=-1.000000 	element5=-1.000000 	element6=1532336.000000	element7=0.000000  	
+The active vector length of RVV is 8
+4( 32(rv64gcv_VMACC.VV_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;102400000000
+Inst/Iter;128
+Ops/Iter;1024
+Seconds;23.3125
+GOps/sec;4.39249
+vmacc_vv_64_m1_ta_ma
+The active vector length of RVV is 4
+init value0=1674358463.000000	init value1=2105211170.000000	init value2=1765230282.000000	init value3=1667372057.000000	
+Check if the v0 register has been written to
+element0=1674358463.000000	element1=2105211170.000000	element2=1765230282.000000	element3=1667372057.000000	
+The active vector length of RVV is 4
+4( 32(rv64gcv_VMACC.VV_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;51200000000
+Inst/Iter;128
+Ops/Iter;512
+Seconds;23.3123
+GOps/sec;2.19627
+== build/x100-gcc15 ==
+vadd_vv_8_m1_ta_ma
+The active vector length of RVV is 32
+init value0=-108.000000	init value1=-93.000000	init value2=24.000000	init value3=-70.000000	init value4=124.000000	init value5=58.000000	init value6=-48.000000	init value7=-9.000000	init value8=-52.000000	init value9=127.000000	init value10=-82.000000	init value11=43.000000	init value12=110.000000	init value13=-107.000000	init value14=-126.000000	init value15=-106.000000	init value16=7.000000	init value17=87.000000	init value18=-4.000000	init value19=-34.000000	init value20=3.000000	init value21=-39.000000	init value22=-82.000000	init value23=10.000000	init value24=-15.000000	init value25=126.000000	init value26=7.000000	init value27=41.000000	init value28=37.000000	init value29=-29.000000	init value30=-65.000000	init value31=-71.000000	
+Check if the v0 register has been written to
+element0=-108.000000	element1=-93.000000	element2=24.000000 	element3=-70.000000	element4=-27.000000	element5=10.000000 	element6=105.000000	element7=-112.000000	element8=-80.000000	element9=72.000000 	element10=-78.000000	element11=-16.000000	element12=63.000000 	element13=0.000000  	element14=0.000000  	element15=0.000000  	element16=108.000000	element17=45.000000 	element18=8.000000  	element19=0.000000  	element20=0.000000  	element21=0.000000  	element22=0.000000  	element23=0.000000  	element24=-96.000000	element25=71.000000 	element26=-78.000000	element27=-16.000000	element28=63.000000 	element29=0.000000  	element30=0.000000  	element31=0.000000  	
+The active vector length of RVV is 32
+4( 32(rv64gcv_VADD.VV_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;409600000000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;5.82914
+GOps/sec;70.2676
+vadd_vv_16_m1_ta_ma
+The active vector length of RVV is 16
+init value0=19120.000000	init value1=17203.000000	init value2=-30476.000000	init value3=-17255.000000	init value4=26049.000000	init value5=-5101.000000	init value6=18933.000000	init value7=1072.000000	init value8=2313.000000	init value9=24508.000000	init value10=-2802.000000	init value11=-7103.000000	init value12=14569.000000	init value13=-26910.000000	init value14=-5014.000000	init value15=-27024.000000	
+Check if the v0 register has been written to
+element0=19120.000000	element1=17203.000000	element2=-30476.000000	element3=-17255.000000	element4=-20858.000000	element5=12.000000 	element6=0.000000  	element7=0.000000  	element8=23196.000000	element9=23.000000 	element10=0.000000  	element11=0.000000  	element12=1.000000  	element13=0.000000  	element14=0.000000  	element15=0.000000  	
+The active vector length of RVV is 16
+4( 32(rv64gcv_VADD.VV_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;204800000000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;5.82876
+GOps/sec;35.1361
+vadd_vv_32_m1_ta_ma
+The active vector length of RVV is 8
+init value0=1772259808.000000	init value1=941356181.000000	init value2=891705354.000000	init value3=1037102534.000000	init value4=864928746.000000	init value5=250693956.000000	init value6=271574045.000000	init value7=858198116.000000	
+Check if the v0 register has been written to
+element0=1772259808.000000	element1=941356181.000000	element2=891705354.000000	element3=1037102534.000000	element4=1530528.000000	element5=0.000000  	element6=-865374608.000000	element7=63.000000 	
+The active vector length of RVV is 8
+4( 32(rv64gcv_VADD.VV_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;102400000000
+Inst/Iter;128
+Ops/Iter;1024
+Seconds;5.82834
+GOps/sec;17.5693
+vadd_vv_64_m1_ta_ma
+The active vector length of RVV is 4
+init value0=260242630.000000	init value1=20615824.000000	init value2=2003575991.000000	init value3=189264399.000000	
+Check if the v0 register has been written to
+element0=260242630.000000	element1=20615824.000000	element2=2003575991.000000	element3=189264399.000000	
+The active vector length of RVV is 4
+4( 32(rv64gcv_VADD.VV_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;51200000000
+Inst/Iter;128
+Ops/Iter;512
+Seconds;5.83588
+GOps/sec;8.77331
+vmul_vv_8_m1_ta_ma
+The active vector length of RVV is 32
+init value0=-94.000000	init value1=-105.000000	init value2=42.000000	init value3=33.000000	init value4=63.000000	init value5=-86.000000	init value6=46.000000	init value7=55.000000	init value8=42.000000	init value9=90.000000	init value10=-102.000000	init value11=1.000000	init value12=96.000000	init value13=103.000000	init value14=-22.000000	init value15=43.000000	init value16=68.000000	init value17=97.000000	init value18=6.000000	init value19=75.000000	init value20=-111.000000	init value21=78.000000	init value22=-49.000000	init value23=-35.000000	init value24=66.000000	init value25=-61.000000	init value26=43.000000	init value27=-37.000000	init value28=-54.000000	init value29=49.000000	init value30=90.000000	init value31=108.000000	
+Check if the v0 register has been written to
+element0=-94.000000	element1=-105.000000	element2=42.000000 	element3=33.000000 	element4=-72.000000	element5=15.000000 	element6=12.000000 	element7=-55.000000	element8=-16.000000	element9=64.000000 	element10=7.000000  	element11=-45.000000	element12=63.000000 	element13=0.000000  	element14=0.000000  	element15=0.000000  	element16=108.000000	element17=45.000000 	element18=8.000000  	element19=0.000000  	element20=0.000000  	element21=0.000000  	element22=0.000000  	element23=0.000000  	element24=-32.000000	element25=63.000000 	element26=7.000000  	element27=-45.000000	element28=63.000000 	element29=0.000000  	element30=0.000000  	element31=0.000000  	
+The active vector length of RVV is 32
+4( 32(rv64gcv_VMUL.VV_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;409600000000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;23.3143
+GOps/sec;17.5686
+vmul_vv_16_m1_ta_ma
+The active vector length of RVV is 16
+init value0=-32768.000000	init value1=18931.000000	init value2=-24742.000000	init value3=18203.000000	init value4=-9699.000000	init value5=-18701.000000	init value6=-10586.000000	init value7=-6327.000000	init value8=-14525.000000	init value9=23383.000000	init value10=5698.000000	init value11=12073.000000	init value12=5103.000000	init value13=10579.000000	init value14=24421.000000	init value15=-13614.000000	
+Check if the v0 register has been written to
+element0=-32768.000000	element1=18931.000000	element2=-24742.000000	element3=18203.000000	element4=-20858.000000	element5=12.000000 	element6=0.000000  	element7=0.000000  	element8=23196.000000	element9=23.000000 	element10=0.000000  	element11=0.000000  	element12=1.000000  	element13=0.000000  	element14=0.000000  	element15=0.000000  	
+The active vector length of RVV is 16
+4( 32(rv64gcv_VMUL.VV_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;204800000000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;23.3128
+GOps/sec;8.78487
+vmul_vv_32_m1_ta_ma
+The active vector length of RVV is 8
+init value0=1311316449.000000	init value1=852550497.000000	init value2=2076167300.000000	init value3=1177302708.000000	init value4=164954340.000000	init value5=1980623135.000000	init value6=138037349.000000	init value7=1098538044.000000	
+Check if the v0 register has been written to
+element0=1311316449.000000	element1=852550497.000000	element2=2076167300.000000	element3=1177302708.000000	element4=1530528.000000	element5=0.000000  	element6=-387065728.000000	element7=63.000000 	
+The active vector length of RVV is 8
+4( 32(rv64gcv_VMUL.VV_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;102400000000
+Inst/Iter;128
+Ops/Iter;1024
+Seconds;23.3138
+GOps/sec;4.39224
+vmul_vv_64_m1_ta_ma
+The active vector length of RVV is 4
+init value0=761312480.000000	init value1=1935378125.000000	init value2=926874874.000000	init value3=1958788368.000000	
+Check if the v0 register has been written to
+element0=761312480.000000	element1=1935378125.000000	element2=926874874.000000	element3=1958788368.000000	
+The active vector length of RVV is 4
+4( 32(rv64gcv_VMUL.VV_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;51200000000
+Inst/Iter;128
+Ops/Iter;512
+Seconds;23.3152
+GOps/sec;2.19599
+vdiv_vv_8_m1_ta_ma
+The active vector length of RVV is 32
+init value0=-54.000000	init value1=9.000000	init value2=-11.000000	init value3=4.000000	init value4=13.000000	init value5=54.000000	init value6=-115.000000	init value7=110.000000	init value8=-101.000000	init value9=-92.000000	init value10=113.000000	init value11=3.000000	init value12=17.000000	init value13=100.000000	init value14=110.000000	init value15=88.000000	init value16=104.000000	init value17=-109.000000	init value18=-36.000000	init value19=-32.000000	init value20=-92.000000	init value21=-53.000000	init value22=127.000000	init value23=-56.000000	init value24=13.000000	init value25=77.000000	init value26=59.000000	init value27=119.000000	init value28=90.000000	init value29=21.000000	init value30=-113.000000	init value31=36.000000	
+Check if the v0 register has been written to
+element0=-54.000000	element1=9.000000  	element2=-11.000000	element3=4.000000  	element4=103.000000	element5=88.000000 	element6=64.000000 	element7=-90.000000	element8=32.000000 	element9=-117.000000	element10=-15.000000	element11=-40.000000	element12=63.000000 	element13=0.000000  	element14=0.000000  	element15=0.000000  	element16=108.000000	element17=45.000000 	element18=8.000000  	element19=0.000000  	element20=0.000000  	element21=0.000000  	element22=0.000000  	element23=0.000000  	element24=16.000000 	element25=-118.000000	element26=-15.000000	element27=-40.000000	element28=63.000000 	element29=0.000000  	element30=0.000000  	element31=0.000000  	
+The active vector length of RVV is 32
+4( 32(rv64gcv_VDIV.VV_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;409600000000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;116.601
+GOps/sec;3.51284
+vdiv_vv_16_m1_ta_ma
+The active vector length of RVV is 16
+init value0=11584.000000	init value1=12051.000000	init value2=26677.000000	init value3=-25667.000000	init value4=-30191.000000	init value5=6749.000000	init value6=-4016.000000	init value7=28838.000000	init value8=23253.000000	init value9=-25098.000000	init value10=-32210.000000	init value11=-24781.000000	init value12=8404.000000	init value13=-8807.000000	init value14=-14192.000000	init value15=-29104.000000	
+Check if the v0 register has been written to
+element0=11584.000000	element1=12051.000000	element2=26677.000000	element3=-25667.000000	element4=-20858.000000	element5=12.000000 	element6=0.000000  	element7=0.000000  	element8=23196.000000	element9=23.000000 	element10=0.000000  	element11=0.000000  	element12=1.000000  	element13=0.000000  	element14=0.000000  	element15=0.000000  	
+The active vector length of RVV is 16
+4( 32(rv64gcv_VDIV.VV_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;204800000000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;116.574
+GOps/sec;1.75683
+vdiv_vv_32_m1_ta_ma
+The active vector length of RVV is 8
+init value0=2056433262.000000	init value1=126265546.000000	init value2=1527771860.000000	init value3=1459244991.000000	init value4=226369553.000000	init value5=551812899.000000	init value6=325594830.000000	init value7=1328920711.000000	
+Check if the v0 register has been written to
+element0=2056433262.000000	element1=126265546.000000	element2=1527771860.000000	element3=1459244991.000000	element4=1530528.000000	element5=0.000000  	element6=-52196688.000000	element7=63.000000 	
+The active vector length of RVV is 8
+4( 32(rv64gcv_VDIV.VV_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;102400000000
+Inst/Iter;128
+Ops/Iter;1024
+Seconds;116.571
+GOps/sec;0.878438
+vdiv_vv_64_m1_ta_ma
+The active vector length of RVV is 4
+init value0=1133511936.000000	init value1=2091936983.000000	init value2=1751255768.000000	init value3=1738943503.000000	
+Check if the v0 register has been written to
+element0=1133511936.000000	element1=2091936983.000000	element2=1751255768.000000	element3=1738943503.000000	
+The active vector length of RVV is 4
+4( 32(rv64gcv_VDIV.VV_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;51200000000
+Inst/Iter;128
+Ops/Iter;512
+Seconds;116.572
+GOps/sec;0.439212
+vmacc_vv_8_m1_ta_ma
+The active vector length of RVV is 32
+init value0=10.000000	init value1=-9.000000	init value2=49.000000	init value3=119.000000	init value4=-10.000000	init value5=25.000000	init value6=-2.000000	init value7=-88.000000	init value8=26.000000	init value9=97.000000	init value10=-67.000000	init value11=-40.000000	init value12=-30.000000	init value13=-124.000000	init value14=114.000000	init value15=4.000000	init value16=90.000000	init value17=-113.000000	init value18=-28.000000	init value19=-70.000000	init value20=-73.000000	init value21=18.000000	init value22=-21.000000	init value23=-18.000000	init value24=-20.000000	init value25=-13.000000	init value26=67.000000	init value27=-43.000000	init value28=13.000000	init value29=-110.000000	init value30=28.000000	init value31=23.000000	
+Check if the v0 register has been written to
+element0=10.000000 	element1=-9.000000 	element2=49.000000 	element3=119.000000	element4=78.000000 	element5=-95.000000	element6=25.000000 	element7=-116.000000	element8=16.000000 	element9=-50.000000	element10=31.000000 	element11=-31.000000	element12=63.000000 	element13=0.000000  	element14=0.000000  	element15=0.000000  	element16=108.000000	element17=45.000000 	element18=8.000000  	element19=0.000000  	element20=0.000000  	element21=0.000000  	element22=0.000000  	element23=0.000000  	element24=0.000000  	element25=-51.000000	element26=31.000000 	element27=-31.000000	element28=63.000000 	element29=0.000000  	element30=0.000000  	element31=0.000000  	
+The active vector length of RVV is 32
+4( 32(rv64gcv_VMACC.VV_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;409600000000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;23.3127
+GOps/sec;17.5698
+vmacc_vv_16_m1_ta_ma
+The active vector length of RVV is 16
+init value0=-15506.000000	init value1=-31111.000000	init value2=19820.000000	init value3=24619.000000	init value4=-28945.000000	init value5=7946.000000	init value6=28050.000000	init value7=11728.000000	init value8=22445.000000	init value9=24320.000000	init value10=-16283.000000	init value11=1251.000000	init value12=-25776.000000	init value13=10639.000000	init value14=7517.000000	init value15=14959.000000	
+Check if the v0 register has been written to
+element0=-15506.000000	element1=-31111.000000	element2=19820.000000	element3=24619.000000	element4=-20858.000000	element5=12.000000 	element6=0.000000  	element7=0.000000  	element8=23196.000000	element9=23.000000 	element10=0.000000  	element11=0.000000  	element12=1.000000  	element13=0.000000  	element14=0.000000  	element15=0.000000  	
+The active vector length of RVV is 16
+4( 32(rv64gcv_VMACC.VV_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;204800000000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;23.3403
+GOps/sec;8.77452
+vmacc_vv_32_m1_ta_ma
+The active vector length of RVV is 8
+init value0=2038468250.000000	init value1=1740471187.000000	init value2=331921388.000000	init value3=1061173415.000000	init value4=1511132203.000000	init value5=799286564.000000	init value6=1893717261.000000	init value7=2009334445.000000	
+Check if the v0 register has been written to
+element0=2038468250.000000	element1=1740471187.000000	element2=331921388.000000	element3=1061173415.000000	element4=1530528.000000	element5=0.000000  	element6=-672373776.000000	element7=63.000000 	
+The active vector length of RVV is 8
+4( 32(rv64gcv_VMACC.VV_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;102400000000
+Inst/Iter;128
+Ops/Iter;1024
+Seconds;23.3174
+GOps/sec;4.39157
+vmacc_vv_64_m1_ta_ma
+The active vector length of RVV is 4
+init value0=96327963.000000	init value1=1546807733.000000	init value2=887638664.000000	init value3=1439170789.000000	
+Check if the v0 register has been written to
+element0=96327963.000000	element1=1546807733.000000	element2=887638664.000000	element3=1439170789.000000	
+The active vector length of RVV is 4
+4( 32(rv64gcv_VMACC.VV_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;51200000000
+Inst/Iter;128
+Ops/Iter;512
+Seconds;23.3116
+GOps/sec;2.19633
+== build/a100-clang24 ==
+vadd_vv_8_m1_ta_ma
+The active vector length of RVV is 128
+init value0=104.000000	init value1=5.000000	init value2=-74.000000	init value3=-106.000000	init value4=112.000000	init value5=27.000000	init value6=28.000000	init value7=-19.000000	init value8=30.000000	init value9=48.000000	init value10=-93.000000	init value11=-22.000000	init value12=93.000000	init value13=113.000000	init value14=47.000000	init value15=121.000000	init value16=66.000000	init value17=-20.000000	init value18=99.000000	init value19=-71.000000	init value20=-19.000000	init value21=11.000000	init value22=73.000000	init value23=97.000000	init value24=117.000000	init value25=44.000000	init value26=-68.000000	init value27=89.000000	init value28=25.000000	init value29=75.000000	init value30=82.000000	init value31=-127.000000	init value32=80.000000	init value33=8.000000	init value34=24.000000	init value35=-64.000000	init value36=35.000000	init value37=52.000000	init value38=-83.000000	init value39=66.000000	init value40=101.000000	init value41=81.000000	init value42=44.000000	init value43=-62.000000	init value44=-62.000000	init value45=91.000000	init value46=59.000000	init value47=4.000000	init value48=71.000000	init value49=-98.000000	init value50=-67.000000	init value51=52.000000	init value52=-86.000000	init value53=6.000000	init value54=-106.000000	init value55=31.000000	init value56=50.000000	init value57=82.000000	init value58=120.000000	init value59=76.000000	init value60=-99.000000	init value61=-53.000000	init value62=-51.000000	init value63=-19.000000	init value64=-45.000000	init value65=-27.000000	init value66=-82.000000	init value67=-9.000000	init value68=26.000000	init value69=91.000000	init value70=57.000000	init value71=127.000000	init value72=-84.000000	init value73=101.000000	init value74=65.000000	init value75=111.000000	init value76=-64.000000	init value77=125.000000	init value78=115.000000	init value79=7.000000	init value80=27.000000	init value81=49.000000	init value82=60.000000	init value83=-59.000000	init value84=55.000000	init value85=-46.000000	init value86=-28.000000	init value87=106.000000	init value88=36.000000	init value89=93.000000	init value90=-74.000000	init value91=-63.000000	init value92=40.000000	init value93=-125.000000	init value94=-82.000000	init value95=-5.000000	init value96=105.000000	init value97=92.000000	init value98=-14.000000	init value99=-125.000000	init value100=-72.000000	init value101=43.000000	init value102=2.000000	init value103=100.000000	init value104=-112.000000	init value105=67.000000	init value106=-45.000000	init value107=80.000000	init value108=-64.000000	init value109=71.000000	init value110=88.000000	init value111=-36.000000	init value112=120.000000	init value113=-108.000000	init value114=-95.000000	init value115=-81.000000	init value116=102.000000	init value117=-122.000000	init value118=25.000000	init value119=-118.000000	init value120=-29.000000	init value121=-49.000000	init value122=75.000000	init value123=11.000000	init value124=83.000000	init value125=-7.000000	init value126=6.000000	init value127=-68.000000	
+Check if the v0 register has been written to
+element0=104.000000	element1=5.000000  	element2=-74.000000	element3=-106.000000	element4=0.000000  	element5=0.000000  	element6=0.000000  	element7=0.000000  	element8=2.000000  	element9=41.000000 	element10=1.000000  	element11=0.000000  	element12=0.000000  	element13=0.000000  	element14=0.000000  	element15=0.000000  	element16=0.000000  	element17=-18.000000	element18=49.000000 	element19=84.000000 	element20=-22.000000	element21=124.000000	element22=76.000000 	element23=113.000000	element24=-14.000000	element25=-87.000000	element26=12.000000 	element27=0.000000  	element28=0.000000  	element29=0.000000  	element30=0.000000  	element31=0.000000  	element32=-128.000000	element33=0.000000  	element34=0.000000  	element35=0.000000  	element36=0.000000  	element37=0.000000  	element38=0.000000  	element39=0.000000  	element40=-80.000000	element41=44.000000 	element42=27.000000 	element43=21.000000 	element44=0.000000  	element45=0.000000  	element46=0.000000  	element47=0.000000  	element48=0.000000  	element49=-18.000000	element50=49.000000 	element51=84.000000 	element52=-128.000000	element53=0.000000  	element54=0.000000  	element55=0.000000  	element56=112.000000	element57=-47.000000	element58=-56.000000	element59=-21.000000	element60=63.000000 	element61=0.000000  	element62=0.000000  	element63=0.000000  	element64=-86.000000	element65=27.000000 	element66=1.000000  	element67=0.000000  	element68=0.000000  	element69=0.000000  	element70=0.000000  	element71=0.000000  	element72=-16.000000	element73=-48.000000	element74=-56.000000	element75=-21.000000	element76=63.000000 	element77=0.000000  	element78=0.000000  	element79=0.000000  	element80=0.000000  	element81=-31.000000	element82=-11.000000	element83=5.000000  	element84=0.000000  	element85=0.000000  	element86=0.000000  	element87=0.000000  	element88=32.000000 	element89=-44.000000	element90=23.000000 	element91=0.000000  	element92=0.000000  	element93=0.000000  	element94=0.000000  	element95=0.000000  	element96=0.000000  	element97=1.000000  	element98=2.000000  	element99=3.000000  	element100=4.000000  	element101=5.000000  	element102=6.000000  	element103=7.000000  	element104=8.000000  	element105=9.000000  	element106=10.000000 	element107=11.000000 	element108=12.000000 	element109=13.000000 	element110=14.000000 	element111=15.000000 	element112=0.000000  	element113=0.000000  	element114=0.000000  	element115=0.000000  	element116=0.000000  	element117=0.000000  	element118=0.000000  	element119=0.000000  	element120=24.000000 	element121=25.000000 	element122=26.000000 	element123=27.000000 	element124=28.000000 	element125=29.000000 	element126=30.000000 	element127=31.000000 	
+The active vector length of RVV is 128
+4( 32(rv64gcv_VADD.VV_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;1638400000000
+Inst/Iter;128
+Ops/Iter;16384
+Seconds;14.5675
+GOps/sec;112.469
+vadd_vv_16_m1_ta_ma
+The active vector length of RVV is 64
+init value0=31007.000000	init value1=-31656.000000	init value2=-17281.000000	init value3=23336.000000	init value4=-14586.000000	init value5=25863.000000	init value6=10209.000000	init value7=-6129.000000	init value8=-20120.000000	init value9=-11418.000000	init value10=-17382.000000	init value11=13708.000000	init value12=12397.000000	init value13=31573.000000	init value14=-28796.000000	init value15=-1992.000000	init value16=31422.000000	init value17=-3698.000000	init value18=-22142.000000	init value19=17552.000000	init value20=-13364.000000	init value21=-15359.000000	init value22=-16566.000000	init value23=-12874.000000	init value24=22699.000000	init value25=-12939.000000	init value26=27110.000000	init value27=25393.000000	init value28=10214.000000	init value29=-19314.000000	init value30=22816.000000	init value31=-24314.000000	init value32=14566.000000	init value33=5536.000000	init value34=-978.000000	init value35=-20.000000	init value36=31399.000000	init value37=9231.000000	init value38=-6148.000000	init value39=11279.000000	init value40=-2187.000000	init value41=-23530.000000	init value42=24987.000000	init value43=10211.000000	init value44=8043.000000	init value45=-3809.000000	init value46=8219.000000	init value47=-26071.000000	init value48=-7507.000000	init value49=-13923.000000	init value50=-8519.000000	init value51=-20871.000000	init value52=-29281.000000	init value53=-25085.000000	init value54=31791.000000	init value55=-6582.000000	init value56=27512.000000	init value57=-6634.000000	init value58=18811.000000	init value59=-27810.000000	init value60=-25948.000000	init value61=-23909.000000	init value62=13412.000000	init value63=-11382.000000	
+Check if the v0 register has been written to
+element0=31007.000000	element1=-31656.000000	element2=-17281.000000	element3=23336.000000	element4=8896.000000	element5=-5576.000000	element6=63.000000 	element7=0.000000  	element8=-30984.000000	element9=23.000000 	element10=0.000000  	element11=0.000000  	element12=8992.000000	element13=-5576.000000	element14=63.000000 	element15=0.000000  	element16=-21694.000000	element17=12.000000 	element18=0.000000  	element19=0.000000  	element20=10510.000000	element21=1.000000  	element22=0.000000  	element23=0.000000  	element24=6912.000000	element25=-8567.000000	element26=9269.000000	element27=10637.000000	element28=-22018.000000	element29=12.000000 	element30=0.000000  	element31=0.000000  	element32=64.000000 	element33=0.000000  	element34=0.000000  	element35=0.000000  	element36=19632.000000	element37=1737.000000	element38=0.000000  	element39=0.000000  	element40=6912.000000	element41=-8567.000000	element42=64.000000 	element43=0.000000  	element44=9104.000000	element45=-5576.000000	element46=63.000000 	element47=0.000000  	element48=7094.000000	element49=1.000000  	element50=0.000000  	element51=0.000000  	element52=8976.000000	element53=-5576.000000	element54=63.000000 	element55=0.000000  	element56=-7936.000000	element57=1525.000000	element58=0.000000  	element59=0.000000  	element60=-11232.000000	element61=23.000000 	element62=0.000000  	element63=0.000000  	
+The active vector length of RVV is 64
+4( 32(rv64gcv_VADD.VV_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;819200000000
+Inst/Iter;128
+Ops/Iter;8192
+Seconds;14.511
+GOps/sec;56.4538
+vadd_vv_32_m1_ta_ma
+The active vector length of RVV is 32
+init value0=1463150742.000000	init value1=432756162.000000	init value2=1396265362.000000	init value3=1753350570.000000	init value4=1474480728.000000	init value5=1392515030.000000	init value6=670344410.000000	init value7=1833000452.000000	init value8=123817859.000000	init value9=653110105.000000	init value10=82152547.000000	init value11=660112020.000000	init value12=1202351138.000000	init value13=374965020.000000	init value14=44292656.000000	init value15=1392531026.000000	init value16=2131743942.000000	init value17=760689019.000000	init value18=2004131187.000000	init value19=700642983.000000	init value20=1778590694.000000	init value21=24129544.000000	init value22=1379244647.000000	init value23=232402242.000000	init value24=1699769470.000000	init value25=420413015.000000	init value26=1963099474.000000	init value27=824135191.000000	init value28=1893846503.000000	init value29=183124410.000000	init value30=1014648382.000000	init value31=1209513597.000000	
+Check if the v0 register has been written to
+element0=1463150742.000000	element1=432756162.000000	element2=1396265362.000000	element3=1753350570.000000	element4=-1.000000 	element5=-1.000000 	element6=1532336.000000	element7=0.000000  	element8=1558400.000000	element9=0.000000  	element10=1573016.000000	element11=0.000000  	element12=1567392.000000	element13=0.000000  	element14=-152173184.000000	element15=63.000000 	element16=478332.000000	element17=0.000000  	element18=-152173152.000000	element19=63.000000 	element20=1541880.000000	element21=0.000000  	element22=-152173056.000000	element23=63.000000 	element24=830266.000000	element25=0.000000  	element26=76040.000000	element27=0.000000  	element28=-1377090304.000000	element29=-1409145871.000000	element30=829942.000000	element31=0.000000  	
+The active vector length of RVV is 32
+4( 32(rv64gcv_VADD.VV_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;409600000000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;14.5669
+GOps/sec;28.1185
+vadd_vv_64_m1_ta_ma
+The active vector length of RVV is 16
+init value0=1212337318.000000	init value1=868699958.000000	init value2=1500071107.000000	init value3=273061985.000000	init value4=1514492968.000000	init value5=1011389606.000000	init value6=1585683889.000000	init value7=620060196.000000	init value8=1400284942.000000	init value9=187666972.000000	init value10=412469500.000000	init value11=537057876.000000	init value12=204945091.000000	init value13=999602449.000000	init value14=1957503290.000000	init value15=1207207367.000000	
+Check if the v0 register has been written to
+element0=1212337318.000000	element1=868699958.000000	element2=1500071107.000000	element3=273061985.000000	element4=0.000000  	element5=0.000000  	element6=0.000000  	element7=16842752.000000	element8=0.000000  	element9=0.000000  	element10=-785517475267796736.000000	element11=0.000000  	element12=0.000000  	element13=1541880.000000	element14=1595016.000000	element15=58.000000 	
+The active vector length of RVV is 16
+4( 32(rv64gcv_VADD.VV_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;204800000000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;14.5108
+GOps/sec;14.1136
+vmul_vv_8_m1_ta_ma
+The active vector length of RVV is 128
+init value0=-124.000000	init value1=-116.000000	init value2=33.000000	init value3=24.000000	init value4=80.000000	init value5=103.000000	init value6=88.000000	init value7=-123.000000	init value8=100.000000	init value9=-22.000000	init value10=-122.000000	init value11=-4.000000	init value12=113.000000	init value13=-58.000000	init value14=106.000000	init value15=32.000000	init value16=85.000000	init value17=-91.000000	init value18=123.000000	init value19=-14.000000	init value20=-126.000000	init value21=90.000000	init value22=97.000000	init value23=53.000000	init value24=-49.000000	init value25=63.000000	init value26=-40.000000	init value27=-118.000000	init value28=34.000000	init value29=89.000000	init value30=31.000000	init value31=-90.000000	init value32=-27.000000	init value33=64.000000	init value34=-66.000000	init value35=53.000000	init value36=-88.000000	init value37=23.000000	init value38=-69.000000	init value39=12.000000	init value40=1.000000	init value41=65.000000	init value42=8.000000	init value43=115.000000	init value44=7.000000	init value45=114.000000	init value46=-109.000000	init value47=92.000000	init value48=23.000000	init value49=14.000000	init value50=79.000000	init value51=-103.000000	init value52=105.000000	init value53=-80.000000	init value54=-50.000000	init value55=56.000000	init value56=-17.000000	init value57=-90.000000	init value58=-61.000000	init value59=17.000000	init value60=0.000000	init value61=-30.000000	init value62=-72.000000	init value63=-27.000000	init value64=34.000000	init value65=118.000000	init value66=27.000000	init value67=-54.000000	init value68=-115.000000	init value69=-42.000000	init value70=-41.000000	init value71=-113.000000	init value72=23.000000	init value73=-33.000000	init value74=2.000000	init value75=31.000000	init value76=82.000000	init value77=-107.000000	init value78=123.000000	init value79=105.000000	init value80=-92.000000	init value81=-54.000000	init value82=3.000000	init value83=13.000000	init value84=123.000000	init value85=-47.000000	init value86=69.000000	init value87=106.000000	init value88=120.000000	init value89=8.000000	init value90=124.000000	init value91=120.000000	init value92=-22.000000	init value93=52.000000	init value94=93.000000	init value95=13.000000	init value96=-86.000000	init value97=120.000000	init value98=-41.000000	init value99=56.000000	init value100=78.000000	init value101=-82.000000	init value102=-57.000000	init value103=102.000000	init value104=-114.000000	init value105=-55.000000	init value106=-123.000000	init value107=-32.000000	init value108=94.000000	init value109=0.000000	init value110=73.000000	init value111=2.000000	init value112=-53.000000	init value113=76.000000	init value114=15.000000	init value115=70.000000	init value116=30.000000	init value117=85.000000	init value118=-80.000000	init value119=-106.000000	init value120=93.000000	init value121=44.000000	init value122=14.000000	init value123=72.000000	init value124=96.000000	init value125=107.000000	init value126=85.000000	init value127=11.000000	
+Check if the v0 register has been written to
+element0=-124.000000	element1=-116.000000	element2=33.000000 	element3=24.000000 	element4=0.000000  	element5=0.000000  	element6=0.000000  	element7=0.000000  	element8=2.000000  	element9=41.000000 	element10=1.000000  	element11=0.000000  	element12=0.000000  	element13=0.000000  	element14=0.000000  	element15=0.000000  	element16=0.000000  	element17=-89.000000	element18=58.000000 	element19=-51.000000	element20=-79.000000	element21=51.000000 	element22=-89.000000	element23=8.000000  	element24=-14.000000	element25=-87.000000	element26=12.000000 	element27=0.000000  	element28=0.000000  	element29=0.000000  	element30=0.000000  	element31=0.000000  	element32=-128.000000	element33=0.000000  	element34=0.000000  	element35=0.000000  	element36=0.000000  	element37=0.000000  	element38=0.000000  	element39=0.000000  	element40=-80.000000	element41=-4.000000 	element42=76.000000 	element43=9.000000  	element44=0.000000  	element45=0.000000  	element46=0.000000  	element47=0.000000  	element48=0.000000  	element49=-89.000000	element50=58.000000 	element51=-51.000000	element52=-128.000000	element53=0.000000  	element54=0.000000  	element55=0.000000  	element56=-64.000000	element57=-123.000000	element58=80.000000 	element59=-48.000000	element60=63.000000 	element61=0.000000  	element62=0.000000  	element63=0.000000  	element64=-86.000000	element65=27.000000 	element66=1.000000  	element67=0.000000  	element68=0.000000  	element69=0.000000  	element70=0.000000  	element71=0.000000  	element72=64.000000 	element73=-123.000000	element74=80.000000 	element75=-48.000000	element76=63.000000 	element77=0.000000  	element78=0.000000  	element79=0.000000  	element80=0.000000  	element81=-31.000000	element82=-11.000000	element83=5.000000  	element84=0.000000  	element85=0.000000  	element86=0.000000  	element87=0.000000  	element88=32.000000 	element89=-44.000000	element90=23.000000 	element91=0.000000  	element92=0.000000  	element93=0.000000  	element94=0.000000  	element95=0.000000  	element96=0.000000  	element97=1.000000  	element98=2.000000  	element99=3.000000  	element100=4.000000  	element101=5.000000  	element102=6.000000  	element103=7.000000  	element104=8.000000  	element105=9.000000  	element106=10.000000 	element107=11.000000 	element108=12.000000 	element109=13.000000 	element110=14.000000 	element111=15.000000 	element112=0.000000  	element113=0.000000  	element114=0.000000  	element115=0.000000  	element116=0.000000  	element117=0.000000  	element118=0.000000  	element119=0.000000  	element120=24.000000 	element121=25.000000 	element122=26.000000 	element123=27.000000 	element124=28.000000 	element125=29.000000 	element126=30.000000 	element127=31.000000 	
+The active vector length of RVV is 128
+4( 32(rv64gcv_VMUL.VV_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;1638400000000
+Inst/Iter;128
+Ops/Iter;16384
+Seconds;114.083
+GOps/sec;14.3614
+vmul_vv_16_m1_ta_ma
+The active vector length of RVV is 64
+init value0=21191.000000	init value1=27520.000000	init value2=27061.000000	init value3=24790.000000	init value4=7727.000000	init value5=3546.000000	init value6=23585.000000	init value7=-27491.000000	init value8=-21880.000000	init value9=1576.000000	init value10=3080.000000	init value11=-1926.000000	init value12=1448.000000	init value13=24781.000000	init value14=-22523.000000	init value15=-5864.000000	init value16=-29132.000000	init value17=-14583.000000	init value18=-2193.000000	init value19=-7597.000000	init value20=21607.000000	init value21=19712.000000	init value22=32636.000000	init value23=-2649.000000	init value24=-8364.000000	init value25=-3540.000000	init value26=2526.000000	init value27=-16683.000000	init value28=13248.000000	init value29=-1650.000000	init value30=-20366.000000	init value31=-31097.000000	init value32=25871.000000	init value33=6695.000000	init value34=-6306.000000	init value35=-31938.000000	init value36=10241.000000	init value37=17279.000000	init value38=6107.000000	init value39=-11639.000000	init value40=18855.000000	init value41=9187.000000	init value42=-13565.000000	init value43=20304.000000	init value44=-31568.000000	init value45=29449.000000	init value46=14440.000000	init value47=4836.000000	init value48=14866.000000	init value49=12247.000000	init value50=-2761.000000	init value51=-29062.000000	init value52=31959.000000	init value53=29876.000000	init value54=-31711.000000	init value55=23595.000000	init value56=26336.000000	init value57=-29184.000000	init value58=6912.000000	init value59=-25952.000000	init value60=-30834.000000	init value61=-13454.000000	init value62=8487.000000	init value63=-4963.000000	
+Check if the v0 register has been written to
+element0=21191.000000	element1=27520.000000	element2=27061.000000	element3=24790.000000	element4=-22288.000000	element5=-8127.000000	element6=63.000000 	element7=0.000000  	element8=-30984.000000	element9=23.000000 	element10=0.000000  	element11=0.000000  	element12=-22192.000000	element13=-8127.000000	element14=63.000000 	element15=0.000000  	element16=-21694.000000	element17=12.000000 	element18=0.000000  	element19=0.000000  	element20=10510.000000	element21=1.000000  	element22=0.000000  	element23=0.000000  	element24=-6656.000000	element25=18760.000000	element26=30904.000000	element27=-12993.000000	element28=-22018.000000	element29=12.000000 	element30=0.000000  	element31=0.000000  	element32=64.000000 	element33=0.000000  	element34=0.000000  	element35=0.000000  	element36=3248.000000	element37=7567.000000	element38=0.000000  	element39=0.000000  	element40=-6656.000000	element41=18760.000000	element42=64.000000 	element43=0.000000  	element44=-22080.000000	element45=-8127.000000	element46=63.000000 	element47=0.000000  	element48=7094.000000	element49=1.000000  	element50=0.000000  	element51=0.000000  	element52=-22208.000000	element53=-8127.000000	element54=63.000000 	element55=0.000000  	element56=-7936.000000	element57=1525.000000	element58=0.000000  	element59=0.000000  	element60=-11232.000000	element61=23.000000 	element62=0.000000  	element63=0.000000  	
+The active vector length of RVV is 64
+4( 32(rv64gcv_VMUL.VV_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;819200000000
+Inst/Iter;128
+Ops/Iter;8192
+Seconds;114.09
+GOps/sec;7.18028
+vmul_vv_32_m1_ta_ma
+The active vector length of RVV is 32
+init value0=1384890524.000000	init value1=1666855250.000000	init value2=1579072206.000000	init value3=1946321598.000000	init value4=359492042.000000	init value5=265160136.000000	init value6=983433563.000000	init value7=2086244417.000000	init value8=1886219427.000000	init value9=1402424060.000000	init value10=1038038562.000000	init value11=1251540850.000000	init value12=1295466482.000000	init value13=78658523.000000	init value14=779325350.000000	init value15=1594949962.000000	init value16=1837385197.000000	init value17=98658399.000000	init value18=656309204.000000	init value19=1278803852.000000	init value20=23179420.000000	init value21=1154444729.000000	init value22=1052674829.000000	init value23=1875283538.000000	init value24=1233957291.000000	init value25=830289013.000000	init value26=111991214.000000	init value27=818625061.000000	init value28=626577383.000000	init value29=1237594504.000000	init value30=1017779651.000000	init value31=2011467907.000000	
+Check if the v0 register has been written to
+element0=1384890524.000000	element1=1666855250.000000	element2=1579072206.000000	element3=1946321598.000000	element4=-1.000000 	element5=-1.000000 	element6=1532336.000000	element7=0.000000  	element8=1558400.000000	element9=0.000000  	element10=1573016.000000	element11=0.000000  	element12=1567392.000000	element13=0.000000  	element14=-206382016.000000	element15=63.000000 	element16=478332.000000	element17=0.000000  	element18=-206381984.000000	element19=63.000000 	element20=1541880.000000	element21=0.000000  	element22=-206381888.000000	element23=63.000000 	element24=830266.000000	element25=0.000000  	element26=76040.000000	element27=0.000000  	element28=70255616.000000	element29=1369599432.000000	element30=829942.000000	element31=0.000000  	
+The active vector length of RVV is 32
+4( 32(rv64gcv_VMUL.VV_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;409600000000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;114.084
+GOps/sec;3.59033
+vmul_vv_64_m1_ta_ma
+The active vector length of RVV is 16
+init value0=1059583687.000000	init value1=1844366465.000000	init value2=495040238.000000	init value3=1912832389.000000	init value4=1368209608.000000	init value5=621550121.000000	init value6=1299340524.000000	init value7=199321265.000000	init value8=419101882.000000	init value9=1707385133.000000	init value10=1179470332.000000	init value11=1134962856.000000	init value12=1805242088.000000	init value13=909310871.000000	init value14=845161962.000000	init value15=1348439839.000000	
+Check if the v0 register has been written to
+element0=1059583687.000000	element1=1844366465.000000	element2=495040238.000000	element3=1912832389.000000	element4=0.000000  	element5=0.000000  	element6=0.000000  	element7=16842752.000000	element8=0.000000  	element9=0.000000  	element10=88910098161977600.000000	element11=0.000000  	element12=0.000000  	element13=1541880.000000	element14=1595016.000000	element15=58.000000 	
+The active vector length of RVV is 16
+4( 32(rv64gcv_VMUL.VV_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;204800000000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;114.086
+GOps/sec;1.79513
+vdiv_vv_8_m1_ta_ma
+The active vector length of RVV is 128
+init value0=-46.000000	init value1=-55.000000	init value2=-85.000000	init value3=103.000000	init value4=-120.000000	init value5=-80.000000	init value6=-76.000000	init value7=-100.000000	init value8=1.000000	init value9=6.000000	init value10=31.000000	init value11=0.000000	init value12=-127.000000	init value13=-117.000000	init value14=-123.000000	init value15=-31.000000	init value16=-3.000000	init value17=52.000000	init value18=-87.000000	init value19=50.000000	init value20=44.000000	init value21=-43.000000	init value22=124.000000	init value23=-124.000000	init value24=75.000000	init value25=73.000000	init value26=45.000000	init value27=59.000000	init value28=-78.000000	init value29=-120.000000	init value30=-38.000000	init value31=-123.000000	init value32=81.000000	init value33=-123.000000	init value34=-20.000000	init value35=-39.000000	init value36=53.000000	init value37=-96.000000	init value38=117.000000	init value39=55.000000	init value40=-89.000000	init value41=-108.000000	init value42=55.000000	init value43=40.000000	init value44=32.000000	init value45=-67.000000	init value46=9.000000	init value47=29.000000	init value48=-15.000000	init value49=-78.000000	init value50=80.000000	init value51=30.000000	init value52=-120.000000	init value53=-52.000000	init value54=-94.000000	init value55=-45.000000	init value56=21.000000	init value57=-49.000000	init value58=14.000000	init value59=-56.000000	init value60=87.000000	init value61=-24.000000	init value62=77.000000	init value63=-88.000000	init value64=109.000000	init value65=57.000000	init value66=-127.000000	init value67=-94.000000	init value68=-39.000000	init value69=-10.000000	init value70=-39.000000	init value71=-128.000000	init value72=-117.000000	init value73=17.000000	init value74=-87.000000	init value75=-85.000000	init value76=-50.000000	init value77=-78.000000	init value78=-56.000000	init value79=-65.000000	init value80=101.000000	init value81=24.000000	init value82=-35.000000	init value83=-19.000000	init value84=-27.000000	init value85=-128.000000	init value86=-64.000000	init value87=-6.000000	init value88=79.000000	init value89=-50.000000	init value90=-62.000000	init value91=-89.000000	init value92=-74.000000	init value93=15.000000	init value94=79.000000	init value95=35.000000	init value96=72.000000	init value97=-47.000000	init value98=-59.000000	init value99=34.000000	init value100=-57.000000	init value101=-97.000000	init value102=-94.000000	init value103=82.000000	init value104=-80.000000	init value105=75.000000	init value106=-3.000000	init value107=126.000000	init value108=-2.000000	init value109=-58.000000	init value110=61.000000	init value111=99.000000	init value112=-34.000000	init value113=27.000000	init value114=80.000000	init value115=-61.000000	init value116=-101.000000	init value117=16.000000	init value118=-66.000000	init value119=-22.000000	init value120=-34.000000	init value121=-128.000000	init value122=-111.000000	init value123=-108.000000	init value124=-112.000000	init value125=-31.000000	init value126=-73.000000	init value127=-40.000000	
+Check if the v0 register has been written to
+element0=-46.000000	element1=-55.000000	element2=-85.000000	element3=103.000000	element4=0.000000  	element5=0.000000  	element6=0.000000  	element7=0.000000  	element8=2.000000  	element9=41.000000 	element10=1.000000  	element11=0.000000  	element12=0.000000  	element13=0.000000  	element14=0.000000  	element15=0.000000  	element16=0.000000  	element17=71.000000 	element18=120.000000	element19=57.000000 	element20=114.000000	element21=96.000000 	element22=-18.000000	element23=123.000000	element24=-14.000000	element25=-87.000000	element26=12.000000 	element27=0.000000  	element28=0.000000  	element29=0.000000  	element30=0.000000  	element31=0.000000  	element32=-128.000000	element33=0.000000  	element34=0.000000  	element35=0.000000  	element36=0.000000  	element37=0.000000  	element38=0.000000  	element39=0.000000  	element40=-80.000000	element41=-36.000000	element42=102.000000	element43=31.000000 	element44=0.000000  	element45=0.000000  	element46=0.000000  	element47=0.000000  	element48=0.000000  	element49=71.000000 	element50=120.000000	element51=57.000000 	element52=-128.000000	element53=0.000000  	element54=0.000000  	element55=0.000000  	element56=48.000000 	element57=-87.000000	element58=-104.000000	element59=-1.000000 	element60=63.000000 	element61=0.000000  	element62=0.000000  	element63=0.000000  	element64=-86.000000	element65=27.000000 	element66=1.000000  	element67=0.000000  	element68=0.000000  	element69=0.000000  	element70=0.000000  	element71=0.000000  	element72=-80.000000	element73=-88.000000	element74=-104.000000	element75=-1.000000 	element76=63.000000 	element77=0.000000  	element78=0.000000  	element79=0.000000  	element80=0.000000  	element81=-31.000000	element82=-11.000000	element83=5.000000  	element84=0.000000  	element85=0.000000  	element86=0.000000  	element87=0.000000  	element88=32.000000 	element89=-44.000000	element90=23.000000 	element91=0.000000  	element92=0.000000  	element93=0.000000  	element94=0.000000  	element95=0.000000  	element96=0.000000  	element97=1.000000  	element98=2.000000  	element99=3.000000  	element100=4.000000  	element101=5.000000  	element102=6.000000  	element103=7.000000  	element104=8.000000  	element105=9.000000  	element106=10.000000 	element107=11.000000 	element108=12.000000 	element109=13.000000 	element110=14.000000 	element111=15.000000 	element112=0.000000  	element113=0.000000  	element114=0.000000  	element115=0.000000  	element116=0.000000  	element117=0.000000  	element118=0.000000  	element119=0.000000  	element120=24.000000 	element121=25.000000 	element122=26.000000 	element123=27.000000 	element124=28.000000 	element125=29.000000 	element126=30.000000 	element127=31.000000 	
+The active vector length of RVV is 128
+4( 32(rv64gcv_VDIV.VV_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;1638400000000
+Inst/Iter;128
+Ops/Iter;16384
+Seconds;627.467
+GOps/sec;2.61113
+vdiv_vv_16_m1_ta_ma
+The active vector length of RVV is 64
+init value0=17772.000000	init value1=2705.000000	init value2=-32735.000000	init value3=-16122.000000	init value4=-25279.000000	init value5=2356.000000	init value6=18594.000000	init value7=-29695.000000	init value8=-26826.000000	init value9=24568.000000	init value10=11284.000000	init value11=-18622.000000	init value12=29178.000000	init value13=16479.000000	init value14=-24977.000000	init value15=8663.000000	init value16=21842.000000	init value17=-7185.000000	init value18=-18722.000000	init value19=-18424.000000	init value20=30296.000000	init value21=22740.000000	init value22=-6816.000000	init value23=-5459.000000	init value24=-32500.000000	init value25=-13855.000000	init value26=-15526.000000	init value27=-11982.000000	init value28=26264.000000	init value29=9105.000000	init value30=7661.000000	init value31=-21500.000000	init value32=11810.000000	init value33=-25074.000000	init value34=27914.000000	init value35=-13469.000000	init value36=-22718.000000	init value37=-19028.000000	init value38=22372.000000	init value39=15992.000000	init value40=5540.000000	init value41=-31880.000000	init value42=-2630.000000	init value43=-30817.000000	init value44=-15401.000000	init value45=-27607.000000	init value46=-22154.000000	init value47=6442.000000	init value48=30744.000000	init value49=24661.000000	init value50=-11982.000000	init value51=-4496.000000	init value52=-18135.000000	init value53=-18798.000000	init value54=-9955.000000	init value55=14901.000000	init value56=-32652.000000	init value57=-25480.000000	init value58=2919.000000	init value59=-6388.000000	init value60=-16375.000000	init value61=10580.000000	init value62=-27888.000000	init value63=-4565.000000	
+Check if the v0 register has been written to
+element0=17772.000000	element1=2705.000000	element2=-32735.000000	element3=-16122.000000	element4=-30080.000000	element5=-13582.000000	element6=63.000000 	element7=0.000000  	element8=-30984.000000	element9=23.000000 	element10=0.000000  	element11=0.000000  	element12=-29984.000000	element13=-13582.000000	element14=63.000000 	element15=0.000000  	element16=-21694.000000	element17=12.000000 	element18=0.000000  	element19=0.000000  	element20=10510.000000	element21=1.000000  	element22=0.000000  	element23=0.000000  	element24=2816.000000	element25=11679.000000	element26=17169.000000	element27=25696.000000	element28=-22018.000000	element29=12.000000 	element30=0.000000  	element31=0.000000  	element32=64.000000 	element33=0.000000  	element34=0.000000  	element35=0.000000  	element36=7344.000000	element37=14753.000000	element38=0.000000  	element39=0.000000  	element40=2816.000000	element41=11679.000000	element42=64.000000 	element43=0.000000  	element44=-29872.000000	element45=-13582.000000	element46=63.000000 	element47=0.000000  	element48=7094.000000	element49=1.000000  	element50=0.000000  	element51=0.000000  	element52=-30000.000000	element53=-13582.000000	element54=63.000000 	element55=0.000000  	element56=-7936.000000	element57=1525.000000	element58=0.000000  	element59=0.000000  	element60=-11232.000000	element61=23.000000 	element62=0.000000  	element63=0.000000  	
+The active vector length of RVV is 64
+4( 32(rv64gcv_VDIV.VV_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;819200000000
+Inst/Iter;128
+Ops/Iter;8192
+Seconds;627.458
+GOps/sec;1.30559
+vdiv_vv_32_m1_ta_ma
+The active vector length of RVV is 32
+init value0=1335044197.000000	init value1=786849582.000000	init value2=132651850.000000	init value3=1345121985.000000	init value4=710571572.000000	init value5=227346602.000000	init value6=755072223.000000	init value7=1054846606.000000	init value8=920464149.000000	init value9=1556585456.000000	init value10=1127497427.000000	init value11=1485945155.000000	init value12=549851481.000000	init value13=701376638.000000	init value14=2015890401.000000	init value15=868945056.000000	init value16=1519374428.000000	init value17=2128731510.000000	init value18=2028705324.000000	init value19=1426690078.000000	init value20=795606635.000000	init value21=1879742028.000000	init value22=775211090.000000	init value23=1724419819.000000	init value24=1704420592.000000	init value25=1792622930.000000	init value26=1507041208.000000	init value27=1269734910.000000	init value28=1470811373.000000	init value29=155241842.000000	init value30=1850851518.000000	init value31=658371922.000000	
+Check if the v0 register has been written to
+element0=1335044197.000000	element1=786849582.000000	element2=132651850.000000	element3=1345121985.000000	element4=-1.000000 	element5=-1.000000 	element6=1532336.000000	element7=0.000000  	element8=1558400.000000	element9=0.000000  	element10=1573016.000000	element11=0.000000  	element12=1567392.000000	element13=0.000000  	element14=-838916608.000000	element15=63.000000 	element16=478332.000000	element17=0.000000  	element18=-838916576.000000	element19=63.000000 	element20=1541880.000000	element21=0.000000  	element22=-838916480.000000	element23=63.000000 	element24=830266.000000	element25=0.000000  	element26=76040.000000	element27=0.000000  	element28=1919920640.000000	element29=1546172022.000000	element30=829942.000000	element31=0.000000  	
+The active vector length of RVV is 32
+4( 32(rv64gcv_VDIV.VV_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;409600000000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;627.469
+GOps/sec;0.652782
+vdiv_vv_64_m1_ta_ma
+The active vector length of RVV is 16
+init value0=1771872313.000000	init value1=1855192973.000000	init value2=1764349709.000000	init value3=1789785142.000000	init value4=2073956347.000000	init value5=133946781.000000	init value6=1526614667.000000	init value7=1009450294.000000	init value8=2091896330.000000	init value9=1749697100.000000	init value10=2063144025.000000	init value11=1519586399.000000	init value12=1891487875.000000	init value13=626090456.000000	init value14=1471631091.000000	init value15=1298386313.000000	
+Check if the v0 register has been written to
+element0=1771872313.000000	element1=1855192973.000000	element2=1764349709.000000	element3=1789785142.000000	element4=0.000000  	element5=0.000000  	element6=0.000000  	element7=16842752.000000	element8=0.000000  	element9=0.000000  	element10=-6629038867397105664.000000	element11=0.000000  	element12=0.000000  	element13=1541880.000000	element14=1595016.000000	element15=58.000000 	
+The active vector length of RVV is 16
+4( 32(rv64gcv_VDIV.VV_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;204800000000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;627.488
+GOps/sec;0.326381
+vmacc_vv_8_m1_ta_ma
+The active vector length of RVV is 128
+init value0=-121.000000	init value1=69.000000	init value2=121.000000	init value3=-88.000000	init value4=-88.000000	init value5=10.000000	init value6=46.000000	init value7=-118.000000	init value8=-63.000000	init value9=42.000000	init value10=12.000000	init value11=112.000000	init value12=-9.000000	init value13=-71.000000	init value14=-115.000000	init value15=-37.000000	init value16=60.000000	init value17=113.000000	init value18=-44.000000	init value19=-28.000000	init value20=-59.000000	init value21=-122.000000	init value22=96.000000	init value23=24.000000	init value24=68.000000	init value25=62.000000	init value26=-14.000000	init value27=-59.000000	init value28=73.000000	init value29=15.000000	init value30=-84.000000	init value31=-48.000000	init value32=84.000000	init value33=37.000000	init value34=120.000000	init value35=-3.000000	init value36=47.000000	init value37=-90.000000	init value38=-121.000000	init value39=-16.000000	init value40=-47.000000	init value41=-109.000000	init value42=96.000000	init value43=-56.000000	init value44=77.000000	init value45=-19.000000	init value46=-92.000000	init value47=-119.000000	init value48=95.000000	init value49=120.000000	init value50=109.000000	init value51=36.000000	init value52=-2.000000	init value53=-51.000000	init value54=61.000000	init value55=67.000000	init value56=11.000000	init value57=47.000000	init value58=8.000000	init value59=84.000000	init value60=62.000000	init value61=-76.000000	init value62=36.000000	init value63=-109.000000	init value64=-38.000000	init value65=-100.000000	init value66=-112.000000	init value67=9.000000	init value68=67.000000	init value69=23.000000	init value70=-6.000000	init value71=20.000000	init value72=-85.000000	init value73=90.000000	init value74=-36.000000	init value75=-8.000000	init value76=72.000000	init value77=-128.000000	init value78=-127.000000	init value79=-89.000000	init value80=-8.000000	init value81=-18.000000	init value82=-53.000000	init value83=-9.000000	init value84=-69.000000	init value85=8.000000	init value86=58.000000	init value87=-58.000000	init value88=55.000000	init value89=66.000000	init value90=27.000000	init value91=118.000000	init value92=-10.000000	init value93=63.000000	init value94=9.000000	init value95=-48.000000	init value96=-36.000000	init value97=-103.000000	init value98=-38.000000	init value99=31.000000	init value100=-80.000000	init value101=-44.000000	init value102=51.000000	init value103=91.000000	init value104=46.000000	init value105=15.000000	init value106=83.000000	init value107=118.000000	init value108=-112.000000	init value109=-44.000000	init value110=29.000000	init value111=-120.000000	init value112=-62.000000	init value113=-23.000000	init value114=127.000000	init value115=125.000000	init value116=-15.000000	init value117=-71.000000	init value118=68.000000	init value119=41.000000	init value120=-5.000000	init value121=95.000000	init value122=-97.000000	init value123=-14.000000	init value124=-98.000000	init value125=-88.000000	init value126=-62.000000	init value127=122.000000	
+Check if the v0 register has been written to
+element0=-121.000000	element1=69.000000 	element2=121.000000	element3=-88.000000	element4=0.000000  	element5=0.000000  	element6=0.000000  	element7=0.000000  	element8=2.000000  	element9=41.000000 	element10=1.000000  	element11=0.000000  	element12=0.000000  	element13=0.000000  	element14=0.000000  	element15=0.000000  	element16=0.000000  	element17=-111.000000	element18=119.000000	element19=90.000000 	element20=43.000000 	element21=-98.000000	element22=123.000000	element23=-49.000000	element24=-14.000000	element25=-87.000000	element26=12.000000 	element27=0.000000  	element28=0.000000  	element29=0.000000  	element30=0.000000  	element31=0.000000  	element32=-128.000000	element33=0.000000  	element34=0.000000  	element35=0.000000  	element36=0.000000  	element37=0.000000  	element38=0.000000  	element39=0.000000  	element40=-80.000000	element41=12.000000 	element42=-125.000000	element43=18.000000 	element44=0.000000  	element45=0.000000  	element46=0.000000  	element47=0.000000  	element48=0.000000  	element49=-111.000000	element50=119.000000	element51=90.000000 	element52=-128.000000	element53=0.000000  	element54=0.000000  	element55=0.000000  	element56=-128.000000	element57=29.000000 	element58=115.000000	element59=-11.000000	element60=63.000000 	element61=0.000000  	element62=0.000000  	element63=0.000000  	element64=-86.000000	element65=27.000000 	element66=1.000000  	element67=0.000000  	element68=0.000000  	element69=0.000000  	element70=0.000000  	element71=0.000000  	element72=0.000000  	element73=29.000000 	element74=115.000000	element75=-11.000000	element76=63.000000 	element77=0.000000  	element78=0.000000  	element79=0.000000  	element80=0.000000  	element81=-31.000000	element82=-11.000000	element83=5.000000  	element84=0.000000  	element85=0.000000  	element86=0.000000  	element87=0.000000  	element88=32.000000 	element89=-44.000000	element90=23.000000 	element91=0.000000  	element92=0.000000  	element93=0.000000  	element94=0.000000  	element95=0.000000  	element96=0.000000  	element97=1.000000  	element98=2.000000  	element99=3.000000  	element100=4.000000  	element101=5.000000  	element102=6.000000  	element103=7.000000  	element104=8.000000  	element105=9.000000  	element106=10.000000 	element107=11.000000 	element108=12.000000 	element109=13.000000 	element110=14.000000 	element111=15.000000 	element112=0.000000  	element113=0.000000  	element114=0.000000  	element115=0.000000  	element116=0.000000  	element117=0.000000  	element118=0.000000  	element119=0.000000  	element120=24.000000 	element121=25.000000 	element122=26.000000 	element123=27.000000 	element124=28.000000 	element125=29.000000 	element126=30.000000 	element127=31.000000 	
+The active vector length of RVV is 128
+4( 32(rv64gcv_VMACC.VV_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;1638400000000
+Inst/Iter;128
+Ops/Iter;16384
+Seconds;114.09
+GOps/sec;14.3606
+vmacc_vv_16_m1_ta_ma
+The active vector length of RVV is 64
+init value0=31774.000000	init value1=31557.000000	init value2=18182.000000	init value3=29872.000000	init value4=-18470.000000	init value5=-32004.000000	init value6=-14356.000000	init value7=-15558.000000	init value8=30862.000000	init value9=2744.000000	init value10=3954.000000	init value11=30545.000000	init value12=17240.000000	init value13=10298.000000	init value14=-2351.000000	init value15=-415.000000	init value16=16370.000000	init value17=-16900.000000	init value18=10454.000000	init value19=3023.000000	init value20=55.000000	init value21=25371.000000	init value22=5654.000000	init value23=27225.000000	init value24=-12758.000000	init value25=1667.000000	init value26=1943.000000	init value27=-25898.000000	init value28=4456.000000	init value29=-32005.000000	init value30=-17648.000000	init value31=-29306.000000	init value32=-447.000000	init value33=535.000000	init value34=566.000000	init value35=-18917.000000	init value36=-31469.000000	init value37=-13790.000000	init value38=31061.000000	init value39=-607.000000	init value40=-11046.000000	init value41=-30521.000000	init value42=29938.000000	init value43=6195.000000	init value44=-20222.000000	init value45=27588.000000	init value46=5780.000000	init value47=-3852.000000	init value48=10688.000000	init value49=16235.000000	init value50=-829.000000	init value51=10743.000000	init value52=-23930.000000	init value53=4825.000000	init value54=-27568.000000	init value55=28848.000000	init value56=6492.000000	init value57=-25624.000000	init value58=2950.000000	init value59=10948.000000	init value60=7907.000000	init value61=-14697.000000	init value62=-18358.000000	init value63=7460.000000	
+Check if the v0 register has been written to
+element0=31774.000000	element1=31557.000000	element2=18182.000000	element3=29872.000000	element4=-10848.000000	element5=-4398.000000	element6=63.000000 	element7=0.000000  	element8=-30984.000000	element9=23.000000 	element10=0.000000  	element11=0.000000  	element12=-10752.000000	element13=-4398.000000	element14=63.000000 	element15=0.000000  	element16=-21694.000000	element17=12.000000 	element18=0.000000  	element19=0.000000  	element20=10510.000000	element21=1.000000  	element22=0.000000  	element23=0.000000  	element24=-23296.000000	element25=5962.000000	element26=10234.000000	element27=-24880.000000	element28=-22018.000000	element29=12.000000 	element30=0.000000  	element31=0.000000  	element32=64.000000 	element33=0.000000  	element34=0.000000  	element35=0.000000  	element36=-848.000000	element37=12434.000000	element38=0.000000  	element39=0.000000  	element40=-23296.000000	element41=5962.000000	element42=64.000000 	element43=0.000000  	element44=-10640.000000	element45=-4398.000000	element46=63.000000 	element47=0.000000  	element48=7094.000000	element49=1.000000  	element50=0.000000  	element51=0.000000  	element52=-10768.000000	element53=-4398.000000	element54=63.000000 	element55=0.000000  	element56=-7936.000000	element57=1525.000000	element58=0.000000  	element59=0.000000  	element60=-11232.000000	element61=23.000000 	element62=0.000000  	element63=0.000000  	
+The active vector length of RVV is 64
+4( 32(rv64gcv_VMACC.VV_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;819200000000
+Inst/Iter;128
+Ops/Iter;8192
+Seconds;114.084
+GOps/sec;7.18069
+vmacc_vv_32_m1_ta_ma
+The active vector length of RVV is 32
+init value0=210579524.000000	init value1=2055177260.000000	init value2=833396182.000000	init value3=1816537407.000000	init value4=1062572605.000000	init value5=1263075048.000000	init value6=525295152.000000	init value7=24415567.000000	init value8=1028421761.000000	init value9=1709002889.000000	init value10=1217929003.000000	init value11=646811088.000000	init value12=875867844.000000	init value13=1325018582.000000	init value14=31737081.000000	init value15=1214170017.000000	init value16=128423548.000000	init value17=938470511.000000	init value18=1250675539.000000	init value19=501419303.000000	init value20=1569398265.000000	init value21=454164231.000000	init value22=1571737537.000000	init value23=1575488461.000000	init value24=1097297071.000000	init value25=607237429.000000	init value26=757205616.000000	init value27=642820106.000000	init value28=1240404618.000000	init value29=149990776.000000	init value30=1605503257.000000	init value31=1450984142.000000	
+Check if the v0 register has been written to
+element0=210579524.000000	element1=2055177260.000000	element2=833396182.000000	element3=1816537407.000000	element4=-1.000000 	element5=-1.000000 	element6=1532336.000000	element7=0.000000  	element8=1558400.000000	element9=0.000000  	element10=1573016.000000	element11=0.000000  	element12=1567392.000000	element13=0.000000  	element14=-658356832.000000	element15=63.000000 	element16=478332.000000	element17=0.000000  	element18=-658356800.000000	element19=63.000000 	element20=1541880.000000	element21=0.000000  	element22=-658356704.000000	element23=63.000000 	element24=830266.000000	element25=0.000000  	element26=76040.000000	element27=0.000000  	element28=-2145160448.000000	element29=2059395321.000000	element30=829942.000000	element31=0.000000  	
+The active vector length of RVV is 32
+4( 32(rv64gcv_VMACC.VV_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;409600000000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;114.089
+GOps/sec;3.59019
+vmacc_vv_64_m1_ta_ma
+The active vector length of RVV is 16
+init value0=2053331995.000000	init value1=1182982407.000000	init value2=1917878082.000000	init value3=1807211260.000000	init value4=2100075298.000000	init value5=571121217.000000	init value6=869596628.000000	init value7=319379308.000000	init value8=665752608.000000	init value9=2047362525.000000	init value10=1400397459.000000	init value11=567385963.000000	init value12=351234014.000000	init value13=1130785279.000000	init value14=1216287203.000000	init value15=2087790066.000000	
+Check if the v0 register has been written to
+element0=2053331995.000000	element1=1182982407.000000	element2=1917878082.000000	element3=1807211260.000000	element4=0.000000  	element5=0.000000  	element6=0.000000  	element7=16842752.000000	element8=0.000000  	element9=0.000000  	element10=4488736320585511424.000000	element11=0.000000  	element12=0.000000  	element13=1541880.000000	element14=1595016.000000	element15=58.000000 	
+The active vector length of RVV is 16
+4( 32(rv64gcv_VMACC.VV_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;204800000000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;114.087
+GOps/sec;1.79513
+== build/a100-gcc15 ==
+vadd_vv_8_m1_ta_ma
+The active vector length of RVV is 128
+init value0=-20.000000	init value1=-43.000000	init value2=-11.000000	init value3=119.000000	init value4=-100.000000	init value5=63.000000	init value6=69.000000	init value7=4.000000	init value8=31.000000	init value9=109.000000	init value10=-115.000000	init value11=-28.000000	init value12=114.000000	init value13=-98.000000	init value14=76.000000	init value15=42.000000	init value16=25.000000	init value17=-102.000000	init value18=-57.000000	init value19=110.000000	init value20=29.000000	init value21=24.000000	init value22=15.000000	init value23=30.000000	init value24=40.000000	init value25=-108.000000	init value26=70.000000	init value27=0.000000	init value28=-90.000000	init value29=18.000000	init value30=6.000000	init value31=-109.000000	init value32=-24.000000	init value33=-5.000000	init value34=10.000000	init value35=-124.000000	init value36=58.000000	init value37=79.000000	init value38=-120.000000	init value39=90.000000	init value40=-67.000000	init value41=21.000000	init value42=62.000000	init value43=47.000000	init value44=-77.000000	init value45=-118.000000	init value46=89.000000	init value47=-51.000000	init value48=37.000000	init value49=32.000000	init value50=59.000000	init value51=66.000000	init value52=56.000000	init value53=75.000000	init value54=96.000000	init value55=96.000000	init value56=-33.000000	init value57=-90.000000	init value58=97.000000	init value59=-122.000000	init value60=-71.000000	init value61=103.000000	init value62=25.000000	init value63=-95.000000	init value64=98.000000	init value65=35.000000	init value66=37.000000	init value67=-100.000000	init value68=114.000000	init value69=-83.000000	init value70=-10.000000	init value71=47.000000	init value72=-61.000000	init value73=52.000000	init value74=95.000000	init value75=118.000000	init value76=-65.000000	init value77=-72.000000	init value78=67.000000	init value79=-28.000000	init value80=-39.000000	init value81=127.000000	init value82=38.000000	init value83=17.000000	init value84=-54.000000	init value85=-122.000000	init value86=114.000000	init value87=-87.000000	init value88=44.000000	init value89=-45.000000	init value90=47.000000	init value91=-27.000000	init value92=58.000000	init value93=72.000000	init value94=-122.000000	init value95=-100.000000	init value96=107.000000	init value97=-85.000000	init value98=56.000000	init value99=-34.000000	init value100=89.000000	init value101=47.000000	init value102=13.000000	init value103=28.000000	init value104=99.000000	init value105=108.000000	init value106=-110.000000	init value107=34.000000	init value108=37.000000	init value109=-42.000000	init value110=6.000000	init value111=-2.000000	init value112=85.000000	init value113=44.000000	init value114=15.000000	init value115=31.000000	init value116=-78.000000	init value117=-127.000000	init value118=-56.000000	init value119=-33.000000	init value120=84.000000	init value121=-8.000000	init value122=-60.000000	init value123=-114.000000	init value124=64.000000	init value125=75.000000	init value126=42.000000	init value127=-84.000000	
+Check if the v0 register has been written to
+element0=-20.000000	element1=-43.000000	element2=-11.000000	element3=119.000000	element4=54.000000 	element5=-45.000000	element6=-85.000000	element7=-5.000000 	element8=-32.000000	element9=-117.000000	element10=88.000000 	element11=-47.000000	element12=63.000000 	element13=0.000000  	element14=0.000000  	element15=0.000000  	element16=108.000000	element17=45.000000 	element18=8.000000  	element19=0.000000  	element20=0.000000  	element21=0.000000  	element22=0.000000  	element23=0.000000  	element24=-48.000000	element25=-118.000000	element26=88.000000 	element27=-47.000000	element28=63.000000 	element29=0.000000  	element30=0.000000  	element31=0.000000  	element32=0.000000  	element33=-40.000000	element34=-47.000000	element35=-68.000000	element36=54.000000 	element37=-45.000000	element38=-85.000000	element39=-5.000000 	element40=80.000000 	element41=-117.000000	element42=88.000000 	element43=-47.000000	element44=63.000000 	element45=0.000000  	element46=0.000000  	element47=0.000000  	element48=-22.000000	element49=27.000000 	element50=1.000000  	element51=0.000000  	element52=0.000000  	element53=0.000000  	element54=0.000000  	element55=0.000000  	element56=-24.000000	element57=-116.000000	element58=88.000000 	element59=-47.000000	element60=63.000000 	element61=0.000000  	element62=0.000000  	element63=0.000000  	element64=16.000000 	element65=17.000000 	element66=18.000000 	element67=19.000000 	element68=1.000000  	element69=0.000000  	element70=0.000000  	element71=0.000000  	element72=24.000000 	element73=25.000000 	element74=26.000000 	element75=27.000000 	element76=28.000000 	element77=29.000000 	element78=30.000000 	element79=31.000000 	element80=32.000000 	element81=33.000000 	element82=34.000000 	element83=35.000000 	element84=36.000000 	element85=37.000000 	element86=38.000000 	element87=39.000000 	element88=40.000000 	element89=41.000000 	element90=42.000000 	element91=43.000000 	element92=44.000000 	element93=45.000000 	element94=46.000000 	element95=47.000000 	element96=48.000000 	element97=49.000000 	element98=50.000000 	element99=51.000000 	element100=52.000000 	element101=53.000000 	element102=54.000000 	element103=55.000000 	element104=56.000000 	element105=57.000000 	element106=58.000000 	element107=59.000000 	element108=60.000000 	element109=61.000000 	element110=62.000000 	element111=63.000000 	element112=64.000000 	element113=65.000000 	element114=66.000000 	element115=67.000000 	element116=68.000000 	element117=69.000000 	element118=70.000000 	element119=71.000000 	element120=0.000000  	element121=-31.000000	element122=-11.000000	element123=5.000000  	element124=0.000000  	element125=0.000000  	element126=0.000000  	element127=0.000000  	
+The active vector length of RVV is 128
+4( 32(rv64gcv_VADD.VV_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;1638400000000
+Inst/Iter;128
+Ops/Iter;16384
+Seconds;14.5669
+GOps/sec;112.474
+vadd_vv_16_m1_ta_ma
+The active vector length of RVV is 64
+init value0=-16880.000000	init value1=-10410.000000	init value2=13242.000000	init value3=11120.000000	init value4=16258.000000	init value5=9196.000000	init value6=-7456.000000	init value7=4417.000000	init value8=26176.000000	init value9=-29237.000000	init value10=771.000000	init value11=-16133.000000	init value12=6798.000000	init value13=-3809.000000	init value14=-1899.000000	init value15=31381.000000	init value16=-21618.000000	init value17=669.000000	init value18=-4672.000000	init value19=16779.000000	init value20=5164.000000	init value21=23331.000000	init value22=10581.000000	init value23=-21811.000000	init value24=-29431.000000	init value25=-11493.000000	init value26=-24598.000000	init value27=31460.000000	init value28=21255.000000	init value29=4482.000000	init value30=-18571.000000	init value31=4376.000000	init value32=-5928.000000	init value33=-5328.000000	init value34=15496.000000	init value35=10330.000000	init value36=3868.000000	init value37=8041.000000	init value38=14747.000000	init value39=30045.000000	init value40=-21196.000000	init value41=15519.000000	init value42=13912.000000	init value43=-14398.000000	init value44=11710.000000	init value45=12013.000000	init value46=16984.000000	init value47=-9907.000000	init value48=12682.000000	init value49=12312.000000	init value50=6872.000000	init value51=17846.000000	init value52=-29893.000000	init value53=17453.000000	init value54=-3965.000000	init value55=6213.000000	init value56=5961.000000	init value57=-28563.000000	init value58=-27863.000000	init value59=27216.000000	init value60=-24081.000000	init value61=19103.000000	init value62=31592.000000	init value63=-30009.000000	
+Check if the v0 register has been written to
+element0=-16880.000000	element1=-10410.000000	element2=13242.000000	element3=11120.000000	element4=-20858.000000	element5=12.000000 	element6=0.000000  	element7=0.000000  	element8=23196.000000	element9=23.000000 	element10=0.000000  	element11=0.000000  	element12=1.000000  	element13=0.000000  	element14=0.000000  	element15=0.000000  	element16=8448.000000	element17=13249.000000	element18=31951.000000	element19=5484.000000	element20=-18400.000000	element21=-9433.000000	element22=63.000000 	element23=0.000000  	element24=11638.000000	element25=8.000000  	element26=0.000000  	element27=0.000000  	element28=-18672.000000	element29=-9433.000000	element30=63.000000 	element31=0.000000  	element32=8448.000000	element33=13249.000000	element34=31951.000000	element35=5484.000000	element36=-18544.000000	element37=-9433.000000	element38=63.000000 	element39=0.000000  	element40=7156.000000	element41=1.000000  	element42=0.000000  	element43=0.000000  	element44=-18136.000000	element45=-9433.000000	element46=63.000000 	element47=0.000000  	element48=4368.000000	element49=4882.000000	element50=1.000000  	element51=0.000000  	element52=6424.000000	element53=6938.000000	element54=7452.000000	element55=7966.000000	element56=8480.000000	element57=8994.000000	element58=9508.000000	element59=10022.000000	element60=10536.000000	element61=11050.000000	element62=11564.000000	element63=12078.000000	
+The active vector length of RVV is 64
+4( 32(rv64gcv_VADD.VV_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;819200000000
+Inst/Iter;128
+Ops/Iter;8192
+Seconds;14.5671
+GOps/sec;56.2364
+vadd_vv_32_m1_ta_ma
+The active vector length of RVV is 32
+init value0=434259836.000000	init value1=249886577.000000	init value2=358426119.000000	init value3=1319184635.000000	init value4=1157696981.000000	init value5=1799499049.000000	init value6=59251071.000000	init value7=712041301.000000	init value8=1049644061.000000	init value9=1197637641.000000	init value10=2147137463.000000	init value11=876968676.000000	init value12=1174168700.000000	init value13=910567259.000000	init value14=1842428864.000000	init value15=1494398242.000000	init value16=1583867802.000000	init value17=1837455700.000000	init value18=549999465.000000	init value19=723478954.000000	init value20=710171721.000000	init value21=916003556.000000	init value22=800006983.000000	init value23=1321907540.000000	init value24=118961252.000000	init value25=1050590179.000000	init value26=1647127119.000000	init value27=1266427206.000000	init value28=1909236117.000000	init value29=1570112258.000000	init value30=254443914.000000	init value31=196012305.000000	
+Check if the v0 register has been written to
+element0=434259836.000000	element1=249886577.000000	element2=358426119.000000	element3=1319184635.000000	element4=1530528.000000	element5=0.000000  	element6=-268694832.000000	element7=63.000000 	element8=478702.000000	element9=0.000000  	element10=-268694800.000000	element11=63.000000 	element12=1505016.000000	element13=0.000000  	element14=-268694704.000000	element15=63.000000 	element16=831426.000000	element17=0.000000  	element18=76410.000000	element19=0.000000  	element20=737005312.000000	element21=-1480880309.000000	element22=831102.000000	element23=0.000000  	element24=1530524.000000	element25=0.000000  	element26=1.000000  	element27=0.000000  	element28=737005312.000000	element29=-1480880309.000000	element30=-268694448.000000	element31=63.000000 	
+The active vector length of RVV is 32
+4( 32(rv64gcv_VADD.VV_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;409600000000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;14.5684
+GOps/sec;28.1157
+vadd_vv_64_m1_ta_ma
+The active vector length of RVV is 16
+init value0=163757499.000000	init value1=1743267125.000000	init value2=1518807631.000000	init value3=1962965058.000000	init value4=1177786435.000000	init value5=324533603.000000	init value6=946821323.000000	init value7=1622243747.000000	init value8=155031716.000000	init value9=1773087225.000000	init value10=300248384.000000	init value11=1799869214.000000	init value12=1211738318.000000	init value13=425204269.000000	init value14=1575324318.000000	init value15=1263423621.000000	
+Check if the v0 register has been written to
+element0=163757499.000000	element1=1743267125.000000	element2=1518807631.000000	element3=1962965058.000000	element4=-3588024483663659008.000000	element5=0.000000  	element6=0.000000  	element7=1505016.000000	element8=1558152.000000	element9=58.000000 	element10=66112.000000	element11=1524768.000000	element12=-1.000000 	element13=1495472.000000	element14=1521536.000000	element15=1536152.000000	
+The active vector length of RVV is 16
+4( 32(rv64gcv_VADD.VV_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;204800000000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;14.5663
+GOps/sec;14.0598
+vmul_vv_8_m1_ta_ma
+The active vector length of RVV is 128
+init value0=60.000000	init value1=50.000000	init value2=-13.000000	init value3=59.000000	init value4=54.000000	init value5=-94.000000	init value6=-26.000000	init value7=95.000000	init value8=106.000000	init value9=-116.000000	init value10=5.000000	init value11=-86.000000	init value12=-56.000000	init value13=57.000000	init value14=82.000000	init value15=-95.000000	init value16=94.000000	init value17=-38.000000	init value18=13.000000	init value19=-20.000000	init value20=123.000000	init value21=-27.000000	init value22=-22.000000	init value23=50.000000	init value24=-74.000000	init value25=64.000000	init value26=-88.000000	init value27=-61.000000	init value28=-15.000000	init value29=-36.000000	init value30=-24.000000	init value31=45.000000	init value32=14.000000	init value33=-37.000000	init value34=105.000000	init value35=68.000000	init value36=126.000000	init value37=79.000000	init value38=-93.000000	init value39=-24.000000	init value40=-37.000000	init value41=-87.000000	init value42=-109.000000	init value43=-92.000000	init value44=-30.000000	init value45=-27.000000	init value46=69.000000	init value47=65.000000	init value48=-64.000000	init value49=82.000000	init value50=45.000000	init value51=59.000000	init value52=55.000000	init value53=23.000000	init value54=109.000000	init value55=-19.000000	init value56=87.000000	init value57=21.000000	init value58=-80.000000	init value59=72.000000	init value60=-15.000000	init value61=-104.000000	init value62=118.000000	init value63=-1.000000	init value64=116.000000	init value65=-33.000000	init value66=67.000000	init value67=-14.000000	init value68=46.000000	init value69=-25.000000	init value70=-38.000000	init value71=10.000000	init value72=-112.000000	init value73=109.000000	init value74=-82.000000	init value75=114.000000	init value76=83.000000	init value77=-13.000000	init value78=-77.000000	init value79=19.000000	init value80=69.000000	init value81=-32.000000	init value82=78.000000	init value83=124.000000	init value84=-8.000000	init value85=-69.000000	init value86=106.000000	init value87=79.000000	init value88=-47.000000	init value89=26.000000	init value90=-104.000000	init value91=-62.000000	init value92=-77.000000	init value93=14.000000	init value94=-62.000000	init value95=39.000000	init value96=-19.000000	init value97=5.000000	init value98=25.000000	init value99=27.000000	init value100=-20.000000	init value101=-13.000000	init value102=37.000000	init value103=124.000000	init value104=97.000000	init value105=-45.000000	init value106=-17.000000	init value107=-76.000000	init value108=-58.000000	init value109=-94.000000	init value110=-57.000000	init value111=11.000000	init value112=-125.000000	init value113=21.000000	init value114=-120.000000	init value115=123.000000	init value116=-48.000000	init value117=-14.000000	init value118=-54.000000	init value119=-95.000000	init value120=12.000000	init value121=98.000000	init value122=100.000000	init value123=-65.000000	init value124=112.000000	init value125=38.000000	init value126=-26.000000	init value127=93.000000	
+Check if the v0 register has been written to
+element0=60.000000 	element1=50.000000 	element2=-13.000000	element3=59.000000 	element4=78.000000 	element5=-91.000000	element6=-117.000000	element7=127.000000	element8=112.000000	element9=-70.000000	element10=30.000000 	element11=-49.000000	element12=63.000000 	element13=0.000000  	element14=0.000000  	element15=0.000000  	element16=108.000000	element17=45.000000 	element18=8.000000  	element19=0.000000  	element20=0.000000  	element21=0.000000  	element22=0.000000  	element23=0.000000  	element24=96.000000 	element25=-71.000000	element26=30.000000 	element27=-49.000000	element28=63.000000 	element29=0.000000  	element30=0.000000  	element31=0.000000  	element32=0.000000  	element33=-1.000000 	element34=124.000000	element35=30.000000 	element36=78.000000 	element37=-91.000000	element38=-117.000000	element39=127.000000	element40=-32.000000	element41=-71.000000	element42=30.000000 	element43=-49.000000	element44=63.000000 	element45=0.000000  	element46=0.000000  	element47=0.000000  	element48=-22.000000	element49=27.000000 	element50=1.000000  	element51=0.000000  	element52=0.000000  	element53=0.000000  	element54=0.000000  	element55=0.000000  	element56=120.000000	element57=-69.000000	element58=30.000000 	element59=-49.000000	element60=63.000000 	element61=0.000000  	element62=0.000000  	element63=0.000000  	element64=16.000000 	element65=17.000000 	element66=18.000000 	element67=19.000000 	element68=1.000000  	element69=0.000000  	element70=0.000000  	element71=0.000000  	element72=24.000000 	element73=25.000000 	element74=26.000000 	element75=27.000000 	element76=28.000000 	element77=29.000000 	element78=30.000000 	element79=31.000000 	element80=32.000000 	element81=33.000000 	element82=34.000000 	element83=35.000000 	element84=36.000000 	element85=37.000000 	element86=38.000000 	element87=39.000000 	element88=40.000000 	element89=41.000000 	element90=42.000000 	element91=43.000000 	element92=44.000000 	element93=45.000000 	element94=46.000000 	element95=47.000000 	element96=48.000000 	element97=49.000000 	element98=50.000000 	element99=51.000000 	element100=52.000000 	element101=53.000000 	element102=54.000000 	element103=55.000000 	element104=56.000000 	element105=57.000000 	element106=58.000000 	element107=59.000000 	element108=60.000000 	element109=61.000000 	element110=62.000000 	element111=63.000000 	element112=64.000000 	element113=65.000000 	element114=66.000000 	element115=67.000000 	element116=68.000000 	element117=69.000000 	element118=70.000000 	element119=71.000000 	element120=0.000000  	element121=-31.000000	element122=-11.000000	element123=5.000000  	element124=0.000000  	element125=0.000000  	element126=0.000000  	element127=0.000000  	
+The active vector length of RVV is 128
+4( 32(rv64gcv_VMUL.VV_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;1638400000000
+Inst/Iter;128
+Ops/Iter;16384
+Seconds;114.087
+GOps/sec;14.361
+vmul_vv_16_m1_ta_ma
+The active vector length of RVV is 64
+init value0=-9790.000000	init value1=10772.000000	init value2=-708.000000	init value3=-15402.000000	init value4=-4687.000000	init value5=-7081.000000	init value6=-6286.000000	init value7=-7185.000000	init value8=-29702.000000	init value9=-4311.000000	init value10=3737.000000	init value11=-6485.000000	init value12=-30546.000000	init value13=5296.000000	init value14=-2723.000000	init value15=6528.000000	init value16=-30323.000000	init value17=-32511.000000	init value18=8672.000000	init value19=17792.000000	init value20=-4076.000000	init value21=-30187.000000	init value22=22077.000000	init value23=9009.000000	init value24=28082.000000	init value25=-18819.000000	init value26=473.000000	init value27=-16381.000000	init value28=-10780.000000	init value29=-22412.000000	init value30=30680.000000	init value31=-20570.000000	init value32=-11640.000000	init value33=29972.000000	init value34=29564.000000	init value35=-16326.000000	init value36=22892.000000	init value37=23278.000000	init value38=-23511.000000	init value39=-6810.000000	init value40=18968.000000	init value41=-19774.000000	init value42=-13295.000000	init value43=-11578.000000	init value44=-14477.000000	init value45=-16018.000000	init value46=-5050.000000	init value47=20736.000000	init value48=17007.000000	init value49=3622.000000	init value50=-27008.000000	init value51=12932.000000	init value52=-26565.000000	init value53=-4931.000000	init value54=21941.000000	init value55=1518.000000	init value56=-23750.000000	init value57=22414.000000	init value58=-14863.000000	init value59=31007.000000	init value60=2.000000	init value61=15817.000000	init value62=10437.000000	init value63=-11638.000000	
+Check if the v0 register has been written to
+element0=-9790.000000	element1=10772.000000	element2=-708.000000	element3=-15402.000000	element4=-20858.000000	element5=12.000000 	element6=0.000000  	element7=0.000000  	element8=23196.000000	element9=23.000000 	element10=0.000000  	element11=0.000000  	element12=1.000000  	element13=0.000000  	element14=0.000000  	element15=0.000000  	element16=-25344.000000	element17=-1439.000000	element18=-25717.000000	element19=26268.000000	element20=-24800.000000	element21=-10442.000000	element22=63.000000 	element23=0.000000  	element24=11638.000000	element25=8.000000  	element26=0.000000  	element27=0.000000  	element28=-25072.000000	element29=-10442.000000	element30=63.000000 	element31=0.000000  	element32=-25344.000000	element33=-1439.000000	element34=-25717.000000	element35=26268.000000	element36=-24944.000000	element37=-10442.000000	element38=63.000000 	element39=0.000000  	element40=7156.000000	element41=1.000000  	element42=0.000000  	element43=0.000000  	element44=-24536.000000	element45=-10442.000000	element46=63.000000 	element47=0.000000  	element48=4368.000000	element49=4882.000000	element50=1.000000  	element51=0.000000  	element52=6424.000000	element53=6938.000000	element54=7452.000000	element55=7966.000000	element56=8480.000000	element57=8994.000000	element58=9508.000000	element59=10022.000000	element60=10536.000000	element61=11050.000000	element62=11564.000000	element63=12078.000000	
+The active vector length of RVV is 64
+4( 32(rv64gcv_VMUL.VV_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;819200000000
+Inst/Iter;128
+Ops/Iter;8192
+Seconds;114.084
+GOps/sec;7.18069
+vmul_vv_32_m1_ta_ma
+The active vector length of RVV is 32
+init value0=1434801877.000000	init value1=420763089.000000	init value2=1621983748.000000	init value3=1517886755.000000	init value4=55041061.000000	init value5=1754794889.000000	init value6=1452627363.000000	init value7=2053408717.000000	init value8=675832266.000000	init value9=1954502344.000000	init value10=972226197.000000	init value11=408839643.000000	init value12=202352161.000000	init value13=1707272240.000000	init value14=447731713.000000	init value15=633479420.000000	init value16=1311666423.000000	init value17=1197522645.000000	init value18=1362098459.000000	init value19=253278145.000000	init value20=1129591816.000000	init value21=987619053.000000	init value22=1576154573.000000	init value23=850957391.000000	init value24=1819017829.000000	init value25=1493457422.000000	init value26=1984677554.000000	init value27=1283591074.000000	init value28=1753197562.000000	init value29=527195728.000000	init value30=285740758.000000	init value31=1040515791.000000	
+Check if the v0 register has been written to
+element0=1434801877.000000	element1=420763089.000000	element2=1621983748.000000	element3=1517886755.000000	element4=1530528.000000	element5=0.000000  	element6=-996622128.000000	element7=63.000000 	element8=478702.000000	element9=0.000000  	element10=-996622096.000000	element11=63.000000 	element12=1505016.000000	element13=0.000000  	element14=-996622000.000000	element15=63.000000 	element16=831426.000000	element17=0.000000  	element18=76410.000000	element19=0.000000  	element20=1834940672.000000	element21=1035781793.000000	element22=831102.000000	element23=0.000000  	element24=1530524.000000	element25=0.000000  	element26=1.000000  	element27=0.000000  	element28=1834940672.000000	element29=1035781793.000000	element30=-996621744.000000	element31=63.000000 	
+The active vector length of RVV is 32
+4( 32(rv64gcv_VMUL.VV_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;409600000000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;114.091
+GOps/sec;3.59012
+vmul_vv_64_m1_ta_ma
+The active vector length of RVV is 16
+init value0=1110872192.000000	init value1=598868559.000000	init value2=537047314.000000	init value3=1485895682.000000	init value4=1064670228.000000	init value5=1036329422.000000	init value6=1770130288.000000	init value7=1241536480.000000	init value8=281127162.000000	init value9=113638074.000000	init value10=41714412.000000	init value11=290721169.000000	init value12=1787540010.000000	init value13=392831743.000000	init value14=1585578675.000000	init value15=388584465.000000	
+Check if the v0 register has been written to
+element0=1110872192.000000	element1=598868559.000000	element2=537047314.000000	element3=1485895682.000000	element4=3234719359841992192.000000	element5=0.000000  	element6=0.000000  	element7=1505016.000000	element8=1558152.000000	element9=58.000000 	element10=66112.000000	element11=1524768.000000	element12=-1.000000 	element13=1495472.000000	element14=1521536.000000	element15=1536152.000000	
+The active vector length of RVV is 16
+4( 32(rv64gcv_VMUL.VV_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;204800000000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;114.093
+GOps/sec;1.79503
+vdiv_vv_8_m1_ta_ma
+The active vector length of RVV is 128
+init value0=-28.000000	init value1=26.000000	init value2=-40.000000	init value3=-73.000000	init value4=38.000000	init value5=64.000000	init value6=81.000000	init value7=-60.000000	init value8=20.000000	init value9=75.000000	init value10=45.000000	init value11=-27.000000	init value12=2.000000	init value13=73.000000	init value14=-28.000000	init value15=84.000000	init value16=116.000000	init value17=-94.000000	init value18=2.000000	init value19=-27.000000	init value20=121.000000	init value21=68.000000	init value22=105.000000	init value23=-52.000000	init value24=49.000000	init value25=114.000000	init value26=-64.000000	init value27=25.000000	init value28=-28.000000	init value29=-66.000000	init value30=-110.000000	init value31=-55.000000	init value32=-40.000000	init value33=107.000000	init value34=-128.000000	init value35=-2.000000	init value36=-85.000000	init value37=-47.000000	init value38=-62.000000	init value39=-65.000000	init value40=29.000000	init value41=-16.000000	init value42=-92.000000	init value43=31.000000	init value44=57.000000	init value45=-120.000000	init value46=115.000000	init value47=-83.000000	init value48=42.000000	init value49=117.000000	init value50=-110.000000	init value51=-92.000000	init value52=-70.000000	init value53=-5.000000	init value54=112.000000	init value55=-21.000000	init value56=109.000000	init value57=48.000000	init value58=4.000000	init value59=82.000000	init value60=-18.000000	init value61=-106.000000	init value62=27.000000	init value63=-57.000000	init value64=1.000000	init value65=-101.000000	init value66=-59.000000	init value67=-84.000000	init value68=109.000000	init value69=-120.000000	init value70=107.000000	init value71=-118.000000	init value72=120.000000	init value73=16.000000	init value74=-87.000000	init value75=-79.000000	init value76=-104.000000	init value77=29.000000	init value78=95.000000	init value79=-61.000000	init value80=-110.000000	init value81=-15.000000	init value82=103.000000	init value83=76.000000	init value84=-19.000000	init value85=-41.000000	init value86=55.000000	init value87=90.000000	init value88=8.000000	init value89=59.000000	init value90=-84.000000	init value91=-10.000000	init value92=-46.000000	init value93=-57.000000	init value94=-67.000000	init value95=-45.000000	init value96=99.000000	init value97=-125.000000	init value98=-128.000000	init value99=-48.000000	init value100=11.000000	init value101=-21.000000	init value102=90.000000	init value103=-125.000000	init value104=-5.000000	init value105=3.000000	init value106=52.000000	init value107=-108.000000	init value108=32.000000	init value109=-109.000000	init value110=87.000000	init value111=-77.000000	init value112=-123.000000	init value113=-66.000000	init value114=-1.000000	init value115=114.000000	init value116=-107.000000	init value117=55.000000	init value118=-52.000000	init value119=-99.000000	init value120=114.000000	init value121=121.000000	init value122=-108.000000	init value123=68.000000	init value124=64.000000	init value125=81.000000	init value126=24.000000	init value127=-93.000000	
+Check if the v0 register has been written to
+element0=-28.000000	element1=26.000000 	element2=-40.000000	element3=-73.000000	element4=-46.000000	element5=-92.000000	element6=-78.000000	element7=-10.000000	element8=96.000000 	element9=76.000000 	element10=-105.000000	element11=-17.000000	element12=63.000000 	element13=0.000000  	element14=0.000000  	element15=0.000000  	element16=108.000000	element17=45.000000 	element18=8.000000  	element19=0.000000  	element20=0.000000  	element21=0.000000  	element22=0.000000  	element23=0.000000  	element24=80.000000 	element25=75.000000 	element26=-105.000000	element27=-17.000000	element28=63.000000 	element29=0.000000  	element30=0.000000  	element31=0.000000  	element32=0.000000  	element33=13.000000 	element34=-27.000000	element35=32.000000 	element36=-46.000000	element37=-92.000000	element38=-78.000000	element39=-10.000000	element40=-48.000000	element41=75.000000 	element42=-105.000000	element43=-17.000000	element44=63.000000 	element45=0.000000  	element46=0.000000  	element47=0.000000  	element48=-22.000000	element49=27.000000 	element50=1.000000  	element51=0.000000  	element52=0.000000  	element53=0.000000  	element54=0.000000  	element55=0.000000  	element56=104.000000	element57=77.000000 	element58=-105.000000	element59=-17.000000	element60=63.000000 	element61=0.000000  	element62=0.000000  	element63=0.000000  	element64=16.000000 	element65=17.000000 	element66=18.000000 	element67=19.000000 	element68=1.000000  	element69=0.000000  	element70=0.000000  	element71=0.000000  	element72=24.000000 	element73=25.000000 	element74=26.000000 	element75=27.000000 	element76=28.000000 	element77=29.000000 	element78=30.000000 	element79=31.000000 	element80=32.000000 	element81=33.000000 	element82=34.000000 	element83=35.000000 	element84=36.000000 	element85=37.000000 	element86=38.000000 	element87=39.000000 	element88=40.000000 	element89=41.000000 	element90=42.000000 	element91=43.000000 	element92=44.000000 	element93=45.000000 	element94=46.000000 	element95=47.000000 	element96=48.000000 	element97=49.000000 	element98=50.000000 	element99=51.000000 	element100=52.000000 	element101=53.000000 	element102=54.000000 	element103=55.000000 	element104=56.000000 	element105=57.000000 	element106=58.000000 	element107=59.000000 	element108=60.000000 	element109=61.000000 	element110=62.000000 	element111=63.000000 	element112=64.000000 	element113=65.000000 	element114=66.000000 	element115=67.000000 	element116=68.000000 	element117=69.000000 	element118=70.000000 	element119=71.000000 	element120=0.000000  	element121=-31.000000	element122=-11.000000	element123=5.000000  	element124=0.000000  	element125=0.000000  	element126=0.000000  	element127=0.000000  	
+The active vector length of RVV is 128
+4( 32(rv64gcv_VDIV.VV_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;1638400000000
+Inst/Iter;128
+Ops/Iter;16384
+Seconds;627.511
+GOps/sec;2.61095
+vdiv_vv_16_m1_ta_ma
+The active vector length of RVV is 64
+init value0=-11897.000000	init value1=26352.000000	init value2=-5145.000000	init value3=-21685.000000	init value4=-21266.000000	init value5=-9743.000000	init value6=30909.000000	init value7=31938.000000	init value8=-20373.000000	init value9=21666.000000	init value10=-31035.000000	init value11=22842.000000	init value12=-32107.000000	init value13=29405.000000	init value14=27497.000000	init value15=30222.000000	init value16=16940.000000	init value17=-29328.000000	init value18=-21538.000000	init value19=26673.000000	init value20=-13168.000000	init value21=1655.000000	init value22=9900.000000	init value23=-4569.000000	init value24=-4300.000000	init value25=-22060.000000	init value26=15799.000000	init value27=9234.000000	init value28=25408.000000	init value29=15765.000000	init value30=-22001.000000	init value31=13511.000000	init value32=-23419.000000	init value33=-27145.000000	init value34=-8173.000000	init value35=20851.000000	init value36=28648.000000	init value37=22736.000000	init value38=-12747.000000	init value39=8276.000000	init value40=-21134.000000	init value41=21754.000000	init value42=31118.000000	init value43=12295.000000	init value44=-14377.000000	init value45=-6921.000000	init value46=-23019.000000	init value47=2564.000000	init value48=29288.000000	init value49=20980.000000	init value50=29237.000000	init value51=16120.000000	init value52=22635.000000	init value53=-26399.000000	init value54=11551.000000	init value55=18336.000000	init value56=17077.000000	init value57=27350.000000	init value58=27570.000000	init value59=-23050.000000	init value60=-22421.000000	init value61=5569.000000	init value62=-9539.000000	init value63=19696.000000	
+Check if the v0 register has been written to
+element0=-11897.000000	element1=26352.000000	element2=-5145.000000	element3=-21685.000000	element4=-20858.000000	element5=12.000000 	element6=0.000000  	element7=0.000000  	element8=23196.000000	element9=23.000000 	element10=0.000000  	element11=0.000000  	element12=1.000000  	element13=0.000000  	element14=0.000000  	element15=0.000000  	element16=-3840.000000	element17=19424.000000	element18=24227.000000	element19=29339.000000	element20=-8224.000000	element21=-8607.000000	element22=63.000000 	element23=0.000000  	element24=11638.000000	element25=8.000000  	element26=0.000000  	element27=0.000000  	element28=-8496.000000	element29=-8607.000000	element30=63.000000 	element31=0.000000  	element32=-3840.000000	element33=19424.000000	element34=24227.000000	element35=29339.000000	element36=-8368.000000	element37=-8607.000000	element38=63.000000 	element39=0.000000  	element40=7156.000000	element41=1.000000  	element42=0.000000  	element43=0.000000  	element44=-7960.000000	element45=-8607.000000	element46=63.000000 	element47=0.000000  	element48=4368.000000	element49=4882.000000	element50=1.000000  	element51=0.000000  	element52=6424.000000	element53=6938.000000	element54=7452.000000	element55=7966.000000	element56=8480.000000	element57=8994.000000	element58=9508.000000	element59=10022.000000	element60=10536.000000	element61=11050.000000	element62=11564.000000	element63=12078.000000	
+The active vector length of RVV is 64
+4( 32(rv64gcv_VDIV.VV_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;819200000000
+Inst/Iter;128
+Ops/Iter;8192
+Seconds;627.48
+GOps/sec;1.30554
+vdiv_vv_32_m1_ta_ma
+The active vector length of RVV is 32
+init value0=1380969698.000000	init value1=610994158.000000	init value2=169232831.000000	init value3=911711855.000000	init value4=402057212.000000	init value5=1709563156.000000	init value6=144329848.000000	init value7=2091007389.000000	init value8=775162395.000000	init value9=2100975021.000000	init value10=2129841551.000000	init value11=633181273.000000	init value12=1594709669.000000	init value13=175879897.000000	init value14=598897513.000000	init value15=2043236073.000000	init value16=985731289.000000	init value17=1066646949.000000	init value18=1646362323.000000	init value19=391618149.000000	init value20=812761420.000000	init value21=1695322264.000000	init value22=213371892.000000	init value23=682247213.000000	init value24=120576772.000000	init value25=1367927811.000000	init value26=137998182.000000	init value27=634990666.000000	init value28=1506381240.000000	init value29=1568779359.000000	init value30=1087465930.000000	init value31=739867291.000000	
+Check if the v0 register has been written to
+element0=1380969698.000000	element1=610994158.000000	element2=169232831.000000	element3=911711855.000000	element4=1530528.000000	element5=0.000000  	element6=-717815552.000000	element7=63.000000 	element8=478702.000000	element9=0.000000  	element10=-717815520.000000	element11=63.000000 	element12=1505016.000000	element13=0.000000  	element14=-717815424.000000	element15=63.000000 	element16=831426.000000	element17=0.000000  	element18=76410.000000	element19=0.000000  	element20=468930560.000000	element21=708782935.000000	element22=831102.000000	element23=0.000000  	element24=1530524.000000	element25=0.000000  	element26=1.000000  	element27=0.000000  	element28=468930560.000000	element29=708782935.000000	element30=-717815168.000000	element31=63.000000 	
+The active vector length of RVV is 32
+4( 32(rv64gcv_VDIV.VV_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;409600000000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;627.481
+GOps/sec;0.652768
+vdiv_vv_64_m1_ta_ma
+The active vector length of RVV is 16
+init value0=742615019.000000	init value1=606894262.000000	init value2=731493337.000000	init value3=1354962588.000000	init value4=692750414.000000	init value5=547696333.000000	init value6=1988350668.000000	init value7=2046299058.000000	init value8=1952963629.000000	init value9=1219394251.000000	init value10=1991940559.000000	init value11=1748148859.000000	init value12=1862182398.000000	init value13=100147054.000000	init value14=63551031.000000	init value15=1399319553.000000	
+Check if the v0 register has been written to
+element0=742615019.000000	element1=606894262.000000	element2=731493337.000000	element3=1354962588.000000	element4=-4764300811331956736.000000	element5=0.000000  	element6=0.000000  	element7=1505016.000000	element8=1558152.000000	element9=58.000000 	element10=66112.000000	element11=1524768.000000	element12=-1.000000 	element13=1495472.000000	element14=1521536.000000	element15=1536152.000000	
+The active vector length of RVV is 16
+4( 32(rv64gcv_VDIV.VV_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;204800000000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;627.434
+GOps/sec;0.326409
+vmacc_vv_8_m1_ta_ma
+The active vector length of RVV is 128
+init value0=8.000000	init value1=39.000000	init value2=27.000000	init value3=-51.000000	init value4=-7.000000	init value5=-108.000000	init value6=55.000000	init value7=-29.000000	init value8=21.000000	init value9=-122.000000	init value10=-45.000000	init value11=37.000000	init value12=88.000000	init value13=-3.000000	init value14=-89.000000	init value15=-22.000000	init value16=-99.000000	init value17=107.000000	init value18=-74.000000	init value19=109.000000	init value20=-17.000000	init value21=-4.000000	init value22=84.000000	init value23=-49.000000	init value24=-85.000000	init value25=42.000000	init value26=14.000000	init value27=-95.000000	init value28=28.000000	init value29=-25.000000	init value30=57.000000	init value31=37.000000	init value32=14.000000	init value33=85.000000	init value34=-14.000000	init value35=7.000000	init value36=-23.000000	init value37=41.000000	init value38=-22.000000	init value39=-2.000000	init value40=-80.000000	init value41=-67.000000	init value42=35.000000	init value43=8.000000	init value44=-69.000000	init value45=-54.000000	init value46=-14.000000	init value47=88.000000	init value48=53.000000	init value49=-87.000000	init value50=-59.000000	init value51=37.000000	init value52=-91.000000	init value53=26.000000	init value54=-12.000000	init value55=80.000000	init value56=68.000000	init value57=2.000000	init value58=-15.000000	init value59=97.000000	init value60=-23.000000	init value61=43.000000	init value62=-122.000000	init value63=-9.000000	init value64=-128.000000	init value65=120.000000	init value66=-2.000000	init value67=105.000000	init value68=-94.000000	init value69=-24.000000	init value70=103.000000	init value71=82.000000	init value72=-90.000000	init value73=-118.000000	init value74=90.000000	init value75=97.000000	init value76=85.000000	init value77=77.000000	init value78=-71.000000	init value79=-118.000000	init value80=-10.000000	init value81=127.000000	init value82=-81.000000	init value83=-101.000000	init value84=-103.000000	init value85=-93.000000	init value86=-20.000000	init value87=-35.000000	init value88=-90.000000	init value89=-35.000000	init value90=62.000000	init value91=-113.000000	init value92=8.000000	init value93=-60.000000	init value94=-121.000000	init value95=-120.000000	init value96=61.000000	init value97=-123.000000	init value98=-15.000000	init value99=-33.000000	init value100=110.000000	init value101=88.000000	init value102=49.000000	init value103=20.000000	init value104=-29.000000	init value105=-117.000000	init value106=117.000000	init value107=56.000000	init value108=-40.000000	init value109=46.000000	init value110=-62.000000	init value111=-50.000000	init value112=-83.000000	init value113=114.000000	init value114=106.000000	init value115=70.000000	init value116=21.000000	init value117=86.000000	init value118=36.000000	init value119=-69.000000	init value120=51.000000	init value121=98.000000	init value122=75.000000	init value123=60.000000	init value124=39.000000	init value125=-46.000000	init value126=-60.000000	init value127=100.000000	
+Check if the v0 register has been written to
+element0=8.000000  	element1=39.000000 	element2=27.000000 	element3=-51.000000	element4=-71.000000	element5=-37.000000	element6=-81.000000	element7=48.000000 	element8=96.000000 	element9=100.000000	element10=125.000000	element11=-47.000000	element12=63.000000 	element13=0.000000  	element14=0.000000  	element15=0.000000  	element16=108.000000	element17=45.000000 	element18=8.000000  	element19=0.000000  	element20=0.000000  	element21=0.000000  	element22=0.000000  	element23=0.000000  	element24=80.000000 	element25=99.000000 	element26=125.000000	element27=-47.000000	element28=63.000000 	element29=0.000000  	element30=0.000000  	element31=0.000000  	element32=0.000000  	element33=8.000000  	element34=80.000000 	element35=-124.000000	element36=-71.000000	element37=-37.000000	element38=-81.000000	element39=48.000000 	element40=-48.000000	element41=99.000000 	element42=125.000000	element43=-47.000000	element44=63.000000 	element45=0.000000  	element46=0.000000  	element47=0.000000  	element48=-22.000000	element49=27.000000 	element50=1.000000  	element51=0.000000  	element52=0.000000  	element53=0.000000  	element54=0.000000  	element55=0.000000  	element56=104.000000	element57=101.000000	element58=125.000000	element59=-47.000000	element60=63.000000 	element61=0.000000  	element62=0.000000  	element63=0.000000  	element64=16.000000 	element65=17.000000 	element66=18.000000 	element67=19.000000 	element68=1.000000  	element69=0.000000  	element70=0.000000  	element71=0.000000  	element72=24.000000 	element73=25.000000 	element74=26.000000 	element75=27.000000 	element76=28.000000 	element77=29.000000 	element78=30.000000 	element79=31.000000 	element80=32.000000 	element81=33.000000 	element82=34.000000 	element83=35.000000 	element84=36.000000 	element85=37.000000 	element86=38.000000 	element87=39.000000 	element88=40.000000 	element89=41.000000 	element90=42.000000 	element91=43.000000 	element92=44.000000 	element93=45.000000 	element94=46.000000 	element95=47.000000 	element96=48.000000 	element97=49.000000 	element98=50.000000 	element99=51.000000 	element100=52.000000 	element101=53.000000 	element102=54.000000 	element103=55.000000 	element104=56.000000 	element105=57.000000 	element106=58.000000 	element107=59.000000 	element108=60.000000 	element109=61.000000 	element110=62.000000 	element111=63.000000 	element112=64.000000 	element113=65.000000 	element114=66.000000 	element115=67.000000 	element116=68.000000 	element117=69.000000 	element118=70.000000 	element119=71.000000 	element120=0.000000  	element121=-31.000000	element122=-11.000000	element123=5.000000  	element124=0.000000  	element125=0.000000  	element126=0.000000  	element127=0.000000  	
+The active vector length of RVV is 128
+4( 32(rv64gcv_VMACC.VV_8b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;1638400000000
+Inst/Iter;128
+Ops/Iter;16384
+Seconds;114.084
+GOps/sec;14.3614
+vmacc_vv_16_m1_ta_ma
+The active vector length of RVV is 64
+init value0=-670.000000	init value1=-513.000000	init value2=22579.000000	init value3=-22405.000000	init value4=19327.000000	init value5=16096.000000	init value6=-11576.000000	init value7=-5627.000000	init value8=12971.000000	init value9=-18716.000000	init value10=23401.000000	init value11=-32118.000000	init value12=18510.000000	init value13=13034.000000	init value14=-19536.000000	init value15=-2203.000000	init value16=-18008.000000	init value17=24445.000000	init value18=-4029.000000	init value19=-85.000000	init value20=-14748.000000	init value21=-31977.000000	init value22=11944.000000	init value23=-1702.000000	init value24=-27290.000000	init value25=-15625.000000	init value26=26542.000000	init value27=6880.000000	init value28=-15111.000000	init value29=18612.000000	init value30=-24461.000000	init value31=-15781.000000	init value32=18100.000000	init value33=-1882.000000	init value34=27350.000000	init value35=-28109.000000	init value36=14215.000000	init value37=15775.000000	init value38=31800.000000	init value39=27186.000000	init value40=-2941.000000	init value41=-10335.000000	init value42=-4931.000000	init value43=15569.000000	init value44=2700.000000	init value45=-24467.000000	init value46=13366.000000	init value47=-15308.000000	init value48=-21.000000	init value49=9337.000000	init value50=-15392.000000	init value51=-14769.000000	init value52=-22640.000000	init value53=-3448.000000	init value54=-16471.000000	init value55=15606.000000	init value56=-19073.000000	init value57=10072.000000	init value58=22486.000000	init value59=31352.000000	init value60=28684.000000	init value61=-1975.000000	init value62=15571.000000	init value63=-18752.000000	
+Check if the v0 register has been written to
+element0=-670.000000	element1=-513.000000	element2=22579.000000	element3=-22405.000000	element4=-20858.000000	element5=12.000000 	element6=0.000000  	element7=0.000000  	element8=23196.000000	element9=23.000000 	element10=0.000000  	element11=0.000000  	element12=1.000000  	element13=0.000000  	element14=0.000000  	element15=0.000000  	element16=-26368.000000	element17=10720.000000	element18=-18056.000000	element19=-22818.000000	element20=2784.000000	element21=-6096.000000	element22=63.000000 	element23=0.000000  	element24=11638.000000	element25=8.000000  	element26=0.000000  	element27=0.000000  	element28=2512.000000	element29=-6096.000000	element30=63.000000 	element31=0.000000  	element32=-26368.000000	element33=10720.000000	element34=-18056.000000	element35=-22818.000000	element36=2640.000000	element37=-6096.000000	element38=63.000000 	element39=0.000000  	element40=7156.000000	element41=1.000000  	element42=0.000000  	element43=0.000000  	element44=3048.000000	element45=-6096.000000	element46=63.000000 	element47=0.000000  	element48=4368.000000	element49=4882.000000	element50=1.000000  	element51=0.000000  	element52=6424.000000	element53=6938.000000	element54=7452.000000	element55=7966.000000	element56=8480.000000	element57=8994.000000	element58=9508.000000	element59=10022.000000	element60=10536.000000	element61=11050.000000	element62=11564.000000	element63=12078.000000	
+The active vector length of RVV is 64
+4( 32(rv64gcv_VMACC.VV_16b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;819200000000
+Inst/Iter;128
+Ops/Iter;8192
+Seconds;114.08
+GOps/sec;7.1809
+vmacc_vv_32_m1_ta_ma
+The active vector length of RVV is 32
+init value0=255324841.000000	init value1=1878040499.000000	init value2=872889142.000000	init value3=308371453.000000	init value4=752219889.000000	init value5=601141791.000000	init value6=987566939.000000	init value7=1058070382.000000	init value8=1960604573.000000	init value9=1179359723.000000	init value10=69498969.000000	init value11=871903222.000000	init value12=1921055790.000000	init value13=1869069373.000000	init value14=1840386396.000000	init value15=242147897.000000	init value16=1737050189.000000	init value17=2028480522.000000	init value18=1944343720.000000	init value19=533751245.000000	init value20=1591201400.000000	init value21=273409392.000000	init value22=2076095173.000000	init value23=1611528350.000000	init value24=592589868.000000	init value25=1247483764.000000	init value26=1539655136.000000	init value27=1089311042.000000	init value28=192179350.000000	init value29=492969405.000000	init value30=1925848562.000000	init value31=447504192.000000	
+Check if the v0 register has been written to
+element0=255324841.000000	element1=1878040499.000000	element2=872889142.000000	element3=308371453.000000	element4=1530528.000000	element5=0.000000  	element6=-937417184.000000	element7=63.000000 	element8=478702.000000	element9=0.000000  	element10=-937417152.000000	element11=63.000000 	element12=1505016.000000	element13=0.000000  	element14=-937417056.000000	element15=63.000000 	element16=831426.000000	element17=0.000000  	element18=76410.000000	element19=0.000000  	element20=-1292561408.000000	element21=2133664572.000000	element22=831102.000000	element23=0.000000  	element24=1530524.000000	element25=0.000000  	element26=1.000000  	element27=0.000000  	element28=-1292561408.000000	element29=2133664572.000000	element30=-937416800.000000	element31=63.000000 	
+The active vector length of RVV is 32
+4( 32(rv64gcv_VMACC.VV_32b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;409600000000
+Inst/Iter;128
+Ops/Iter;4096
+Seconds;114.086
+GOps/sec;3.59029
+vmacc_vv_64_m1_ta_ma
+The active vector length of RVV is 16
+init value0=2096918714.000000	init value1=2081117114.000000	init value2=1961650545.000000	init value3=1371686813.000000	init value4=1791065649.000000	init value5=988187530.000000	init value6=1330943826.000000	init value7=280348977.000000	init value8=1604303999.000000	init value9=443387964.000000	init value10=252623183.000000	init value11=1873831768.000000	init value12=322635330.000000	init value13=601221840.000000	init value14=1960176752.000000	init value15=42795748.000000	
+Check if the v0 register has been written to
+element0=2096918714.000000	element1=2081117114.000000	element2=1961650545.000000	element3=1371686813.000000	element4=4581845473510663680.000000	element5=0.000000  	element6=0.000000  	element7=1505016.000000	element8=1558152.000000	element9=58.000000 	element10=66112.000000	element11=1524768.000000	element12=-1.000000 	element13=1495472.000000	element14=1521536.000000	element15=1536152.000000	
+The active vector length of RVV is 16
+4( 32(rv64gcv_VMACC.VV_64b) );
+Iterations;100000000
+Total Inst;12800000000
+Total Ops;204800000000
+Inst/Iter;128
+Ops/Iter;2048
+Seconds;114.087
+GOps/sec;1.79512
+
+Script done on 2026-08-14 12:00:05-07:00 [COMMAND_EXIT_CODE="0"]
