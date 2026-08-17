@@ -10,17 +10,17 @@ K unroll              = 2
 A/B packing           = private per-thread
 Number of iterations  = 10
 Solution validates
-Rate (MFlops/s): 32501.755396  Avg time (s): 0.492281
+Rate (MFlops/s): 32570.828798  Avg time (s): 0.491237
 
  Performance counter stats for './build/opt/x100/clang/double/gemm_rvv_x100_opt_mc32_nc64_nr8_ku2 4 10 2000 64':
 
-    62,974,388,629      instructions:u                                                        
-    31,520,423,291      L1-dcache-loads:u                                                     
-       996,859,695      L1-dcache-load-misses:u          #    3.16% of all L1-dcache accesses 
+    62,737,723,407      instructions:u                                                        
+    31,424,803,380      L1-dcache-loads:u                                                     
+       995,200,917      L1-dcache-load-misses:u          #    3.17% of all L1-dcache accesses 
 
-       5.461548044 seconds time elapsed
+       5.438570871 seconds time elapsed
 
-      21.579985000 seconds user
-       0.207768000 seconds sys
+      21.545679000 seconds user
+       0.167888000 seconds sys
 
 

@@ -10,17 +10,17 @@ K unroll              = 2
 A/B packing           = enabled
 Number of iterations  = 10
 Solution validates
-Rate (MFlops/s): 24440.013937  Avg time (s): 0.654664
+Rate (MFlops/s): 24617.057779  Avg time (s): 0.649956
 
  Performance counter stats for '/home/lin32/bin/ai ./build/opt/a100/clang/float/gemm_rvv_a100_opt_mc64_nc64_nr8_ku2 2 10 2000 64':
 
-     8,544,324,235      instructions:u                                                        
-     3,964,476,159      L1-dcache-loads:u                                                     
-       868,184,462      L1-dcache-load-misses:u          #   21.90% of all L1-dcache accesses 
+     8,535,758,567      instructions:u                                                        
+     3,960,879,986      L1-dcache-loads:u                                                     
+       868,131,088      L1-dcache-load-misses:u          #   21.92% of all L1-dcache accesses 
 
-       7.267382974 seconds time elapsed
+       7.215678911 seconds time elapsed
 
-      14.380678000 seconds user
-       0.116565000 seconds sys
+      14.284632000 seconds user
+       0.110117000 seconds sys
 
 

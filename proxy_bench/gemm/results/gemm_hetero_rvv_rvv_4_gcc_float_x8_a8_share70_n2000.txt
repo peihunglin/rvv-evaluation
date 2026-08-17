@@ -1,28 +1,28 @@
 env OMP_DYNAMIC=false X100_THREADS=8 A100_THREADS=8 A100_SHARE=70 A100_BIND=thread X100_CPUS=0-7 ./build/hetero/gcc/float/gemm_hetero_rvv_rvv_4 10 2000 16
 Parallel Research Kernels version 2.17
-OpenMP heterogeneous GEMM (rvv_rvv)
+OpenMP heterogeneous GEMM (rvv_rvv) - optimized workers
 Matrix order          = 2000
-Blocking factor       = 16
+RVV KC                = 16
+X100 kernel           = MC32/NC64/NR8/KU2
+A100 kernel           = MC64/NC64/NR4/KU2
 Number of iterations  = 10
 X100 threads          = 8
 A100 threads          = 8
 A100 column share     = 70
 Column split          = 600 / 2000
-RVV LMUL              = m4
-X100 bind method      = sched_setaffinity
-A100 bind method      = /proc/set_ai_thread (thread)
+Persistent OMP team   = yes
 Solution validates
-Rate (MFlops/s): 19846.049304  Avg time (s): 0.806206
+Rate (MFlops/s): 67434.552659  Avg time (s): 0.237267
 
  Performance counter stats for 'env OMP_DYNAMIC=false X100_THREADS=8 A100_THREADS=8 A100_SHARE=70 A100_BIND=thread X100_CPUS=0-7 ./build/hetero/gcc/float/gemm_hetero_rvv_rvv_4 10 2000 16':
 
-    19,752,001,132      instructions:u                                                        
-    21,624,463,399      L1-dcache-loads:u                                                     
-     7,734,109,950      L1-dcache-load-misses:u          #   35.77% of all L1-dcache accesses 
+    18,336,109,824      instructions:u                                                        
+     8,965,852,207      L1-dcache-loads:u                                                     
+       944,587,923      L1-dcache-load-misses:u          #   10.54% of all L1-dcache accesses 
 
-       9.077928057 seconds time elapsed
+       2.719112722 seconds time elapsed
 
-     128.497489000 seconds user
-      11.322279000 seconds sys
+      26.000939000 seconds user
+      15.716567000 seconds sys
 
 

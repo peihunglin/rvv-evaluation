@@ -3,21 +3,23 @@ Parallel Research Kernels version 2.17
 OpenMP optimized FP16 IME GEMM - SpaceMiT A100
 Matrix order          = 2000
 Number of threads     = 8
-IME microtile         = 8x8x8
-C residency           = full packed-K loop
+IME microkernel       = 16x32 output (rm=2,rn=4), 8x8x8 primitive
+IME K-block tiles     = 8
+Register blocking     = 2 A tiles x 4 B tiles x 8 C accumulators
+Packed working set    = small immediate-use K block
 Number of iterations  = 10
 Solution validates
-Rate (MFlops/s): 5857.675131  Avg time (s): 2.731459
+Rate (MFlops/s): 33795.993936  Avg time (s): 0.473429
 
  Performance counter stats for '/home/lin32/bin/ai ./build/opt/gcc/fp16/gemm_ime_opt 8 10 2000 8':
 
-    47,255,803,523      instructions:u                                                        
-    14,762,878,786      L1-dcache-loads:u                                                     
-     2,085,291,859      L1-dcache-load-misses:u          #   14.13% of all L1-dcache accesses 
+    34,470,483,560      instructions:u                                                        
+     9,810,712,840      L1-dcache-loads:u                                                     
+       731,853,590      L1-dcache-load-misses:u          #    7.46% of all L1-dcache accesses 
 
-      30.125401597 seconds time elapsed
+       5.278913906 seconds time elapsed
 
-     240.363715000 seconds user
-       0.410384000 seconds sys
+      41.796650000 seconds user
+       0.245055000 seconds sys
 
 

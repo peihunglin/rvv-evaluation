@@ -9,17 +9,17 @@ Register blocking     = 2 A tiles x 4 B tiles x 8 C accumulators
 Packed working set    = small immediate-use K block
 Number of iterations  = 10
 Solution validates
-Rate (MFlops/s): 34124.117072  Avg time (s): 0.468877
+Rate (MFlops/s): 33933.698771  Avg time (s): 0.471508
 
  Performance counter stats for '/home/lin32/bin/ai ./build/opt/clang/fp16/gemm_ime_opt 8 10 2000 8':
 
-    21,688,976,829      instructions:u                                                        
-     9,788,289,544      L1-dcache-loads:u                                                     
-       732,659,130      L1-dcache-load-misses:u          #    7.49% of all L1-dcache accesses 
+    21,411,215,144      instructions:u                                                        
+     9,671,004,942      L1-dcache-loads:u                                                     
+       732,312,345      L1-dcache-load-misses:u          #    7.57% of all L1-dcache accesses 
 
-       5.231788813 seconds time elapsed
+       5.249433564 seconds time elapsed
 
-      41.405680000 seconds user
-       0.242383000 seconds sys
+      41.612386000 seconds user
+       0.208529000 seconds sys
 
 

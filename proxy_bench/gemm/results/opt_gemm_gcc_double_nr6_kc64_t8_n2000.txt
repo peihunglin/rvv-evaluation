@@ -1,0 +1,27 @@
+./build/opt/gcc/double/gemm_opt_nr6 8 10 2000 64
+Parallel Research Kernels version 2.17
+OpenMP packed C GEMM - compiler-vectorized
+Matrix order          = 2000
+Number of threads     = 8
+Precision             = double
+MC / NC / KC          = 32 / 64 / 64
+C microkernel         = VB x NR = 8 x 6
+K unroll              = 2
+A/B packing           = enabled
+RVV intrinsics        = none
+Number of iterations  = 10
+Solution validates
+Rate (MFlops/s): 4232.409787  Avg time (s): 3.780352
+
+ Performance counter stats for './build/opt/gcc/double/gemm_opt_nr6 8 10 2000 64':
+
+   276,038,416,647      instructions:u                                                        
+   388,563,265,901      L1-dcache-loads:u                                                     
+     2,053,528,137      L1-dcache-load-misses:u          #    0.53% of all L1-dcache accesses 
+
+      41.650283322 seconds time elapsed
+
+     319.410645000 seconds user
+       1.212805000 seconds sys
+
+

@@ -1,17 +1,27 @@
 env OMP_DYNAMIC=false X100_THREADS=8 A100_THREADS=8 A100_SHARE=40 A100_BIND=thread X100_CPUS=0-7 ./build/hetero/gcc/fp16/gemm_hetero_rvv_ime_4 10 2000 8
-*** stack smashing detected ***: terminated
-*** stack smashing detected ***: terminated
-env: Aborted
+Parallel Research Kernels version 2.17
+OpenMP heterogeneous GEMM (rvv_ime) - optimized workers
+Matrix order          = 2000
+X100 kernel           = FP16 RVV MR8 x VL, FP32 accum
+A100 kernel           = IME rm2/rn4 16x32, Kblock8
+Number of iterations  = 10
+X100 threads          = 8
+A100 threads          = 8
+A100 column share     = 40
+Column split          = 1184 / 2000
+Persistent OMP team   = yes
+Solution validates
+Rate (MFlops/s): 41011.003431  Avg time (s): 0.390139
 
  Performance counter stats for 'env OMP_DYNAMIC=false X100_THREADS=8 A100_THREADS=8 A100_SHARE=40 A100_BIND=thread X100_CPUS=0-7 ./build/hetero/gcc/fp16/gemm_hetero_rvv_ime_4 10 2000 8':
 
-        67,856,482      instructions:u                                                        
-        28,348,195      L1-dcache-loads:u                                                     
-           128,804      L1-dcache-load-misses:u          #    0.45% of all L1-dcache accesses 
+    35,458,864,311      instructions:u                                                        
+     9,228,766,657      L1-dcache-loads:u                                                     
+     1,693,654,655      L1-dcache-load-misses:u          #   18.35% of all L1-dcache accesses 
 
-       0.020274306 seconds time elapsed
+       4.434958974 seconds time elapsed
 
-       0.026293000 seconds user
-       0.043822000 seconds sys
+      47.807039000 seconds user
+      20.826670000 seconds sys
 
 

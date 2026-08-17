@@ -11,17 +11,17 @@ A/B packing           = enabled
 RVV intrinsics        = none
 Number of iterations  = 10
 Solution validates
-Rate (MFlops/s): 68400.741974  Avg time (s): 0.233916
+Rate (MFlops/s): 68180.414669  Avg time (s): 0.234671
 
  Performance counter stats for './build/opt/clang/float/gemm_opt_nr8 8 10 2000 128':
 
-    39,952,870,507      instructions:u                                                        
-    26,024,747,138      L1-dcache-loads:u                                                     
-       779,181,681      L1-dcache-load-misses:u          #    2.99% of all L1-dcache accesses 
+    42,249,843,156      instructions:u                                                        
+    27,006,700,029      L1-dcache-loads:u                                                     
+       784,736,911      L1-dcache-load-misses:u          #    2.91% of all L1-dcache accesses 
 
-       2.583293025 seconds time elapsed
+       2.669062033 seconds time elapsed
 
-      19.979407000 seconds user
-       0.263201000 seconds sys
+      20.407451000 seconds user
+       0.310773000 seconds sys
 
 
