@@ -1,4 +1,271 @@
-Script started on 2026-08-14 13:09:26-07:00 [COMMAND="/home/lin32/Development/rvv-evaluation/assembly_microbench/ldst_instr/run/run_scalar.sh" TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="154" LINES="46"]
-bash: line 1: /home/lin32/Development/rvv-evaluation/assembly_microbench/ldst_instr/run/run_scalar.sh: Permission denied
+Script started on 2026-08-17 09:25:09-07:00 [COMMAND="/home/lin32/Development/rvv-evaluation/assembly_microbench/ldst_instr/run/run_scalar.sh" TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="154" LINES="46"]
+== build/x100-clang24 ==
+lb_8
+init value0=-50.000000	
+32( 7(rv64gc_LB_8b) );
+Iterations;100000000
+Total Inst;22400000000
+Total Ops;22400000000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;5.37064
+GOps/sec;4.17083
+lh_16
+init value0=-24832.000000	
+32( 7(rv64gc_LH_16b) );
+Iterations;100000000
+Total Inst;22400000000
+Total Ops;22400000000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;5.36395
+GOps/sec;4.17603
+lw_32
+init value0=632171549.000000	
+32( 7(rv64gc_LW_32b) );
+Iterations;100000000
+Total Inst;22400000000
+Total Ops;22400000000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;5.37082
+GOps/sec;4.17068
+ld_64
+init value0=1257370572.000000	
+32( 7(rv64gc_LD_64b) );
+Iterations;100000000
+Total Inst;22400000000
+Total Ops;22400000000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;5.32708
+GOps/sec;4.20493
+sb_8
+init value0=106.000000	
+32( 7(rv64gc_SB_8b) );
+Iterations;100000000
+Total Inst;22400000000
+Total Ops;22400000000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;10.7822
+GOps/sec;2.0775
+sh_16
+init value0=10231.000000	
+32( 7(rv64gc_SH_16b) );
+Iterations;100000000
+Total Inst;22400000000
+Total Ops;22400000000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;10.8079
+GOps/sec;2.07256
+sw_32
+init value0=1639767583.000000	
+32( 7(rv64gc_SW_32b) );
+Iterations;100000000
+Total Inst;22400000000
+Total Ops;22400000000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;10.7692
+GOps/sec;2.08
+sd_64
+init value0=451136680.000000	
+32( 7(rv64gc_SD_64b) );
+Iterations;100000000
+Total Inst;22400000000
+Total Ops;22400000000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;10.7711
+GOps/sec;2.07964
+== build/x100-gcc15 ==
+lb_8
+init value0=115.000000	
+/home/lin32/Development/rvv-evaluation/assembly_microbench/ldst_instr/run/run_scalar.sh: line 6: 3178720 Segmentation fault         "${BUILD_DIR}/${exe}.x"
+lh_16
+init value0=12147.000000	
+/home/lin32/Development/rvv-evaluation/assembly_microbench/ldst_instr/run/run_scalar.sh: line 6: 3178721 Segmentation fault         "${BUILD_DIR}/${exe}.x"
+lw_32
+init value0=1386622835.000000	
+/home/lin32/Development/rvv-evaluation/assembly_microbench/ldst_instr/run/run_scalar.sh: line 6: 3178722 Segmentation fault         "${BUILD_DIR}/${exe}.x"
+ld_64
+init value0=1386622835.000000	
+/home/lin32/Development/rvv-evaluation/assembly_microbench/ldst_instr/run/run_scalar.sh: line 6: 3178723 Segmentation fault         "${BUILD_DIR}/${exe}.x"
+sb_8
+init value0=115.000000	
+32( 7(rv64gc_SB_8b) );
+Iterations;100000000
+Total Inst;22400000000
+Total Ops;22400000000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;10.8766
+GOps/sec;2.05947
+sh_16
+init value0=-7728.000000	
+32( 7(rv64gc_SH_16b) );
+Iterations;100000000
+Total Inst;22400000000
+Total Ops;22400000000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;10.959
+GOps/sec;2.04398
+sw_32
+init value0=1144330534.000000	
+32( 7(rv64gc_SW_32b) );
+Iterations;100000000
+Total Inst;22400000000
+Total Ops;22400000000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;10.8275
+GOps/sec;2.06881
+sd_64
+init value0=1010844062.000000	
+32( 7(rv64gc_SD_64b) );
+Iterations;100000000
+Total Inst;22400000000
+Total Ops;22400000000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;11.065
+GOps/sec;2.02441
+== build/a100-clang24 ==
+lb_8
+init value0=73.000000	
+32( 7(rv64gc_LB_8b) );
+Iterations;100000000
+Total Inst;22400000000
+Total Ops;22400000000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;13.5364
+GOps/sec;1.65479
+lh_16
+init value0=-6134.000000	
+32( 7(rv64gc_LH_16b) );
+Iterations;100000000
+Total Inst;22400000000
+Total Ops;22400000000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;13.5375
+GOps/sec;1.65467
+lw_32
+init value0=1269251407.000000	
+32( 7(rv64gc_LW_32b) );
+Iterations;100000000
+Total Inst;22400000000
+Total Ops;22400000000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;13.5368
+GOps/sec;1.65475
+ld_64
+init value0=1610512517.000000	
+32( 7(rv64gc_LD_64b) );
+Iterations;100000000
+Total Inst;22400000000
+Total Ops;22400000000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;13.5362
+GOps/sec;1.65482
+sb_8
+init value0=6.000000	
+32( 7(rv64gc_SB_8b) );
+Iterations;100000000
+Total Inst;22400000000
+Total Ops;22400000000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;13.5372
+GOps/sec;1.6547
+sh_16
+init value0=-17613.000000	
+32( 7(rv64gc_SH_16b) );
+Iterations;100000000
+Total Inst;22400000000
+Total Ops;22400000000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;13.5364
+GOps/sec;1.6548
+sw_32
+init value0=949438426.000000	
+32( 7(rv64gc_SW_32b) );
+Iterations;100000000
+Total Inst;22400000000
+Total Ops;22400000000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;13.5369
+GOps/sec;1.65474
+sd_64
+init value0=225611739.000000	
+32( 7(rv64gc_SD_64b) );
+Iterations;100000000
+Total Inst;22400000000
+Total Ops;22400000000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;13.5374
+GOps/sec;1.65467
+== build/a100-gcc15 ==
+lb_8
+init value0=25.000000	
+/home/lin32/Development/rvv-evaluation/assembly_microbench/ldst_instr/run/run_scalar.sh: line 6: 3180201 Segmentation fault         "$HOME/bin/ai" "${BUILD_DIR}/${exe}.x"
+lh_16
+init value0=23833.000000	
+/home/lin32/Development/rvv-evaluation/assembly_microbench/ldst_instr/run/run_scalar.sh: line 6: 3180206 Segmentation fault         "$HOME/bin/ai" "${BUILD_DIR}/${exe}.x"
+lw_32
+init value0=270163225.000000	
+/home/lin32/Development/rvv-evaluation/assembly_microbench/ldst_instr/run/run_scalar.sh: line 6: 3180211 Segmentation fault         "$HOME/bin/ai" "${BUILD_DIR}/${exe}.x"
+ld_64
+init value0=270163225.000000	
+/home/lin32/Development/rvv-evaluation/assembly_microbench/ldst_instr/run/run_scalar.sh: line 6: 3180216 Segmentation fault         "$HOME/bin/ai" "${BUILD_DIR}/${exe}.x"
+sb_8
+init value0=25.000000	
+32( 7(rv64gc_SB_8b) );
+Iterations;100000000
+Total Inst;22400000000
+Total Ops;22400000000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;13.1479
+GOps/sec;1.7037
+sh_16
+init value0=6070.000000	
+32( 7(rv64gc_SH_16b) );
+Iterations;100000000
+Total Inst;22400000000
+Total Ops;22400000000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;13.1459
+GOps/sec;1.70395
+sw_32
+init value0=938329216.000000	
+32( 7(rv64gc_SW_32b) );
+Iterations;100000000
+Total Inst;22400000000
+Total Ops;22400000000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;13.0914
+GOps/sec;1.71105
+sd_64
+init value0=2052982348.000000	
+32( 7(rv64gc_SD_64b) );
+Iterations;100000000
+Total Inst;22400000000
+Total Ops;22400000000
+Inst/Iter;224
+Ops/Iter;224
+Seconds;13.1468
+GOps/sec;1.70383
 
-Script done on 2026-08-14 13:09:26-07:00 [COMMAND_EXIT_CODE="126"]
+Script done on 2026-08-17 09:29:39-07:00 [COMMAND_EXIT_CODE="0"]

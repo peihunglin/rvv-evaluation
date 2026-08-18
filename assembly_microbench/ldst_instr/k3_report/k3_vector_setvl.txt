@@ -1,4 +1,4 @@
-Script started on 2026-08-14 16:28:36-07:00 [COMMAND="/home/lin32/Development/rvv-evaluation/assembly_microbench/ldst_instr/run/run_vector_setvl.sh" TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="154" LINES="46"]
+Script started on 2026-08-17 13:40:44-07:00 [COMMAND="/home/lin32/Development/rvv-evaluation/assembly_microbench/ldst_instr/run/run_vector_setvl.sh" TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="154" LINES="46"]
 == build/x100-clang24 ==
 vle_vv_8_m1_tu_mu_setvl1
 init value0=-3.000000	
@@ -10,70 +10,70 @@ Total Inst;12800000000
 Total Ops;12800000000
 Inst/Iter;128
 Ops/Iter;128
-Seconds;6.14096
-GOps/sec;2.08437
+Seconds;6.16599
+GOps/sec;2.0759
 vle_vv_8_m1_tu_mu_setvl2
-init value0=-3.000000	init value1=-51.000000	
+init value0=-82.000000	init value1=69.000000	
 Check if the v0 register has been written to
-element0=-3.000000 	element1=-51.000000	
+element0=-82.000000	element1=69.000000 	
 4( 32(rv64gcv_VLE8.V_8b) );
 Iterations;100000000
 Total Inst;12800000000
 Total Ops;25600000000
 Inst/Iter;128
 Ops/Iter;256
-Seconds;6.13065
-GOps/sec;4.17574
+Seconds;6.14397
+GOps/sec;4.16669
 vle_vv_8_m1_tu_mu_setvl4
-init value0=-67.000000	init value1=-89.000000	init value2=39.000000	init value3=103.000000	
+init value0=-66.000000	init value1=70.000000	init value2=15.000000	init value3=56.000000	
 Check if the v0 register has been written to
-element0=-67.000000	element1=-89.000000	element2=39.000000 	element3=103.000000	
+element0=-66.000000	element1=70.000000 	element2=15.000000 	element3=56.000000 	
 4( 32(rv64gcv_VLE8.V_8b) );
 Iterations;100000000
 Total Inst;12800000000
 Total Ops;51200000000
 Inst/Iter;128
 Ops/Iter;512
-Seconds;6.16046
-GOps/sec;8.31106
+Seconds;6.13809
+GOps/sec;8.34136
 vle_vv_8_m1_tu_mu_setvl8
-init value0=-75.000000	init value1=-15.000000	init value2=-70.000000	init value3=-73.000000	init value4=-73.000000	init value5=-93.000000	init value6=-73.000000	init value7=-110.000000	
+init value0=27.000000	init value1=-105.000000	init value2=18.000000	init value3=-48.000000	init value4=-34.000000	init value5=45.000000	init value6=98.000000	init value7=-103.000000	
 Check if the v0 register has been written to
-element0=-75.000000	element1=-15.000000	element2=-70.000000	element3=-73.000000	element4=-73.000000	element5=-93.000000	element6=-73.000000	element7=-110.000000	
+element0=27.000000 	element1=-105.000000	element2=18.000000 	element3=-48.000000	element4=-34.000000	element5=45.000000 	element6=98.000000 	element7=-103.000000	
 4( 32(rv64gcv_VLE8.V_8b) );
 Iterations;100000000
 Total Inst;12800000000
 Total Ops;102400000000
 Inst/Iter;128
 Ops/Iter;1024
-Seconds;6.14084
-GOps/sec;16.6753
+Seconds;6.13537
+GOps/sec;16.6901
 vle_vv_8_m1_tu_mu_setvl16
-init value0=-112.000000	init value1=90.000000	init value2=40.000000	init value3=8.000000	init value4=-3.000000	init value5=-90.000000	init value6=35.000000	init value7=-64.000000	init value8=93.000000	init value9=-78.000000	init value10=101.000000	init value11=-38.000000	init value12=95.000000	init value13=-34.000000	init value14=34.000000	init value15=126.000000	
+init value0=-124.000000	init value1=89.000000	init value2=-48.000000	init value3=-21.000000	init value4=105.000000	init value5=105.000000	init value6=-20.000000	init value7=35.000000	init value8=-91.000000	init value9=18.000000	init value10=-11.000000	init value11=73.000000	init value12=-105.000000	init value13=33.000000	init value14=19.000000	init value15=26.000000	
 Check if the v0 register has been written to
-element0=-112.000000	element1=90.000000 	element2=40.000000 	element3=8.000000  	element4=-3.000000 	element5=-90.000000	element6=35.000000 	element7=-64.000000	element8=93.000000 	element9=-78.000000	element10=101.000000	element11=-38.000000	element12=95.000000 	element13=-34.000000	element14=34.000000 	element15=126.000000	
+element0=-124.000000	element1=89.000000 	element2=-48.000000	element3=-21.000000	element4=105.000000	element5=105.000000	element6=-20.000000	element7=35.000000 	element8=-91.000000	element9=18.000000 	element10=-11.000000	element11=73.000000 	element12=-105.000000	element13=33.000000 	element14=19.000000 	element15=26.000000 	
 4( 32(rv64gcv_VLE8.V_8b) );
 Iterations;100000000
 Total Inst;12800000000
 Total Ops;204800000000
 Inst/Iter;128
 Ops/Iter;2048
-Seconds;6.13454
-GOps/sec;33.3847
+Seconds;6.15192
+GOps/sec;33.2904
 vle_vv_8_m1_tu_mu_setvl32
-init value0=35.000000	init value1=-82.000000	init value2=-117.000000	init value3=-72.000000	init value4=-51.000000	init value5=44.000000	init value6=43.000000	init value7=-70.000000	init value8=-78.000000	init value9=-125.000000	init value10=10.000000	init value11=-66.000000	init value12=52.000000	init value13=-116.000000	init value14=-105.000000	init value15=36.000000	init value16=-93.000000	init value17=-82.000000	init value18=46.000000	init value19=-48.000000	init value20=-31.000000	init value21=127.000000	init value22=55.000000	init value23=15.000000	init value24=100.000000	init value25=-56.000000	init value26=20.000000	init value27=116.000000	init value28=-83.000000	init value29=-115.000000	init value30=79.000000	init value31=-47.000000	
+init value0=37.000000	init value1=-79.000000	init value2=-4.000000	init value3=-57.000000	init value4=113.000000	init value5=41.000000	init value6=-126.000000	init value7=98.000000	init value8=-97.000000	init value9=-78.000000	init value10=-107.000000	init value11=25.000000	init value12=-4.000000	init value13=-42.000000	init value14=-83.000000	init value15=68.000000	init value16=115.000000	init value17=-84.000000	init value18=65.000000	init value19=-119.000000	init value20=85.000000	init value21=9.000000	init value22=58.000000	init value23=105.000000	init value24=76.000000	init value25=-81.000000	init value26=-7.000000	init value27=-20.000000	init value28=-22.000000	init value29=-31.000000	init value30=115.000000	init value31=15.000000	
 Check if the v0 register has been written to
-element0=35.000000 	element1=-82.000000	element2=-117.000000	element3=-72.000000	element4=-51.000000	element5=44.000000 	element6=43.000000 	element7=-70.000000	element8=-78.000000	element9=-125.000000	element10=10.000000 	element11=-66.000000	element12=52.000000 	element13=-116.000000	element14=-105.000000	element15=36.000000 	element16=-93.000000	element17=-82.000000	element18=46.000000 	element19=-48.000000	element20=-31.000000	element21=127.000000	element22=55.000000 	element23=15.000000 	element24=100.000000	element25=-56.000000	element26=20.000000 	element27=116.000000	element28=-83.000000	element29=-115.000000	element30=79.000000 	element31=-47.000000	
+element0=37.000000 	element1=-79.000000	element2=-4.000000 	element3=-57.000000	element4=113.000000	element5=41.000000 	element6=-126.000000	element7=98.000000 	element8=-97.000000	element9=-78.000000	element10=-107.000000	element11=25.000000 	element12=-4.000000 	element13=-42.000000	element14=-83.000000	element15=68.000000 	element16=115.000000	element17=-84.000000	element18=65.000000 	element19=-119.000000	element20=85.000000 	element21=9.000000  	element22=58.000000 	element23=105.000000	element24=76.000000 	element25=-81.000000	element26=-7.000000 	element27=-20.000000	element28=-22.000000	element29=-31.000000	element30=115.000000	element31=15.000000 	
 4( 32(rv64gcv_VLE8.V_8b) );
 Iterations;100000000
 Total Inst;12800000000
 Total Ops;409600000000
 Inst/Iter;128
 Ops/Iter;4096
-Seconds;6.13729
-GOps/sec;66.7396
+Seconds;6.14065
+GOps/sec;66.703
 vse_vv_8_m1_tu_mu_setvl1
-init value0=-98.000000	
+init value0=58.000000	
 Check if the v0 register has been written to
 element0=-1.000000 	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -82,10 +82,10 @@ Total Inst;12800000000
 Total Ops;12800000000
 Inst/Iter;128
 Ops/Iter;128
-Seconds;11.7251
-GOps/sec;1.09168
+Seconds;11.7487
+GOps/sec;1.08948
 vse_vv_8_m1_tu_mu_setvl2
-init value0=-89.000000	init value1=97.000000	
+init value0=-111.000000	init value1=112.000000	
 Check if the v0 register has been written to
 element0=-1.000000 	element1=-1.000000 	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -94,10 +94,10 @@ Total Inst;12800000000
 Total Ops;25600000000
 Inst/Iter;128
 Ops/Iter;256
-Seconds;11.7292
-GOps/sec;2.18258
+Seconds;11.7276
+GOps/sec;2.18289
 vse_vv_8_m1_tu_mu_setvl4
-init value0=72.000000	init value1=59.000000	init value2=116.000000	init value3=-115.000000	
+init value0=-75.000000	init value1=22.000000	init value2=46.000000	init value3=87.000000	
 Check if the v0 register has been written to
 element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -106,10 +106,10 @@ Total Inst;12800000000
 Total Ops;51200000000
 Inst/Iter;128
 Ops/Iter;512
-Seconds;11.7248
-GOps/sec;4.36681
+Seconds;11.7484
+GOps/sec;4.35806
 vse_vv_8_m1_tu_mu_setvl8
-init value0=38.000000	init value1=86.000000	init value2=75.000000	init value3=30.000000	init value4=11.000000	init value5=-36.000000	init value6=115.000000	init value7=-64.000000	
+init value0=-111.000000	init value1=24.000000	init value2=118.000000	init value3=74.000000	init value4=-87.000000	init value5=-93.000000	init value6=-41.000000	init value7=101.000000	
 Check if the v0 register has been written to
 element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -118,10 +118,10 @@ Total Inst;12800000000
 Total Ops;102400000000
 Inst/Iter;128
 Ops/Iter;1024
-Seconds;11.7251
-GOps/sec;8.73342
+Seconds;11.7248
+GOps/sec;8.73359
 vse_vv_8_m1_tu_mu_setvl16
-init value0=29.000000	init value1=58.000000	init value2=60.000000	init value3=-70.000000	init value4=114.000000	init value5=66.000000	init value6=8.000000	init value7=105.000000	init value8=-10.000000	init value9=126.000000	init value10=49.000000	init value11=-60.000000	init value12=-121.000000	init value13=-100.000000	init value14=10.000000	init value15=-22.000000	
+init value0=36.000000	init value1=-39.000000	init value2=33.000000	init value3=90.000000	init value4=67.000000	init value5=-42.000000	init value6=-120.000000	init value7=104.000000	init value8=-45.000000	init value9=-14.000000	init value10=-44.000000	init value11=80.000000	init value12=-118.000000	init value13=125.000000	init value14=103.000000	init value15=105.000000	
 Check if the v0 register has been written to
 element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	element8=-1.000000 	element9=-1.000000 	element10=-1.000000 	element11=-1.000000 	element12=-1.000000 	element13=-1.000000 	element14=-1.000000 	element15=-1.000000 	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -130,10 +130,10 @@ Total Inst;12800000000
 Total Ops;204800000000
 Inst/Iter;128
 Ops/Iter;2048
-Seconds;11.7294
-GOps/sec;17.4604
+Seconds;11.7285
+GOps/sec;17.4617
 vse_vv_8_m1_tu_mu_setvl32
-init value0=-53.000000	init value1=59.000000	init value2=84.000000	init value3=41.000000	init value4=120.000000	init value5=-50.000000	init value6=-34.000000	init value7=-42.000000	init value8=80.000000	init value9=64.000000	init value10=126.000000	init value11=-125.000000	init value12=95.000000	init value13=-5.000000	init value14=-9.000000	init value15=-29.000000	init value16=-97.000000	init value17=-39.000000	init value18=54.000000	init value19=-87.000000	init value20=106.000000	init value21=80.000000	init value22=36.000000	init value23=119.000000	init value24=113.000000	init value25=-40.000000	init value26=35.000000	init value27=121.000000	init value28=83.000000	init value29=-44.000000	init value30=-125.000000	init value31=31.000000	
+init value0=47.000000	init value1=-36.000000	init value2=-53.000000	init value3=-104.000000	init value4=70.000000	init value5=-27.000000	init value6=12.000000	init value7=-55.000000	init value8=16.000000	init value9=32.000000	init value10=-7.000000	init value11=-69.000000	init value12=39.000000	init value13=76.000000	init value14=-75.000000	init value15=-69.000000	init value16=-47.000000	init value17=-41.000000	init value18=125.000000	init value19=65.000000	init value20=52.000000	init value21=-45.000000	init value22=-66.000000	init value23=-75.000000	init value24=-25.000000	init value25=93.000000	init value26=85.000000	init value27=-13.000000	init value28=-48.000000	init value29=63.000000	init value30=-21.000000	init value31=-1.000000	
 Check if the v0 register has been written to
 element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	element8=-1.000000 	element9=-1.000000 	element10=-1.000000 	element11=-1.000000 	element12=-1.000000 	element13=-1.000000 	element14=-1.000000 	element15=-1.000000 	element16=-1.000000 	element17=-1.000000 	element18=-1.000000 	element19=-1.000000 	element20=-1.000000 	element21=-1.000000 	element22=-1.000000 	element23=-1.000000 	element24=-1.000000 	element25=-1.000000 	element26=-1.000000 	element27=-1.000000 	element28=-1.000000 	element29=-1.000000 	element30=-1.000000 	element31=-1.000000 	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -142,83 +142,83 @@ Total Inst;12800000000
 Total Ops;409600000000
 Inst/Iter;128
 Ops/Iter;4096
-Seconds;11.7258
-GOps/sec;34.9314
+Seconds;11.7296
+GOps/sec;34.9202
 == build/x100-gcc15 ==
 vle_vv_8_m1_tu_mu_setvl1
-init value0=-19.000000	
+init value0=-10.000000	
 Check if the v0 register has been written to
-element0=-19.000000	
+element0=-10.000000	
 4( 32(rv64gcv_VLE8.V_8b) );
 Iterations;100000000
 Total Inst;12800000000
 Total Ops;12800000000
 Inst/Iter;128
 Ops/Iter;128
-Seconds;6.25868
-GOps/sec;2.04516
+Seconds;6.29926
+GOps/sec;2.03198
 vle_vv_8_m1_tu_mu_setvl2
-init value0=-112.000000	init value1=126.000000	
+init value0=-59.000000	init value1=-93.000000	
 Check if the v0 register has been written to
-element0=-112.000000	element1=126.000000	
+element0=-59.000000	element1=-93.000000	
 4( 32(rv64gcv_VLE8.V_8b) );
 Iterations;100000000
 Total Inst;12800000000
 Total Ops;25600000000
 Inst/Iter;128
 Ops/Iter;256
-Seconds;6.25905
-GOps/sec;4.09008
+Seconds;6.29926
+GOps/sec;4.06397
 vle_vv_8_m1_tu_mu_setvl4
-init value0=-75.000000	init value1=66.000000	init value2=-120.000000	init value3=88.000000	
+init value0=-23.000000	init value1=-17.000000	init value2=-36.000000	init value3=58.000000	
 Check if the v0 register has been written to
-element0=-75.000000	element1=66.000000 	element2=-120.000000	element3=88.000000 	
+element0=-23.000000	element1=-17.000000	element2=-36.000000	element3=58.000000 	
 4( 32(rv64gcv_VLE8.V_8b) );
 Iterations;100000000
 Total Inst;12800000000
 Total Ops;51200000000
 Inst/Iter;128
 Ops/Iter;512
-Seconds;6.30013
-GOps/sec;8.12682
+Seconds;6.29855
+GOps/sec;8.12885
 vle_vv_8_m1_tu_mu_setvl8
-init value0=-102.000000	init value1=52.000000	init value2=-54.000000	init value3=29.000000	init value4=71.000000	init value5=94.000000	init value6=5.000000	init value7=-11.000000	
+init value0=-55.000000	init value1=77.000000	init value2=-81.000000	init value3=-39.000000	init value4=106.000000	init value5=51.000000	init value6=31.000000	init value7=126.000000	
 Check if the v0 register has been written to
-element0=-102.000000	element1=52.000000 	element2=-54.000000	element3=29.000000 	element4=71.000000 	element5=94.000000 	element6=5.000000  	element7=-11.000000	
+element0=-55.000000	element1=77.000000 	element2=-81.000000	element3=-39.000000	element4=106.000000	element5=51.000000 	element6=31.000000 	element7=126.000000	
 4( 32(rv64gcv_VLE8.V_8b) );
 Iterations;100000000
 Total Inst;12800000000
 Total Ops;102400000000
 Inst/Iter;128
 Ops/Iter;1024
-Seconds;6.26388
-GOps/sec;16.3477
+Seconds;6.31362
+GOps/sec;16.2189
 vle_vv_8_m1_tu_mu_setvl16
-init value0=23.000000	init value1=106.000000	init value2=29.000000	init value3=-121.000000	init value4=-84.000000	init value5=61.000000	init value6=-89.000000	init value7=59.000000	init value8=-109.000000	init value9=-14.000000	init value10=57.000000	init value11=34.000000	init value12=65.000000	init value13=29.000000	init value14=-84.000000	init value15=-40.000000	
+init value0=-83.000000	init value1=-90.000000	init value2=116.000000	init value3=2.000000	init value4=73.000000	init value5=78.000000	init value6=-95.000000	init value7=45.000000	init value8=69.000000	init value9=124.000000	init value10=-7.000000	init value11=-41.000000	init value12=62.000000	init value13=-3.000000	init value14=37.000000	init value15=47.000000	
 Check if the v0 register has been written to
-element0=23.000000 	element1=106.000000	element2=29.000000 	element3=-121.000000	element4=-84.000000	element5=61.000000 	element6=-89.000000	element7=59.000000 	element8=-109.000000	element9=-14.000000	element10=57.000000 	element11=34.000000 	element12=65.000000 	element13=29.000000 	element14=-84.000000	element15=-40.000000	
+element0=-83.000000	element1=-90.000000	element2=116.000000	element3=2.000000  	element4=73.000000 	element5=78.000000 	element6=-95.000000	element7=45.000000 	element8=69.000000 	element9=124.000000	element10=-7.000000 	element11=-41.000000	element12=62.000000 	element13=-3.000000 	element14=37.000000 	element15=47.000000 	
 4( 32(rv64gcv_VLE8.V_8b) );
 Iterations;100000000
 Total Inst;12800000000
 Total Ops;204800000000
 Inst/Iter;128
 Ops/Iter;2048
-Seconds;6.36279
-GOps/sec;32.1871
+Seconds;6.296
+GOps/sec;32.5286
 vle_vv_8_m1_tu_mu_setvl32
-init value0=-85.000000	init value1=15.000000	init value2=-122.000000	init value3=-79.000000	init value4=-25.000000	init value5=-40.000000	init value6=44.000000	init value7=-3.000000	init value8=83.000000	init value9=-22.000000	init value10=-17.000000	init value11=-90.000000	init value12=56.000000	init value13=45.000000	init value14=81.000000	init value15=20.000000	init value16=-109.000000	init value17=-102.000000	init value18=105.000000	init value19=-76.000000	init value20=56.000000	init value21=-117.000000	init value22=-4.000000	init value23=-39.000000	init value24=-22.000000	init value25=-34.000000	init value26=90.000000	init value27=65.000000	init value28=87.000000	init value29=39.000000	init value30=43.000000	init value31=2.000000	
+init value0=-1.000000	init value1=-116.000000	init value2=-57.000000	init value3=67.000000	init value4=-97.000000	init value5=-100.000000	init value6=-17.000000	init value7=-40.000000	init value8=26.000000	init value9=1.000000	init value10=-12.000000	init value11=-62.000000	init value12=75.000000	init value13=80.000000	init value14=-88.000000	init value15=-30.000000	init value16=46.000000	init value17=108.000000	init value18=52.000000	init value19=117.000000	init value20=-82.000000	init value21=-12.000000	init value22=-19.000000	init value23=-64.000000	init value24=94.000000	init value25=-113.000000	init value26=71.000000	init value27=-10.000000	init value28=-64.000000	init value29=-83.000000	init value30=-127.000000	init value31=-65.000000	
 Check if the v0 register has been written to
-element0=-85.000000	element1=15.000000 	element2=-122.000000	element3=-79.000000	element4=-25.000000	element5=-40.000000	element6=44.000000 	element7=-3.000000 	element8=83.000000 	element9=-22.000000	element10=-17.000000	element11=-90.000000	element12=56.000000 	element13=45.000000 	element14=81.000000 	element15=20.000000 	element16=-109.000000	element17=-102.000000	element18=105.000000	element19=-76.000000	element20=56.000000 	element21=-117.000000	element22=-4.000000 	element23=-39.000000	element24=-22.000000	element25=-34.000000	element26=90.000000 	element27=65.000000 	element28=87.000000 	element29=39.000000 	element30=43.000000 	element31=2.000000  	
+element0=-1.000000 	element1=-116.000000	element2=-57.000000	element3=67.000000 	element4=-97.000000	element5=-100.000000	element6=-17.000000	element7=-40.000000	element8=26.000000 	element9=1.000000  	element10=-12.000000	element11=-62.000000	element12=75.000000 	element13=80.000000 	element14=-88.000000	element15=-30.000000	element16=46.000000 	element17=108.000000	element18=52.000000 	element19=117.000000	element20=-82.000000	element21=-12.000000	element22=-19.000000	element23=-64.000000	element24=94.000000 	element25=-113.000000	element26=71.000000 	element27=-10.000000	element28=-64.000000	element29=-83.000000	element30=-127.000000	element31=-65.000000	
 4( 32(rv64gcv_VLE8.V_8b) );
 Iterations;100000000
 Total Inst;12800000000
 Total Ops;409600000000
 Inst/Iter;128
 Ops/Iter;4096
-Seconds;6.32687
-GOps/sec;64.7398
+Seconds;6.25934
+GOps/sec;65.4382
 vse_vv_8_m1_tu_mu_setvl1
-init value0=-99.000000	
+init value0=-104.000000	
 Check if the v0 register has been written to
 element0=-1.000000 	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -227,10 +227,10 @@ Total Inst;12800000000
 Total Ops;12800000000
 Inst/Iter;128
 Ops/Iter;128
-Seconds;11.7441
-GOps/sec;1.08991
+Seconds;11.7475
+GOps/sec;1.08959
 vse_vv_8_m1_tu_mu_setvl2
-init value0=57.000000	init value1=-127.000000	
+init value0=81.000000	init value1=80.000000	
 Check if the v0 register has been written to
 element0=-1.000000 	element1=-1.000000 	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -239,10 +239,10 @@ Total Inst;12800000000
 Total Ops;25600000000
 Inst/Iter;128
 Ops/Iter;256
-Seconds;11.7416
-GOps/sec;2.18028
+Seconds;11.7475
+GOps/sec;2.17918
 vse_vv_8_m1_tu_mu_setvl4
-init value0=-98.000000	init value1=14.000000	init value2=60.000000	init value3=-51.000000	
+init value0=-15.000000	init value1=-117.000000	init value2=46.000000	init value3=-127.000000	
 Check if the v0 register has been written to
 element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -251,10 +251,10 @@ Total Inst;12800000000
 Total Ops;51200000000
 Inst/Iter;128
 Ops/Iter;512
-Seconds;11.7607
-GOps/sec;4.35348
+Seconds;11.7638
+GOps/sec;4.35233
 vse_vv_8_m1_tu_mu_setvl8
-init value0=-30.000000	init value1=52.000000	init value2=-11.000000	init value3=76.000000	init value4=-52.000000	init value5=41.000000	init value6=107.000000	init value7=-101.000000	
+init value0=5.000000	init value1=32.000000	init value2=-64.000000	init value3=53.000000	init value4=62.000000	init value5=12.000000	init value6=-127.000000	init value7=40.000000	
 Check if the v0 register has been written to
 element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -263,10 +263,10 @@ Total Inst;12800000000
 Total Ops;102400000000
 Inst/Iter;128
 Ops/Iter;1024
-Seconds;11.741
-GOps/sec;8.72159
+Seconds;11.7601
+GOps/sec;8.7074
 vse_vv_8_m1_tu_mu_setvl16
-init value0=-44.000000	init value1=-78.000000	init value2=23.000000	init value3=-32.000000	init value4=-95.000000	init value5=5.000000	init value6=97.000000	init value7=-111.000000	init value8=-58.000000	init value9=121.000000	init value10=-59.000000	init value11=69.000000	init value12=54.000000	init value13=15.000000	init value14=-13.000000	init value15=-53.000000	
+init value0=-7.000000	init value1=71.000000	init value2=-99.000000	init value3=88.000000	init value4=74.000000	init value5=19.000000	init value6=-102.000000	init value7=47.000000	init value8=13.000000	init value9=124.000000	init value10=-24.000000	init value11=-82.000000	init value12=45.000000	init value13=28.000000	init value14=-51.000000	init value15=16.000000	
 Check if the v0 register has been written to
 element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	element8=-1.000000 	element9=-1.000000 	element10=-1.000000 	element11=-1.000000 	element12=-1.000000 	element13=-1.000000 	element14=-1.000000 	element15=-1.000000 	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -275,10 +275,10 @@ Total Inst;12800000000
 Total Ops;204800000000
 Inst/Iter;128
 Ops/Iter;2048
-Seconds;11.7421
-GOps/sec;17.4415
+Seconds;11.7424
+GOps/sec;17.441
 vse_vv_8_m1_tu_mu_setvl32
-init value0=-29.000000	init value1=32.000000	init value2=-79.000000	init value3=52.000000	init value4=-51.000000	init value5=-30.000000	init value6=71.000000	init value7=60.000000	init value8=-30.000000	init value9=-19.000000	init value10=-91.000000	init value11=-113.000000	init value12=-69.000000	init value13=-10.000000	init value14=-65.000000	init value15=-96.000000	init value16=99.000000	init value17=0.000000	init value18=-37.000000	init value19=53.000000	init value20=-52.000000	init value21=11.000000	init value22=-33.000000	init value23=-101.000000	init value24=43.000000	init value25=-19.000000	init value26=-12.000000	init value27=89.000000	init value28=102.000000	init value29=78.000000	init value30=90.000000	init value31=73.000000	
+init value0=108.000000	init value1=-35.000000	init value2=-32.000000	init value3=-123.000000	init value4=-4.000000	init value5=-81.000000	init value6=-114.000000	init value7=-1.000000	init value8=-51.000000	init value9=43.000000	init value10=11.000000	init value11=-95.000000	init value12=-43.000000	init value13=75.000000	init value14=-9.000000	init value15=51.000000	init value16=-42.000000	init value17=-48.000000	init value18=-77.000000	init value19=-27.000000	init value20=-116.000000	init value21=21.000000	init value22=-102.000000	init value23=-128.000000	init value24=-64.000000	init value25=-22.000000	init value26=-90.000000	init value27=-114.000000	init value28=63.000000	init value29=105.000000	init value30=68.000000	init value31=-85.000000	
 Check if the v0 register has been written to
 element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	element8=-1.000000 	element9=-1.000000 	element10=-1.000000 	element11=-1.000000 	element12=-1.000000 	element13=-1.000000 	element14=-1.000000 	element15=-1.000000 	element16=-1.000000 	element17=-1.000000 	element18=-1.000000 	element19=-1.000000 	element20=-1.000000 	element21=-1.000000 	element22=-1.000000 	element23=-1.000000 	element24=-1.000000 	element25=-1.000000 	element26=-1.000000 	element27=-1.000000 	element28=-1.000000 	element29=-1.000000 	element30=-1.000000 	element31=-1.000000 	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -287,83 +287,83 @@ Total Inst;12800000000
 Total Ops;409600000000
 Inst/Iter;128
 Ops/Iter;4096
-Seconds;11.7428
-GOps/sec;34.881
+Seconds;11.743
+GOps/sec;34.8804
 == build/a100-clang24 ==
 vle_vv_8_m1_tu_mu_setvl1
-init value0=71.000000	
+init value0=-31.000000	
 Check if the v0 register has been written to
-element0=71.000000 	
+element0=-31.000000	
 4( 32(rv64gcv_VLE8.V_8b) );
 Iterations;100000000
 Total Inst;12800000000
 Total Ops;12800000000
 Inst/Iter;128
 Ops/Iter;128
-Seconds;121.731
-GOps/sec;0.10515
+Seconds;121.671
+GOps/sec;0.105202
 vle_vv_8_m1_tu_mu_setvl2
-init value0=-57.000000	init value1=38.000000	
+init value0=-11.000000	init value1=-73.000000	
 Check if the v0 register has been written to
-element0=-57.000000	element1=38.000000 	
+element0=-11.000000	element1=-73.000000	
 4( 32(rv64gcv_VLE8.V_8b) );
 Iterations;100000000
 Total Inst;12800000000
 Total Ops;25600000000
 Inst/Iter;128
 Ops/Iter;256
-Seconds;121.672
-GOps/sec;0.210402
+Seconds;121.675
+GOps/sec;0.210396
 vle_vv_8_m1_tu_mu_setvl4
-init value0=65.000000	init value1=-107.000000	init value2=-27.000000	init value3=-75.000000	
+init value0=100.000000	init value1=66.000000	init value2=118.000000	init value3=-121.000000	
 Check if the v0 register has been written to
-element0=65.000000 	element1=-107.000000	element2=-27.000000	element3=-75.000000	
+element0=100.000000	element1=66.000000 	element2=118.000000	element3=-121.000000	
 4( 32(rv64gcv_VLE8.V_8b) );
 Iterations;100000000
 Total Inst;12800000000
 Total Ops;51200000000
 Inst/Iter;128
 Ops/Iter;512
-Seconds;121.665
-GOps/sec;0.420828
+Seconds;121.935
+GOps/sec;0.419895
 vle_vv_8_m1_tu_mu_setvl8
-init value0=88.000000	init value1=79.000000	init value2=-112.000000	init value3=106.000000	init value4=36.000000	init value5=-84.000000	init value6=37.000000	init value7=105.000000	
+init value0=-39.000000	init value1=81.000000	init value2=-50.000000	init value3=-114.000000	init value4=43.000000	init value5=-68.000000	init value6=-45.000000	init value7=-127.000000	
 Check if the v0 register has been written to
-element0=88.000000 	element1=79.000000 	element2=-112.000000	element3=106.000000	element4=36.000000 	element5=-84.000000	element6=37.000000 	element7=105.000000	
+element0=-39.000000	element1=81.000000 	element2=-50.000000	element3=-114.000000	element4=43.000000 	element5=-68.000000	element6=-45.000000	element7=-127.000000	
 4( 32(rv64gcv_VLE8.V_8b) );
 Iterations;100000000
 Total Inst;12800000000
 Total Ops;102400000000
 Inst/Iter;128
 Ops/Iter;1024
-Seconds;121.67
-GOps/sec;0.841623
+Seconds;122.227
+GOps/sec;0.837786
 vle_vv_8_m1_tu_mu_setvl16
-init value0=-25.000000	init value1=24.000000	init value2=-39.000000	init value3=92.000000	init value4=60.000000	init value5=21.000000	init value6=-123.000000	init value7=88.000000	init value8=52.000000	init value9=-112.000000	init value10=-51.000000	init value11=23.000000	init value12=81.000000	init value13=-89.000000	init value14=47.000000	init value15=-1.000000	
+init value0=-110.000000	init value1=82.000000	init value2=-108.000000	init value3=-108.000000	init value4=39.000000	init value5=-4.000000	init value6=-16.000000	init value7=126.000000	init value8=-41.000000	init value9=52.000000	init value10=116.000000	init value11=-123.000000	init value12=-15.000000	init value13=-16.000000	init value14=111.000000	init value15=-72.000000	
 Check if the v0 register has been written to
-element0=-25.000000	element1=24.000000 	element2=-39.000000	element3=92.000000 	element4=60.000000 	element5=21.000000 	element6=-123.000000	element7=88.000000 	element8=52.000000 	element9=-112.000000	element10=-51.000000	element11=23.000000 	element12=81.000000 	element13=-89.000000	element14=47.000000 	element15=-1.000000 	
+element0=-110.000000	element1=82.000000 	element2=-108.000000	element3=-108.000000	element4=39.000000 	element5=-4.000000 	element6=-16.000000	element7=126.000000	element8=-41.000000	element9=52.000000 	element10=116.000000	element11=-123.000000	element12=-15.000000	element13=-16.000000	element14=111.000000	element15=-72.000000	
 4( 32(rv64gcv_VLE8.V_8b) );
 Iterations;100000000
 Total Inst;12800000000
 Total Ops;204800000000
 Inst/Iter;128
 Ops/Iter;2048
-Seconds;121.681
-GOps/sec;1.6831
+Seconds;121.66
+GOps/sec;1.68338
 vle_vv_8_m1_tu_mu_setvl32
-init value0=8.000000	init value1=100.000000	init value2=102.000000	init value3=-22.000000	init value4=33.000000	init value5=44.000000	init value6=38.000000	init value7=-17.000000	init value8=-113.000000	init value9=-62.000000	init value10=4.000000	init value11=-27.000000	init value12=55.000000	init value13=72.000000	init value14=91.000000	init value15=63.000000	init value16=125.000000	init value17=-112.000000	init value18=109.000000	init value19=37.000000	init value20=122.000000	init value21=-75.000000	init value22=79.000000	init value23=15.000000	init value24=124.000000	init value25=38.000000	init value26=-64.000000	init value27=12.000000	init value28=-33.000000	init value29=113.000000	init value30=67.000000	init value31=-25.000000	
+init value0=-122.000000	init value1=114.000000	init value2=8.000000	init value3=-108.000000	init value4=114.000000	init value5=105.000000	init value6=-121.000000	init value7=27.000000	init value8=-36.000000	init value9=-114.000000	init value10=-42.000000	init value11=-115.000000	init value12=-42.000000	init value13=-31.000000	init value14=-44.000000	init value15=42.000000	init value16=-111.000000	init value17=50.000000	init value18=-59.000000	init value19=-47.000000	init value20=106.000000	init value21=36.000000	init value22=-77.000000	init value23=-47.000000	init value24=76.000000	init value25=26.000000	init value26=-71.000000	init value27=-15.000000	init value28=72.000000	init value29=-29.000000	init value30=98.000000	init value31=-50.000000	
 Check if the v0 register has been written to
-element0=8.000000  	element1=100.000000	element2=102.000000	element3=-22.000000	element4=33.000000 	element5=44.000000 	element6=38.000000 	element7=-17.000000	element8=-113.000000	element9=-62.000000	element10=4.000000  	element11=-27.000000	element12=55.000000 	element13=72.000000 	element14=91.000000 	element15=63.000000 	element16=125.000000	element17=-112.000000	element18=109.000000	element19=37.000000 	element20=122.000000	element21=-75.000000	element22=79.000000 	element23=15.000000 	element24=124.000000	element25=38.000000 	element26=-64.000000	element27=12.000000 	element28=-33.000000	element29=113.000000	element30=67.000000 	element31=-25.000000	
+element0=-122.000000	element1=114.000000	element2=8.000000  	element3=-108.000000	element4=114.000000	element5=105.000000	element6=-121.000000	element7=27.000000 	element8=-36.000000	element9=-114.000000	element10=-42.000000	element11=-115.000000	element12=-42.000000	element13=-31.000000	element14=-44.000000	element15=42.000000 	element16=-111.000000	element17=50.000000 	element18=-59.000000	element19=-47.000000	element20=106.000000	element21=36.000000 	element22=-77.000000	element23=-47.000000	element24=76.000000 	element25=26.000000 	element26=-71.000000	element27=-15.000000	element28=72.000000 	element29=-29.000000	element30=98.000000 	element31=-50.000000	
 4( 32(rv64gcv_VLE8.V_8b) );
 Iterations;100000000
 Total Inst;12800000000
 Total Ops;409600000000
 Inst/Iter;128
 Ops/Iter;4096
-Seconds;122.174
-GOps/sec;3.3526
+Seconds;121.663
+GOps/sec;3.36669
 vse_vv_8_m1_tu_mu_setvl1
-init value0=17.000000	
+init value0=106.000000	
 Check if the v0 register has been written to
 element0=-1.000000 	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -372,10 +372,10 @@ Total Inst;12800000000
 Total Ops;12800000000
 Inst/Iter;128
 Ops/Iter;128
-Seconds;37.0442
-GOps/sec;0.345533
+Seconds;36.8781
+GOps/sec;0.34709
 vse_vv_8_m1_tu_mu_setvl2
-init value0=114.000000	init value1=-103.000000	
+init value0=106.000000	init value1=-111.000000	
 Check if the v0 register has been written to
 element0=-1.000000 	element1=-1.000000 	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -384,10 +384,10 @@ Total Inst;12800000000
 Total Ops;25600000000
 Inst/Iter;128
 Ops/Iter;256
-Seconds;36.8785
-GOps/sec;0.694171
+Seconds;37.3808
+GOps/sec;0.684844
 vse_vv_8_m1_tu_mu_setvl4
-init value0=-99.000000	init value1=59.000000	init value2=54.000000	init value3=4.000000	
+init value0=-14.000000	init value1=41.000000	init value2=-62.000000	init value3=125.000000	
 Check if the v0 register has been written to
 element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -396,10 +396,10 @@ Total Inst;12800000000
 Total Ops;51200000000
 Inst/Iter;128
 Ops/Iter;512
-Seconds;36.8768
-GOps/sec;1.38841
+Seconds;36.8801
+GOps/sec;1.38828
 vse_vv_8_m1_tu_mu_setvl8
-init value0=8.000000	init value1=-112.000000	init value2=63.000000	init value3=-43.000000	init value4=53.000000	init value5=48.000000	init value6=-43.000000	init value7=87.000000	
+init value0=46.000000	init value1=56.000000	init value2=91.000000	init value3=-102.000000	init value4=111.000000	init value5=-82.000000	init value6=-43.000000	init value7=-104.000000	
 Check if the v0 register has been written to
 element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -408,10 +408,10 @@ Total Inst;12800000000
 Total Ops;102400000000
 Inst/Iter;128
 Ops/Iter;1024
-Seconds;36.8819
-GOps/sec;2.77643
+Seconds;36.8781
+GOps/sec;2.77671
 vse_vv_8_m1_tu_mu_setvl16
-init value0=6.000000	init value1=-49.000000	init value2=-17.000000	init value3=14.000000	init value4=-12.000000	init value5=-50.000000	init value6=-99.000000	init value7=-112.000000	init value8=93.000000	init value9=99.000000	init value10=-123.000000	init value11=79.000000	init value12=-105.000000	init value13=-71.000000	init value14=-61.000000	init value15=75.000000	
+init value0=-17.000000	init value1=-116.000000	init value2=-126.000000	init value3=44.000000	init value4=-116.000000	init value5=-123.000000	init value6=51.000000	init value7=-1.000000	init value8=106.000000	init value9=-70.000000	init value10=33.000000	init value11=-117.000000	init value12=109.000000	init value13=74.000000	init value14=47.000000	init value15=59.000000	
 Check if the v0 register has been written to
 element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	element8=-1.000000 	element9=-1.000000 	element10=-1.000000 	element11=-1.000000 	element12=-1.000000 	element13=-1.000000 	element14=-1.000000 	element15=-1.000000 	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -420,10 +420,10 @@ Total Inst;12800000000
 Total Ops;204800000000
 Inst/Iter;128
 Ops/Iter;2048
-Seconds;36.8784
-GOps/sec;5.55339
+Seconds;36.8788
+GOps/sec;5.55333
 vse_vv_8_m1_tu_mu_setvl32
-init value0=26.000000	init value1=20.000000	init value2=53.000000	init value3=53.000000	init value4=-86.000000	init value5=43.000000	init value6=100.000000	init value7=110.000000	init value8=49.000000	init value9=-32.000000	init value10=103.000000	init value11=-87.000000	init value12=22.000000	init value13=10.000000	init value14=15.000000	init value15=-2.000000	init value16=46.000000	init value17=-33.000000	init value18=7.000000	init value19=-66.000000	init value20=-96.000000	init value21=-6.000000	init value22=7.000000	init value23=-34.000000	init value24=-75.000000	init value25=-82.000000	init value26=-45.000000	init value27=117.000000	init value28=94.000000	init value29=126.000000	init value30=93.000000	init value31=120.000000	
+init value0=15.000000	init value1=100.000000	init value2=48.000000	init value3=89.000000	init value4=105.000000	init value5=-90.000000	init value6=22.000000	init value7=-123.000000	init value8=75.000000	init value9=34.000000	init value10=74.000000	init value11=-120.000000	init value12=-35.000000	init value13=47.000000	init value14=32.000000	init value15=77.000000	init value16=47.000000	init value17=124.000000	init value18=66.000000	init value19=-127.000000	init value20=42.000000	init value21=-124.000000	init value22=124.000000	init value23=127.000000	init value24=114.000000	init value25=58.000000	init value26=-125.000000	init value27=-46.000000	init value28=103.000000	init value29=-34.000000	init value30=-121.000000	init value31=118.000000	
 Check if the v0 register has been written to
 element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	element8=-1.000000 	element9=-1.000000 	element10=-1.000000 	element11=-1.000000 	element12=-1.000000 	element13=-1.000000 	element14=-1.000000 	element15=-1.000000 	element16=-1.000000 	element17=-1.000000 	element18=-1.000000 	element19=-1.000000 	element20=-1.000000 	element21=-1.000000 	element22=-1.000000 	element23=-1.000000 	element24=-1.000000 	element25=-1.000000 	element26=-1.000000 	element27=-1.000000 	element28=-1.000000 	element29=-1.000000 	element30=-1.000000 	element31=-1.000000 	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -432,83 +432,83 @@ Total Inst;12800000000
 Total Ops;409600000000
 Inst/Iter;128
 Ops/Iter;4096
-Seconds;36.8796
-GOps/sec;11.1064
+Seconds;36.88
+GOps/sec;11.1063
 == build/a100-gcc15 ==
 vle_vv_8_m1_tu_mu_setvl1
-init value0=47.000000	
+init value0=-2.000000	
 Check if the v0 register has been written to
-element0=47.000000 	
+element0=-2.000000 	
 4( 32(rv64gcv_VLE8.V_8b) );
 Iterations;100000000
 Total Inst;12800000000
 Total Ops;12800000000
 Inst/Iter;128
 Ops/Iter;128
-Seconds;121.415
-GOps/sec;0.105423
+Seconds;121.328
+GOps/sec;0.105499
 vle_vv_8_m1_tu_mu_setvl2
-init value0=-80.000000	init value1=-106.000000	
+init value0=119.000000	init value1=108.000000	
 Check if the v0 register has been written to
-element0=-80.000000	element1=-106.000000	
+element0=119.000000	element1=108.000000	
 4( 32(rv64gcv_VLE8.V_8b) );
 Iterations;100000000
 Total Inst;12800000000
 Total Ops;25600000000
 Inst/Iter;128
 Ops/Iter;256
-Seconds;121.457
-GOps/sec;0.210775
+Seconds;121.331
+GOps/sec;0.210993
 vle_vv_8_m1_tu_mu_setvl4
-init value0=53.000000	init value1=-67.000000	init value2=80.000000	init value3=91.000000	
+init value0=101.000000	init value1=76.000000	init value2=-71.000000	init value3=-39.000000	
 Check if the v0 register has been written to
-element0=53.000000 	element1=-67.000000	element2=80.000000 	element3=91.000000 	
+element0=101.000000	element1=76.000000 	element2=-71.000000	element3=-39.000000	
 4( 32(rv64gcv_VLE8.V_8b) );
 Iterations;100000000
 Total Inst;12800000000
 Total Ops;51200000000
 Inst/Iter;128
 Ops/Iter;512
-Seconds;121.331
-GOps/sec;0.421986
+Seconds;121.379
+GOps/sec;0.42182
 vle_vv_8_m1_tu_mu_setvl8
-init value0=6.000000	init value1=-59.000000	init value2=-36.000000	init value3=53.000000	init value4=124.000000	init value5=70.000000	init value6=64.000000	init value7=-116.000000	
+init value0=85.000000	init value1=41.000000	init value2=101.000000	init value3=-35.000000	init value4=-105.000000	init value5=99.000000	init value6=-108.000000	init value7=125.000000	
 Check if the v0 register has been written to
-element0=6.000000  	element1=-59.000000	element2=-36.000000	element3=53.000000 	element4=124.000000	element5=70.000000 	element6=64.000000 	element7=-116.000000	
+element0=85.000000 	element1=41.000000 	element2=101.000000	element3=-35.000000	element4=-105.000000	element5=99.000000 	element6=-108.000000	element7=125.000000	
 4( 32(rv64gcv_VLE8.V_8b) );
 Iterations;100000000
 Total Inst;12800000000
 Total Ops;102400000000
 Inst/Iter;128
 Ops/Iter;1024
-Seconds;121.331
-GOps/sec;0.84397
+Seconds;121.326
+GOps/sec;0.844004
 vle_vv_8_m1_tu_mu_setvl16
-init value0=-101.000000	init value1=-41.000000	init value2=-120.000000	init value3=81.000000	init value4=31.000000	init value5=4.000000	init value6=104.000000	init value7=115.000000	init value8=88.000000	init value9=124.000000	init value10=59.000000	init value11=-24.000000	init value12=-6.000000	init value13=105.000000	init value14=-104.000000	init value15=-13.000000	
+init value0=14.000000	init value1=26.000000	init value2=-82.000000	init value3=109.000000	init value4=12.000000	init value5=-4.000000	init value6=106.000000	init value7=14.000000	init value8=68.000000	init value9=99.000000	init value10=-46.000000	init value11=-1.000000	init value12=13.000000	init value13=-107.000000	init value14=20.000000	init value15=-110.000000	
 Check if the v0 register has been written to
-element0=-101.000000	element1=-41.000000	element2=-120.000000	element3=81.000000 	element4=31.000000 	element5=4.000000  	element6=104.000000	element7=115.000000	element8=88.000000 	element9=124.000000	element10=59.000000 	element11=-24.000000	element12=-6.000000 	element13=105.000000	element14=-104.000000	element15=-13.000000	
+element0=14.000000 	element1=26.000000 	element2=-82.000000	element3=109.000000	element4=12.000000 	element5=-4.000000 	element6=106.000000	element7=14.000000 	element8=68.000000 	element9=99.000000 	element10=-46.000000	element11=-1.000000 	element12=13.000000 	element13=-107.000000	element14=20.000000 	element15=-110.000000	
 4( 32(rv64gcv_VLE8.V_8b) );
 Iterations;100000000
 Total Inst;12800000000
 Total Ops;204800000000
 Inst/Iter;128
 Ops/Iter;2048
-Seconds;121.385
-GOps/sec;1.68719
+Seconds;121.377
+GOps/sec;1.68731
 vle_vv_8_m1_tu_mu_setvl32
-init value0=42.000000	init value1=-124.000000	init value2=-43.000000	init value3=79.000000	init value4=49.000000	init value5=99.000000	init value6=-37.000000	init value7=110.000000	init value8=27.000000	init value9=-15.000000	init value10=-62.000000	init value11=-34.000000	init value12=84.000000	init value13=-24.000000	init value14=47.000000	init value15=98.000000	init value16=109.000000	init value17=88.000000	init value18=-72.000000	init value19=99.000000	init value20=-39.000000	init value21=-88.000000	init value22=-113.000000	init value23=65.000000	init value24=-118.000000	init value25=49.000000	init value26=87.000000	init value27=-13.000000	init value28=-15.000000	init value29=51.000000	init value30=115.000000	init value31=28.000000	
+init value0=-15.000000	init value1=-94.000000	init value2=-115.000000	init value3=61.000000	init value4=63.000000	init value5=-84.000000	init value6=-73.000000	init value7=47.000000	init value8=-20.000000	init value9=86.000000	init value10=-38.000000	init value11=-37.000000	init value12=-30.000000	init value13=7.000000	init value14=78.000000	init value15=30.000000	init value16=121.000000	init value17=-36.000000	init value18=28.000000	init value19=-2.000000	init value20=-54.000000	init value21=-113.000000	init value22=-42.000000	init value23=13.000000	init value24=-114.000000	init value25=19.000000	init value26=40.000000	init value27=-35.000000	init value28=5.000000	init value29=-8.000000	init value30=75.000000	init value31=-10.000000	
 Check if the v0 register has been written to
-element0=42.000000 	element1=-124.000000	element2=-43.000000	element3=79.000000 	element4=49.000000 	element5=99.000000 	element6=-37.000000	element7=110.000000	element8=27.000000 	element9=-15.000000	element10=-62.000000	element11=-34.000000	element12=84.000000 	element13=-24.000000	element14=47.000000 	element15=98.000000 	element16=109.000000	element17=88.000000 	element18=-72.000000	element19=99.000000 	element20=-39.000000	element21=-88.000000	element22=-113.000000	element23=65.000000 	element24=-118.000000	element25=49.000000 	element26=87.000000 	element27=-13.000000	element28=-15.000000	element29=51.000000 	element30=115.000000	element31=28.000000 	
+element0=-15.000000	element1=-94.000000	element2=-115.000000	element3=61.000000 	element4=63.000000 	element5=-84.000000	element6=-73.000000	element7=47.000000 	element8=-20.000000	element9=86.000000 	element10=-38.000000	element11=-37.000000	element12=-30.000000	element13=7.000000  	element14=78.000000 	element15=30.000000 	element16=121.000000	element17=-36.000000	element18=28.000000 	element19=-2.000000 	element20=-54.000000	element21=-113.000000	element22=-42.000000	element23=13.000000 	element24=-114.000000	element25=19.000000 	element26=40.000000 	element27=-35.000000	element28=5.000000  	element29=-8.000000 	element30=75.000000 	element31=-10.000000	
 4( 32(rv64gcv_VLE8.V_8b) );
 Iterations;100000000
 Total Inst;12800000000
 Total Ops;409600000000
 Inst/Iter;128
 Ops/Iter;4096
-Seconds;121.383
-GOps/sec;3.37444
+Seconds;121.38
+GOps/sec;3.37454
 vse_vv_8_m1_tu_mu_setvl1
-init value0=-126.000000	
+init value0=71.000000	
 Check if the v0 register has been written to
 element0=-1.000000 	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -517,10 +517,10 @@ Total Inst;12800000000
 Total Ops;12800000000
 Inst/Iter;128
 Ops/Iter;128
-Seconds;36.5458
-GOps/sec;0.350245
+Seconds;36.4866
+GOps/sec;0.350814
 vse_vv_8_m1_tu_mu_setvl2
-init value0=-114.000000	init value1=34.000000	
+init value0=-100.000000	init value1=-30.000000	
 Check if the v0 register has been written to
 element0=-1.000000 	element1=-1.000000 	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -529,10 +529,10 @@ Total Inst;12800000000
 Total Ops;25600000000
 Inst/Iter;128
 Ops/Iter;256
-Seconds;36.545
-GOps/sec;0.700506
+Seconds;36.5429
+GOps/sec;0.700546
 vse_vv_8_m1_tu_mu_setvl4
-init value0=-32.000000	init value1=17.000000	init value2=-100.000000	init value3=-69.000000	
+init value0=45.000000	init value1=-12.000000	init value2=-121.000000	init value3=-93.000000	
 Check if the v0 register has been written to
 element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -541,10 +541,10 @@ Total Inst;12800000000
 Total Ops;51200000000
 Inst/Iter;128
 Ops/Iter;512
-Seconds;36.4905
-GOps/sec;1.4031
+Seconds;36.5449
+GOps/sec;1.40102
 vse_vv_8_m1_tu_mu_setvl8
-init value0=127.000000	init value1=-82.000000	init value2=-62.000000	init value3=13.000000	init value4=-92.000000	init value5=-110.000000	init value6=-45.000000	init value7=-106.000000	
+init value0=-47.000000	init value1=110.000000	init value2=64.000000	init value3=-64.000000	init value4=103.000000	init value5=1.000000	init value6=80.000000	init value7=-78.000000	
 Check if the v0 register has been written to
 element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -553,10 +553,10 @@ Total Inst;12800000000
 Total Ops;102400000000
 Inst/Iter;128
 Ops/Iter;1024
-Seconds;36.5447
-GOps/sec;2.80204
+Seconds;36.5483
+GOps/sec;2.80177
 vse_vv_8_m1_tu_mu_setvl16
-init value0=-36.000000	init value1=-104.000000	init value2=-89.000000	init value3=92.000000	init value4=85.000000	init value5=-39.000000	init value6=69.000000	init value7=-50.000000	init value8=-32.000000	init value9=-63.000000	init value10=113.000000	init value11=56.000000	init value12=0.000000	init value13=-9.000000	init value14=64.000000	init value15=76.000000	
+init value0=-6.000000	init value1=-119.000000	init value2=22.000000	init value3=-21.000000	init value4=4.000000	init value5=-90.000000	init value6=102.000000	init value7=44.000000	init value8=30.000000	init value9=-97.000000	init value10=103.000000	init value11=-95.000000	init value12=-125.000000	init value13=-91.000000	init value14=82.000000	init value15=-36.000000	
 Check if the v0 register has been written to
 element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	element8=-1.000000 	element9=-1.000000 	element10=-1.000000 	element11=-1.000000 	element12=-1.000000 	element13=-1.000000 	element14=-1.000000 	element15=-1.000000 	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -565,10 +565,10 @@ Total Inst;12800000000
 Total Ops;204800000000
 Inst/Iter;128
 Ops/Iter;2048
-Seconds;36.5476
-GOps/sec;5.60365
+Seconds;36.6549
+GOps/sec;5.58725
 vse_vv_8_m1_tu_mu_setvl32
-init value0=96.000000	init value1=9.000000	init value2=21.000000	init value3=112.000000	init value4=33.000000	init value5=-47.000000	init value6=-9.000000	init value7=80.000000	init value8=59.000000	init value9=83.000000	init value10=-92.000000	init value11=10.000000	init value12=-1.000000	init value13=64.000000	init value14=-105.000000	init value15=113.000000	init value16=11.000000	init value17=114.000000	init value18=-5.000000	init value19=-12.000000	init value20=117.000000	init value21=-51.000000	init value22=-118.000000	init value23=-34.000000	init value24=87.000000	init value25=-31.000000	init value26=-65.000000	init value27=23.000000	init value28=-34.000000	init value29=-84.000000	init value30=112.000000	init value31=62.000000	
+init value0=29.000000	init value1=69.000000	init value2=107.000000	init value3=39.000000	init value4=-53.000000	init value5=-95.000000	init value6=-106.000000	init value7=-75.000000	init value8=125.000000	init value9=57.000000	init value10=102.000000	init value11=108.000000	init value12=-2.000000	init value13=-93.000000	init value14=36.000000	init value15=119.000000	init value16=-94.000000	init value17=-116.000000	init value18=-81.000000	init value19=-35.000000	init value20=-83.000000	init value21=54.000000	init value22=58.000000	init value23=-41.000000	init value24=16.000000	init value25=26.000000	init value26=-62.000000	init value27=93.000000	init value28=-36.000000	init value29=-110.000000	init value30=-54.000000	init value31=-7.000000	
 Check if the v0 register has been written to
 element0=-1.000000 	element1=-1.000000 	element2=-1.000000 	element3=-1.000000 	element4=-1.000000 	element5=-1.000000 	element6=-1.000000 	element7=-1.000000 	element8=-1.000000 	element9=-1.000000 	element10=-1.000000 	element11=-1.000000 	element12=-1.000000 	element13=-1.000000 	element14=-1.000000 	element15=-1.000000 	element16=-1.000000 	element17=-1.000000 	element18=-1.000000 	element19=-1.000000 	element20=-1.000000 	element21=-1.000000 	element22=-1.000000 	element23=-1.000000 	element24=-1.000000 	element25=-1.000000 	element26=-1.000000 	element27=-1.000000 	element28=-1.000000 	element29=-1.000000 	element30=-1.000000 	element31=-1.000000 	
 4( 32(rv64gcv_VSE8.V_8b) );
@@ -577,7 +577,7 @@ Total Inst;12800000000
 Total Ops;409600000000
 Inst/Iter;128
 Ops/Iter;4096
-Seconds;36.5432
-GOps/sec;11.2086
+Seconds;36.5439
+GOps/sec;11.2084
 
-Script done on 2026-08-14 17:03:51-07:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2026-08-17 14:16:00-07:00 [COMMAND_EXIT_CODE="0"]
